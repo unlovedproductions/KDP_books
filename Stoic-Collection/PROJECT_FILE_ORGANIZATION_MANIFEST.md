@@ -1,0 +1,180 @@
+# PROJECT FILE ORGANIZATION MANIFEST
+
+**Project:** UnlovedProductions — The Stoic Collection  
+**Root:** `Stoic-Collection/`  
+**Manifest path:** `Stoic-Collection/PROJECT_FILE_ORGANIZATION_MANIFEST.md` (project root)  
+**Manifest status:** APPROVED — living document  
+**Organization date:** 2026-08-13  
+**Manifest drafted:** 2026-08-14  
+**Approved:** 2026-08-14  
+
+**Change control:** Living document. Agents may propose updates; **do not apply substantive changes without explicit human approval.** Location, inventory, and organization decisions in this file are under human control.
+
+**Rules encoded by this manifest**
+
+1. This file records **where files were placed** after organization. It does **not** by itself establish document authority.
+2. Authority is determined by in-document status, version, and the declared conflict-resolution hierarchy (see `04_OUTPUT/Audits/SOURCE-OF-TRUTH AUDIT.md`).
+3. No filenames were changed during organization unless separately approved.
+4. Prior root folder `stoic_series/` was emptied and removed after migration.
+
+---
+
+## 1. Target folder structure
+
+```text
+Stoic-Collection/
+├── 00_MASTER_INSTRUCTIONS/
+├── 01_SOURCE_OF_TRUTH/
+│   ├── Master_AI_Role_Prompt/
+│   ├── Series_Bible/
+│   ├── Design_Specification/
+│   └── Other_Controlling_Sources/
+├── 02_APPROVED/
+│   ├── Book_Blueprints/
+│   ├── Manuscripts/
+│   ├── Product_Specifications/
+│   └── Other_Approved_Materials/
+├── 03_WORKING/
+│   ├── Book_Blueprints/
+│   ├── Manuscripts/
+│   ├── Product_Specifications/
+│   └── Other_Working_Materials/
+├── 04_OUTPUT/
+│   ├── Series_Architecture/
+│   ├── Decision_Records/
+│   ├── Audits/
+│   └── Other_Outputs/
+├── 05_ARCHIVE/
+│   ├── Superseded/
+│   ├── Obsolete/
+│   ├── Rejected/
+│   └── Historical/
+├── 06_REFERENCE/
+│   ├── Research/
+│   ├── General_Reference/
+│   └── External_Materials/
+└── 99_REVIEW_REQUIRED/
+```
+
+**Out of scope (repo root, not under Stoic-Collection):** `.venv-kdp/`, `.git/`, `.vscode/`
+
+---
+
+## 2. File inventory (current paths)
+
+### 00_MASTER_INSTRUCTIONS
+
+| Current path | Prior path (pre-organization) | Notes |
+| --- | --- | --- |
+| `00_MASTER_INSTRUCTIONS/cursorexecutioninstructionsv1.1.md` | `stoic_series/cursorexecutioninstructionsv1.1.md` | Historical phase execution brief (Bible + Book 2 MDS generation) |
+
+### 01_SOURCE_OF_TRUTH
+
+| Current path | Prior path | Notes |
+| --- | --- | --- |
+| `01_SOURCE_OF_TRUTH/Master_AI_Role_Prompt/MASTER AI ROLE PROMPTv1.1.md` | `stoic_series/MASTER AI ROLE PROMPTv1.1.md` | Governing role prompt |
+| `01_SOURCE_OF_TRUTH/Series_Bible/MASTER SERIES BIBLE PROMPTv1.1.md` | `stoic_series/MASTER SERIES BIBLE PROMPTv1.1.md` | Series Bible creation prompt |
+| `01_SOURCE_OF_TRUTH/Series_Bible/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | `stoic_series/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | Active Series Bible v1.0 (self-declared) |
+| `01_SOURCE_OF_TRUTH/Design_Specification/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | `stoic_series/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | MDS creation prompt |
+| `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | `stoic_series/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | Book 2 controlling brief |
+
+### 02_APPROVED
+
+| Current path | Prior path | Notes |
+| --- | --- | --- |
+| `02_APPROVED/Book_Blueprints/BOOK 2 — STOIC SHADOW WORK JOURNAL — MASTER PUBLISHING DESIGN SPECIFICATION.md` | `stoic_series/BOOK 2 — STOIC SHADOW WORK JOURNAL — MASTER PUBLISHING DESIGN SPECIFICATION.md` | Book 2 MDS v1.0 |
+| `02_APPROVED/Manuscripts/BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md` | `stoic_series/BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md` | Book 2 manuscript |
+| `02_APPROVED/Product_Specifications/BOOK 2 — PRODUCTION LOCKS.md` | `stoic_series/BOOK 2 — PRODUCTION LOCKS.md` | Production locks (2026-08-12) |
+| `02_APPROVED/Product_Specifications/BOOK 2 — KDP LISTING SETUP.md` | `stoic_series/BOOK 2 — KDP LISTING SETUP.md` | KDP listing fields |
+| `02_APPROVED/Other_Approved_Materials/` | — | Empty placeholder |
+
+### 03_WORKING
+
+| Current path | Prior path | Notes |
+| --- | --- | --- |
+| `03_WORKING/Other_Working_Materials/BOOK 2 — KDP PREVIEWER & PROOF CHECKLIST.md` | `stoic_series/BOOK 2 — KDP PREVIEWER & PROOF CHECKLIST.md` | Operator checklist |
+| `03_WORKING/Other_Working_Materials/production/` | `stoic_series/production/` | Intact toolchain: scripts, fonts, output PDFs |
+| `03_WORKING/Other_Working_Materials/production/typeset_book2.py` | `stoic_series/production/typeset_book2.py` | Interior typesetter |
+| `03_WORKING/Other_Working_Materials/production/cover_book2.py` | `stoic_series/production/cover_book2.py` | Cover generator |
+| `03_WORKING/Other_Working_Materials/production/fonts/*` | `stoic_series/production/fonts/*` | Liberation font symlinks (6) |
+| `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` | same under `stoic_series/` | Generated interior |
+| `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` | same under `stoic_series/` | Generated cover |
+| `03_WORKING/Other_Working_Materials/production/output/cover_dimensions.txt` | same under `stoic_series/` | Cover math sidecar |
+| `03_WORKING/Other_Working_Materials/production/output/interior_page_count.txt` | same under `stoic_series/` | Page-count sidecar |
+| `03_WORKING/Book_Blueprints/` | — | Empty placeholder |
+| `03_WORKING/Manuscripts/` | — | Empty placeholder |
+| `03_WORKING/Product_Specifications/` | — | Empty placeholder |
+
+### 04_OUTPUT
+
+| Current path | Prior path | Notes |
+| --- | --- | --- |
+| `04_OUTPUT/Audits/BOOK 2 — SOURCE VERIFICATION REPORT.md` | `stoic_series/BOOK 2 — SOURCE VERIFICATION REPORT.md` | Source verification audit |
+| `04_OUTPUT/Audits/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | `stoic_series/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | Editorial Pass 1 audit |
+| `04_OUTPUT/Audits/SOURCE-OF-TRUTH AUDIT.md` | *(created post-organization)* | Controlling-document authority audit |
+| `04_OUTPUT/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` | *(present on disk at manifest draft time)* | Exists in tree; authority not established by this manifest |
+| `04_OUTPUT/Decision_Records/` | — | Empty placeholder |
+| `04_OUTPUT/Other_Outputs/` | — | Empty placeholder (PDFs kept with production toolchain under Working) |
+
+### 05_ARCHIVE
+
+| Current path | Prior path | Notes |
+| --- | --- | --- |
+| `05_ARCHIVE/Superseded/SERIES_BIBLE.md` | `stoic_series/SERIES_BIBLE.md` | “Stoic Practice Series” bible; superseded by active Collection Bible |
+| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | `stoic_series/VOLUME_1_MPDS.md` | Provisional legacy Volume 1 MPDS |
+| `05_ARCHIVE/Obsolete/` | — | Empty placeholder |
+| `05_ARCHIVE/Rejected/` | — | Empty placeholder |
+| `05_ARCHIVE/Historical/` | — | Empty placeholder |
+
+### 06_REFERENCE
+
+| Path | Notes |
+| --- | --- |
+| `06_REFERENCE/Research/` | Empty placeholder |
+| `06_REFERENCE/General_Reference/` | Empty placeholder |
+| `06_REFERENCE/External_Materials/` | Empty placeholder |
+
+### 99_REVIEW_REQUIRED
+
+| Path | Notes |
+| --- | --- |
+| `99_REVIEW_REQUIRED/` | Items needing human confirmation before placement elsewhere |
+
+---
+
+## 3. Organization decisions recorded
+
+| Decision | Choice |
+| --- | --- |
+| New root name | `Stoic-Collection/` (replaced flat `stoic_series/`) |
+| Filename renames | None |
+| Document content edits during organization | None |
+| Production tree | Kept intact under `03_WORKING/Other_Working_Materials/production/` (scripts + fonts + PDFs together) |
+| Duplicate PDFs into `04_OUTPUT/Other_Outputs/` | Not done (avoid duplication; regenerate path stays with scripts) |
+| Tooling left at repo root | `.venv-kdp/` |
+
+---
+
+## 4. Known stale path references (content not updated during organization)
+
+These files still mention `stoic_series/production/...` in body text:
+
+- `02_APPROVED/Product_Specifications/BOOK 2 — PRODUCTION LOCKS.md`
+- `03_WORKING/Other_Working_Materials/BOOK 2 — KDP PREVIEWER & PROOF CHECKLIST.md`
+- (and related listing/ops docs if they hardcode the old path)
+
+**Follow-up:** path-string update pass (separate from organization).
+
+---
+
+## 5. Approval & living-document control
+
+| Field | Value |
+| --- | --- |
+| Status | **APPROVED** |
+| Approved by | Project owner |
+| Approved date | 2026-08-14 |
+| Canonical location | `Stoic-Collection/PROJECT_FILE_ORGANIZATION_MANIFEST.md` |
+| Change policy | Living document — **human approval required** before substantive edits (path moves, inventory changes, decision revisions). Editorial typos may be proposed but still require confirmation if unclear. |
+
+When the tree changes: propose a manifest update → wait for approval → then edit this file and relocate materials as approved.
