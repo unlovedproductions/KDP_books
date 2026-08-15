@@ -3,13 +3,18 @@
 **Publisher:** UnlovedProductions  
 **Series:** The Stoic Collection  
 **Document type:** Series Architecture (catalog / reader-development roadmap)  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** PROPOSED — not Source of Truth; does not outrank the Master Series Bible  
-**Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.0 ACTIVE; BOOK 2 PROJECT BRIEF v1.1; BOOK 2 MDS v1.0  
+**Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.0 ACTIVE; BOOK 2 PROJECT BRIEF v1.1; BOOK 2 MDS v1.0; PROJECT_FILE_ORGANIZATION_MANIFEST (APPROVED)  
 **Process prompt:** STOIC COLLECTION SERIES ARCHITECTURE — MASTER PROMPT (canonical)  
 **Not:** a manuscript, book MDS, Series Bible rewrite, or production file  
+**Revision 1.1:** Compliance audit remediation; human decisions B1–B3 applied; organization manifest registered. See `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`.
 
-**Human instruction (this pass):** Ignore the existing low-content journal SKU files as catalog authority. Evaluate a *new* Collection-aligned *Stoic Journal for Men* only under Potential Future Books if it can meet Collection standards.
+**Human instructions applied:**  
+- Ignore existing low-content journal SKU as catalog authority.  
+- **B1:** Book 1 job LOCKED; title at Book 1 Brief. Shadow Work manuscript identity locked; series **position** set by Bible + architect for max transformation impact (re-evaluated → remains developmental Book 2).  
+- **B2:** Defer Book 3 commissioning.  
+- **B3:** New *Stoic Journal for Men* = Future Expansion with complete redesign (companion / exercise workbook / Collection-standard guided practice) — not blank grid, not Foundations substitute.
 
 ---
 
@@ -17,7 +22,7 @@
 
 ### SOURCE STATUS: PARTIALLY VERIFIED
 
-Authority is established for series identity, Book 2 identity, Book 1 *domain job*, shared method (SSOCR), signatures, and open-ended catalog logic. Material gaps remain on Book 1’s exact Permanent title string and on whether any closed founding catalog beyond Book 1–2 is intended.
+Authority is established for series identity, Book 2 product identity, Book 1 *domain job*, Shadow Work as developmental position 2 (post impact re-eval), shared method (SSOCR), signatures, open-ended catalog logic, and file organization rules. Material gaps remain until Book 1 Project Brief locks title/subtitle and until this Architecture is explicitly accepted as the working roadmap.
 
 ### Authoritative sources used
 
@@ -25,11 +30,13 @@ Authority is established for series identity, Book 2 identity, Book 1 *domain jo
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | ROLE-SRC | MASTER AI ROLE PROMPTv1.1.md | v1.1 | Process prompt | Hierarchy #1 | Yes | Yes | Decision hierarchy, series thinking, quality rules |
 | BIBLE-SRC | THE STOIC COLLECTION — MASTER SERIES BIBLE.md | v1.0 ACTIVE | ACTIVE | Hierarchy #2 | Yes | Yes | Primary series SoT |
-| BRIEF2-SRC | BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md | v1.1 | Controlling Book 2 facts | Hierarchy #3 | Yes | Yes | Book 2 title, format, boundaries |
+| BRIEF2-SRC | BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md | v1.1 | Controlling Book 2 facts | Hierarchy #3 | Yes | Yes | Book 2 title/identity/format; numbering evidence |
 | MDSPROMPT-SRC | MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md | v1.1 | Process prompt | Hierarchy #4 | Yes | Secondary | Book-level process; not catalog SoT |
 | MDS2-SRC | BOOK 2 — … MASTER PUBLISHING DESIGN SPECIFICATION.md | v1.0 | Architecture complete | Hierarchy #5 | Yes | Yes | Book 2 architecture evidence |
-| MS2-SRC | BOOK 2 manuscript + PRODUCTION LOCKS / KDP LISTING | 2026-08-12 locks | Approved product text | Evidence only | Yes for Book 2 print claims | Yes (evidence) | Book 1 title string appears here; not Bible-locked |
+| MS2-SRC | BOOK 2 manuscript + PRODUCTION LOCKS / KDP LISTING | 2026-08-12 locks | Approved product text | Evidence only | Yes for Book 2 print claims | Yes (evidence) | Working Foundations title string — not Bible-locked |
+| MANIFEST-SRC | PROJECT_FILE_ORGANIZATION_MANIFEST.md | APPROVED 2026-08-14 | Living org record | Organization only | Yes | Yes | Paths/placement; **not** content authority |
 | AUDIT-SRC | SOURCE-OF-TRUTH AUDIT.md | 2026-08-14 | Inspection record | Audit | Yes | Yes | Inventory reused; not catalog law |
+| COMPLY-SRC | SERIES ARCHITECTURE — COMPLIANCE AUDIT.md | 2026-08-14 | Compliance record | Audit | Yes | Yes | v1.0→v1.1 remediation driver |
 | ARCHPROMPT-SRC | Series Architecture Master Prompt | Canonical | Process only | How to architect | Yes | Yes | Does not override Bible |
 
 ### Material quarantined sources
@@ -45,20 +52,21 @@ Authority is established for series identity, Book 2 identity, Book 1 *domain jo
 | --- | --- | --- |
 | Existing *Stoic Journal for Men* / mismatched cover PDFs | **Ignore completely** as catalog/product authority | Not placed in Approved Series Books; not treated as Book 1; not treated as Collection companion. A *new* Collection-fit title of that name may appear only under Potential Future Books. |
 
-### Unverified / missing
+### Unverified / open (post B1–B3)
 
 | Item | Classification |
 | --- | --- |
-| `PROJECT_FILE_ORGANIZATION_MANIFEST.md` | EXPECTED SOURCE NOT FOUND — non-material to catalog architecture |
-| Exact Permanent Book 1 title string | REQUIRES HUMAN CONFIRMATION |
+| Exact Book 1 published title / subtitle | OPEN — deferred to Book 1 Project Brief (human B1) |
 | Closed founding catalog (fixed N books / full title list) | OPEN — Bible establishes open-ended Book 3+ |
+| Architecture doc acceptance as CURRENT working roadmap | REQUIRES HUMAN CONFIRMATION |
+| VOLUME_1_MPDS realignment before Book 1 production | REQUIRES HUMAN CONFIRMATION (Bible §0.2) |
 
 ### Material conflicts (summary)
 
 1. Series name Practice Series → Collection — **resolved** (Bible §0.2).  
 2. Book 2 Adversity → Shadow Work — **resolved** (Brief + Bible §0.2).  
 3. Fixed 5-book spine — **not restated** in active Bible; quarantined.  
-4. Book 1 title *Foundations: Judgment, Control, and Assent* in manuscript/locks vs Bible domain-job-only — **unresolved title lock**.  
+4. Book 1 title string in product text vs Bible domain-job-only — **governed**: working title until Brief (B1); see SSW-1.  
 
 ---
 
@@ -81,7 +89,7 @@ Consult only for historical comparison and change detection.
 
 **Version A — Active Series Bible §3.6**  
 - Status: ACTIVE  
-- Requirement: Book 1 domain job = install core method (impression, judgment, control, assent, review). Exact title **not** locked as PERMANENT.
+- Requirement: Book 1 domain job = install core method. Exact title **not** locked as PERMANENT.
 
 **Version B — Book 2 manuscript / Production Locks / KDP Listing**  
 - Status: Approved product text  
@@ -89,13 +97,31 @@ Consult only for historical comparison and change detection.
 
 **Conflict:** Product text treats a specific title as catalog fact; series SoT locks only the domain job.
 
-**Architectural Impact:** Book 1 placement and job are usable; Permanent title branding is not.
+**Architectural Impact:** Book 1 placement and job usable; title branding deferred.
 
-**Authority Assessment:** Bible outranks product text on series Permanents. Title string = DOCUMENTED working title.
+**Authority Assessment:** Bible outranks product text on series Permanents.
 
-**Confidence:** High on conflict; Medium on final title wording.
+**Human B1:** Title will be decided during Book 1 Brief / source creation — do **not** permanently lock the Foundations string now.
 
-**Required Action:** REQUIRES HUMAN CONFIRMATION
+**Confidence:** High.
+
+**Required Action:** USE WORKING TITLE UNTIL BRIEF — treat product string as DOCUMENTED working cross-sell, not Permanent.
+
+---
+
+# STALE-SOURCE WARNINGS
+
+### SSW-1 — Foundations title in Book 2 product text
+
+Older/product sources print *Foundations: Judgment, Control, and Assent*. Current Bible does not Permanently lock that string. Human B1 defers title to Brief. **Do not discard the working string yet; do not elevate it to Permanent.** Align product text after Brief.
+
+### SSW-2 — VOLUME_1_MPDS.md
+
+Provisional legacy Foundations under old series name. Quarantined. Bible §0.2 requires realignment before Book 1 manuscript finalization/reprint. **Do not use as live Book 1 MDS.**
+
+### SSW-3 — Organization manifest “NOT FOUND” (prior audit)
+
+Superseded by APPROVED `Stoic-Collection/PROJECT_FILE_ORGANIZATION_MANIFEST.md` (2026-08-14). Manifest governs placement only, not content authority.
 
 ---
 
@@ -123,8 +149,12 @@ Consult only for historical comparison and change detection.
 | MDS2-002 | MDS2-SRC | v1.0 | A1 | Method Primer enables late entry at Book 2 | STRATEGIC | P1 | None | Independence |
 | ARCH-001 | ARCHPROMPT | — | §27 | Collection must contain genuine Foundations as official starting point | MANDATORY | P0 | Title open | Book 1 |
 | ARCH-002 | ARCHPROMPT | — | §47 | Do not treat prior target book count as binding unless Bible locks it | MANDATORY | P0 | None | Book count |
-| OPEN-001 | — | — | — | Exact Permanent Book 1 title | OPEN | P0 | Human | Branding |
-| OPEN-002 | — | — | — | Approved Book 3+ titles and order | OPEN | P1 | Briefs | Future catalog |
+| OPEN-001 | — | — | — | Exact Book 1 published title | OPEN | P0 | Deferred to Book 1 Brief (B1) | Branding |
+| OPEN-002 | — | — | — | Approved Book 3+ titles and order | OPEN | P1 | Briefs; B2 defers commissioning | Future catalog |
+| HUM-001 | Human B1 | 2026-08-14 | — | Book 1 job locked; title at Brief | MANDATORY (process) | P0 | None | Book 1 governance |
+| HUM-002 | Human B1 | 2026-08-14 | — | Shadow Work position = max-impact placement per Bible + architect | MANDATORY (process) | P0 | None | Book 2 position |
+| HUM-003 | Human B2 | 2026-08-14 | — | Defer Book 3 commissioning | MANDATORY (process) | P0 | None | Future books |
+| HUM-004 | Human B3 | 2026-08-14 | — | New Journal for Men = Future Expansion with full redesign | MANDATORY (process) | P0 | None | Future Journal |
 
 ---
 
@@ -147,8 +177,8 @@ Consult only for historical comparison and change detection.
 
 | # | Title | Subtitle | Format | Governance State | Primary Job | Core Capability | Builds From | Prepares For |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | *Foundations: Judgment, Control, and Assent* (**working title**) | TBD at Project Brief / MDS | Foundations guided workbook | Domain job **LOCKED**; exact title **REQUIRES HUMAN CONFIRMATION** | Install core Stoic method | Run SSOCR + Permanent tools from zero | Entry (no prior Collection book) | Book 2 examination under method literacy |
-| 2 | *Stoic Shadow Work Journal* | A Guided Journey Through Self-Reflection, Virtue & Personal Growth | Guided shadow-examination journal / workbook | **LOCKED** (Brief + Bible) | Examine hidden patterns, avoidance, self-deception | Apply SSOCR to inner avoidance; Personal Standard for named pattern | Book 1 method (or Method Primer) | Later application domains (adversity, emotion, virtue-in-action, relationships) |
+| 1 | *Foundations: Judgment, Control, and Assent* (**working title until Brief**) | TBD at Project Brief / MDS | Foundations guided workbook | Domain job **LOCKED**; title **OPEN until Brief** (B1) | Install core Stoic method | Run SSOCR + Permanent tools from zero | Entry (no prior Collection book) | Shadow Work examination under method literacy |
+| 2 | *Stoic Shadow Work Journal* | A Guided Journey Through Self-Reflection, Virtue & Personal Growth | Guided shadow-examination journal / workbook | Product identity **LOCKED**; developmental position **CONFIRMED #2** after impact re-eval (B1) | Examine hidden patterns, avoidance, self-deception | Apply SSOCR to inner avoidance; Personal Standard for named pattern | Book 1 method (or Method Primer) | Later application domains (adversity, emotion, virtue-in-action, relationships) |
 
 **Not on this map:** Any legacy low-content daily journal SKU (ignored per human instruction). Future *Stoic Journal for Men* — see Potential Future Books only.
 
@@ -158,11 +188,20 @@ Consult only for historical comparison and change detection.
 
 ### Identity
 
-- **Title:** *Foundations: Judgment, Control, and Assent* — **working / documented title only**  
-- **Subtitle:** OPEN (not locked by Bible)  
+- **Title:** *Foundations: Judgment, Control, and Assent* — **working title until Book 1 Brief**  
+- **Subtitle:** OPEN (Brief)  
 - **Format:** Foundations workbook (medium-content guided program)  
 - **Audience:** Entry Collection reader; adults seeking a usable Stoic method  
-- **Governance State:** Domain job LOCKED; title DOCUMENTED / REQUIRES HUMAN CONFIRMATION  
+- **Governance State:** Domain job LOCKED; title OPEN until Brief (human B1)  
+
+### Book positioning (§34)
+
+| Lens | Answer |
+| --- | --- |
+| **BEFORE** | No Collection method literacy required |
+| **THIS BOOK** | Install SSOCR + Permanent tools from zero |
+| **AFTER** | Reader can enter examination-heavy titles without stranding |
+| **BOUNDARY** | Not shadow/avoidance as primary domain; not adversity externals; not blank journal |  
 
 ### Purpose
 
@@ -195,13 +234,13 @@ Bible §3.6 founding logic places method install first. Architecture prompt §27
 
 **Inference:** Exact marketing subtitle and chapter count are book-level (Bible §27 remaining decisions).
 
-**Decision Type:** Direct Requirement (placement/domain); Open Decision (exact Permanent title).
+**Decision Type:** Direct Requirement (placement/domain); Open Decision deferred to Brief (exact title — human B1).
 
-**Governance State:** LOCKED (job/position); REQUIRES HUMAN CONFIRMATION (exact title string).
+**Governance State:** LOCKED (job/position); OPEN until Brief (title string).
 
-**Confidence:** High (placement); Medium (title wording).
+**Confidence:** High (placement); title N/A until Brief.
 
-**Conflict Check:** Title string conflict recorded above — product text vs Bible.
+**Conflict Check:** Product working title vs Bible — governed by B1 / SSW-1.
 
 ---
 
@@ -216,7 +255,7 @@ Bible §3.6 founding logic places method install first. Architecture prompt §27
 | Numbered Collection | **No** |
 | Action this document | Do not discard/rename/redesign here; do not enroll in series metadata via this architecture |
 
-A **new** Collection-aligned product that may reuse the commercial name *Stoic Journal for Men* is evaluated only under **Potential Future Books**.
+A **new** Collection-aligned *Stoic Journal for Men* is a **Potential Future Expansion** (human B3): complete redesign as companion book, exercise/practice workbook, or Collection-standard guided daily-transfer journal — **not** a blank grid and **not** a Foundations substitute. No Project Brief yet → not Approved.
 
 ---
 
@@ -224,7 +263,8 @@ A **new** Collection-aligned product that may reuse the commercial name *Stoic J
 
 | Field | Determination |
 | --- | --- |
-| Book number | **Book 2** — LOCKED |
+| Book number / position | **Developmental Book 2** (immediately after Foundations) — **CONFIRMED** after max-impact re-eval (human B1) |
+| Manuscript / product identity | **LOCKED** for now (*Stoic Shadow Work Journal* content/architecture as approved) |
 | Purpose | Stoic self-examination of hidden patterns, avoidance, self-deception, character weakness |
 | Starting reader state | Unaware of recurring avoidances; may know quotes; may enter via Method Primer without Book 1 |
 | Ending reader state | Can name patterns in concrete incidents; Control Sort + Assent Pause on uncomfortable truths; ownership without self-abuse; finalized Personal Standard + continuation plan |
@@ -234,28 +274,44 @@ A **new** Collection-aligned product that may reuse the commercial name *Stoic J
 | Deliberately does not cover | Full method install from zero as sole spine; mystical Jungian shadow; clinical trauma processing; external-blow adversity as primary pressure |
 | Previous-book dependency | Soft — Method Primer required if Book 1 not completed |
 | Next-book relationship | Prepares reader for application domains (e.g., adversity, emotion under fire) with clearer self-honesty |
-| Why position is correct | Bible §3.6 domain order; Brief Book Number 2; MDS differentiation vs Book 1 and future adversity |
+| Why position is correct | See Decision Record — impact re-eval |
 
-### Decision Record — Book 2 placement
+### Book positioning (§34)
 
-**Decision:** *Stoic Shadow Work Journal* is Book 2 of The Stoic Collection.
+| Lens | Answer |
+| --- | --- |
+| **BEFORE** | SSOCR literacy via Book 1 or Method Primer |
+| **THIS BOOK** | Apply method to inner avoidance / self-deception / hidden patterns |
+| **AFTER** | Stronger honesty for adversity/emotion/virtue domains |
+| **BOUNDARY** | Not Foundations install; not external-blow adversity primary; not clinical/Jungian |
+
+### Decision Record — Shadow Work series position (B1 re-eval)
+
+**Decision:** Keep *Stoic Shadow Work Journal* as developmental **Book 2** immediately after Foundations. Manuscript identity remains locked.
+
+**Alternatives tested:**  
+1. As Book 1 — reject (fails Foundations mandate; collapses into mood diary).  
+2. After Adversity as #3 — reject (delays self-deception training; conflicts Bible founding domain #2 + Book 2 identity).  
+3. Late/optional only — reject (spine incomplete; conflicts Brief/Bible identity).
 
 **Evidence:**  
 [BIBLE-002] — BIBLE-SRC — §0.2  
-[BRIEF2-001] — BRIEF2-SRC — Project Identification  
-[MDS2-001] — MDS2-SRC — §0.1 / §1  
+[BIBLE-004] — BIBLE-SRC — §3.6  
+[BRIEF2-001] — BRIEF2-SRC — identity  
+[ROLE-001] — ROLE-SRC — transformation priority  
+[HUM-002] — Human B1 — authorize position for max impact  
 
-**Reasoning:** Active authoritative sources explicitly adopt Brief identity and supersede Adversity-as-Book-2.
+**Reasoning:** Maximum transformation impact is method install → inner examination → later external/emotion domains. Bible founding order and Brief identity already align with that sequence; re-eval confirms rather than blindly inherits.
 
-**Inference:** None required for position.
+**Inference:** Brief “Book Number: 2” is product/series numbering evidence; impact analysis independently selects the same slot.
 
-**Decision Type:** Direct Requirement.
+**Decision Type:** Direct Requirement (identity) + Strategic Requirement (position after re-eval).
 
-**Governance State:** LOCKED.
+**Governance State:** Product identity LOCKED; series position CURRENT / CONFIRMED.
 
 **Confidence:** High.
 
-**Conflict Check:** Legacy Adversity conflict resolved; do not restore.
+**Conflict Check:** No conflict with Bible; do not restore Adversity as Book 2.
 
 ---
 
@@ -269,7 +325,7 @@ A **new** Collection-aligned product that may reuse the commercial name *Stoic J
 - Subtitle: OPEN  
 - Format: Foundations workbook  
 - Audience: Entry / method-seeking adults  
-- Governance State: Job LOCKED; title pending confirmation  
+- Governance State: Job LOCKED; title OPEN until Brief (B1)  
 
 ### Strategic Role
 
@@ -326,7 +382,7 @@ See Decision Record — Book 1 placement.
 - Subtitle: A Guided Journey Through Self-Reflection, Virtue & Personal Growth  
 - Format: Guided journal / workbook (medium-content)  
 - Audience: Men-emphasized marketing OK; inclusive interior voice (MDS §0.1)  
-- Governance State: LOCKED  
+- Governance State: Product identity LOCKED; position CONFIRMED #2 (B1 re-eval)  
 
 ### Strategic Role
 
@@ -472,11 +528,11 @@ Do not auto-promote an entire speculative catalog. Until Book 3 is Brief-locked,
 
 ## EXPANSION COLLECTION (not approved)
 
-- Adversity / obstacle domain  
+- Adversity / obstacle domain (deferred per B2)  
 - Emotion under fire  
 - Virtue in ordinary action  
 - Relationships / roles / justice  
-- Prospective Collection-aligned *Stoic Journal for Men* (daily transfer companion) — **only if redesigned to medium-content Collection standards**
+- **Stoic Journal for Men (new)** — complete redesign as companion / exercise workbook / Collection-standard guided practice (B3)
 
 ## ADVANCED COLLECTION (not approved)
 
@@ -495,7 +551,19 @@ Do not auto-promote an entire speculative catalog. Until Book 3 is Brief-locked,
 
 # BOOK COUNT FLEXIBILITY
 
-Active Bible: Book 1, Book 2, **Book 3+** — no fixed N. Legacy five-volume spine quarantined. Architecture does **not** add books to hit a number.
+Active Bible: Book 1, Book 2, **Book 3+** — no fixed N. Legacy five-volume spine quarantined. Architecture does **not** add books to hit a number. **Human B2:** do not commission Book 3 now.
+
+---
+
+# CATALOG ORDER FLEXIBILITY
+
+| Element | Flexibility | Notes |
+| --- | --- | --- |
+| Book 1 = Foundations / method | **Not flexible** | ARCH-001 / BIBLE-004 |
+| Shadow Work immediately after Foundations | **Confirmed** after B1 impact re-eval | Matches Bible founding domain #2 |
+| Order among Book 3+ domains | **Flexible** until Brief-locked | Bible §3.6 |
+| Historical 5-spine order | **Not binding** | Quarantined |
+| If optimal order conflicts with a locked Brief number | REQUIRES HUMAN CONFIRMATION | Do not silent-renumber product metadata |
 
 ---
 
@@ -507,17 +575,18 @@ Active Bible: Book 1, Book 2, **Book 3+** — no fixed N. Legacy five-volume spi
 | Emotion: Impressions Under Fire | Guided workbook | Readers under anger/fear heat | Pre-emotion / assent delay | Book 3+ | Method + preferably pattern honesty | Expansion | Example only in Bible §3.6 |
 | Character: Virtues in Ordinary Action | Virtue practice workbook | Readers ready for virtue-as-choice | Abstract virtue theater | Book 3+ | Method | Expansion | Example only |
 | Relationships: Duty, Boundaries, Social Virtue | Guided workbook | Role/conflict pressure | Other people’s judgments | Later | Method; justice/roles subset | Expansion | Example only |
-| **Stoic Journal for Men** (new) | Collection-aligned **guided daily practice companion** — not a blank 120-page grid | Adults (men-emphasized marketing allowed if brand boundaries held) | Need for day-to-day transfer of SSOCR between domain books | Expansion (outside numbered spine **or** optional unnumbered companion) | Book 1 method installed or Primer; must inherit Permanent signatures; must pass clone test vs Book 1 | Expansion | No Brief; existing ignored SKU is not evidence; **only fits if** it is medium-content, sequenced, and not lined-paper-as-spine |
+| **Stoic Journal for Men** (new) | Companion / exercise workbook / Collection-standard guided practice (**complete redesign**) | Adults (men-emphasized marketing OK if brand-safe) | Day-to-day transfer of SSOCR between domain books | Expansion companion (unnumbered or parallel) | Book 1 method or Primer; Permanent signatures; clone test vs Book 1 & Book 2 | Expansion | Human B3: future only; redesign required; no Brief yet |
 
-### Prospective *Stoic Journal for Men* — fit gate (this pass)
+### Prospective *Stoic Journal for Men* — fit gate (B3)
 
 | Test | Result |
 | --- | --- |
-| Distinct purpose vs Book 1 | Only if job = **daily transfer / maintenance**, not method install |
+| Distinct purpose vs Book 1 | Only if job = **daily transfer / maintenance / exercise companion**, not method install |
 | Distinct vs Book 2 | Must not become avoidance/self-deception examination |
-| Format vs BIBLE-003/009 | Pure repeating daily template = **FAIL** Collection membership |
+| Format vs BIBLE-003/009 | Blank repeating grid = **FAIL**; redesigned medium-content companion/workbook = eligible |
 | Brand vs BIBLE-010 | “For Men” marketing OK; interior must not become stereotype-driven |
-| Preliminary verdict | **Eligible as Potential Future Book** under redesign constraints; **not** Approved Series Book |
+| Human B3 | **Future Expansion** with complete redesign — companion book or exercise workbook (etc.) |
+| Preliminary verdict | Potential Future only — **not** Approved Series Book |
 
 ---
 
@@ -578,15 +647,17 @@ Enter official architecture only if: distinct purpose, distinct problem, distinc
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Series name = The Stoic Collection | BIBLE-001 | BIBLE-SRC | Series Bible | v1.0 | §0.2 | Direct Requirement | LOCKED | High | No |
 | Book 1 = Foundations domain / start | ARCH-001, BIBLE-004 | ARCHPROMPT + BIBLE | — / v1.0 | §27 / §3.6 | Direct Requirement | LOCKED (job) | High | No |
-| Book 1 exact title string | MS2 series page | MS2-SRC | Manuscript/locks | 2026-08-12 | Series page | Inference / Documented claim | REQUIRES HUMAN CONFIRMATION | Medium | Soft gap vs Bible |
-| Book 2 = Shadow Work Journal | BIBLE-002, BRIEF2-001 | BIBLE + Brief | v1.0 / v1.1 | §0.2 / ID | Direct Requirement | LOCKED | High | No |
+| Book 1 exact title string | MS2 series page | MS2-SRC | Manuscript/locks | 2026-08-12 | Series page | Documented working claim | OPEN until Brief (B1) | Medium | Soft gap vs Bible — governed |
+| Book 2 = Shadow Work Journal identity | BIBLE-002, BRIEF2-001 | BIBLE + Brief | v1.0 / v1.1 | §0.2 / ID | Direct Requirement | LOCKED (product) | High | No |
+| Shadow Work developmental position = #2 | BIBLE-004, HUM-002, ROLE-001 | Bible + Human B1 | — | §3.6 | Strategic after re-eval | CURRENT / CONFIRMED | High | No |
 | Not restore Adversity as Book 2 | BIBLE-002 | BIBLE-SRC | v1.0 | §0.2 | Direct Requirement | LOCKED | High | No |
 | Open-ended book count | BIBLE-004, ARCH-002 | BIBLE + ARCH | v1.0 | §3.6 / §47 | Direct Requirement | CURRENT | High | No |
 | MVCC = Book 1 + Book 2 | BIBLE-004 | BIBLE-SRC | v1.0 | §3.6 | Strategic Requirement | RECOMMENDED | High | No |
-| Progression = SSOCR (+ Brief exam arc) | BIBLE-005 | BIBLE-SRC | v1.0 | §15 | Direct Requirement | LOCKED | High | No |
-| Ignore existing Journal-for-Men SKU | Human instruction this pass | — | — | — | Creative / process | DOCUMENTED | High | N/A |
-| Future *Stoic Journal for Men* as Expansion candidate | BIBLE-003, BIBLE-009, BIBLE-010 | BIBLE-SRC | v1.0 | §1, §13.2, §4.2 | Creative Recommendation | PROPOSED | Medium | Needs Brief |
-| Recommended third application title | Bible examples §3.6 | BIBLE-SRC | v1.0 | §3.6 | Creative Recommendation | PROPOSED | Medium | SOURCE GAP until Brief |
+| Defer Book 3 | HUM-003 | Human B2 | 2026-08-14 | — | Direct (human) | DOCUMENTED | High | No |
+| Progression = SSOCR | BIBLE-005 | BIBLE-SRC | v1.0 | §15 | Direct Requirement | LOCKED | High | No |
+| Ignore existing Journal SKU | Human instruction | — | — | — | Process | DOCUMENTED | High | N/A |
+| Future Journal for Men redesign Expansion | HUM-004, BIBLE-003/009/010 | Human B3 + Bible | — | — | Creative Recommendation accepted | PROPOSED (future) | High | Needs Brief later |
+| Organization manifest | MANIFEST-SRC | Manifest | APPROVED | — | Direct (org) | CURRENT | High | No |
 | Recurring signatures list | BIBLE-006 | BIBLE-SRC | v1.0 | §11–12 | Direct Requirement | LOCKED | High | No |
 
 ---
@@ -602,7 +673,8 @@ Enter official architecture only if: distinct purpose, distinct problem, distinc
 
 ## Unresolved Conflicts
 
-1. **Book 1 exact Permanent title** — manuscript/locks vs Bible §3.6 domain-only.  
+1. Soft operational: Book 2 product text prints working Foundations title until Book 1 Brief — see SSW-1 / human list item 3.  
+2. VOLUME_1_MPDS still provisional legacy pending realignment — see SSW-2.  
 
 ## VERSION CONFLICTS
 
@@ -618,7 +690,10 @@ See Version Conflict Record (Book 1 title string).
 - Draft/archive not treated as current — **Yes**  
 - Version-sensitive decisions cite correct versions — **Yes**  
 - Missing metadata disclosed — **Yes**  
-- Material ambiguity identified — **Yes** (Book 1 title; Book 3+)  
+- Material ambiguity identified — **Yes** (Architecture acceptance; VOLUME_1 realignment; working title until Brief)  
+- Organization manifest registered — **Yes** (MANIFEST-SRC APPROVED)  
+- B1–B3 human decisions applied — **Yes**  
+- Compliance audit recorded — **Yes**  
 - No quarantined source used as current evidence for Approved books — **Yes**  
 - No silent version mixing — **Yes**  
 - Filename/folder alone not treated as authority — **Yes**  
@@ -633,12 +708,14 @@ See Version Conflict Record (Book 1 title string).
 | --- | --- | --- | --- | --- | --- | --- |
 | Series name | Yes | Yes | Yes | Explicit | Resolved | No |
 | Book 1 position/job | Yes | Yes | Yes | Explicit | No | No |
-| Book 1 title string | Product only | Product ≠ Bible Permanent | Partial | Documented claim | Yes | **Yes** |
+| Book 1 title string | Working product only | Yes | Partial | Deferred to Brief (B1) | Governed | No (not urgent lock) |
 | Book 2 identity | Yes | Yes | Yes | Explicit | Resolved | No |
+| Book 2 position #2 | Yes | Yes | Yes | Strategic re-eval (B1) | No | No |
 | MVCC = 1+2 | Yes | Yes | Yes | Strategic | No | No |
-| Ignore legacy journal SKU | Human instruction | — | Process | Instruction | No | Documented |
-| Future Journal for Men candidate | Bible format rules | Yes | Yes | Creative Recommendation | Fit conditional | Brief required later |
-| Book 3 = Adversity | Example only | — | Not locked | Creative Recommendation | No | **Yes** before approval |
+| Defer Book 3 | Human B2 | — | Yes | Direct (human) | No | No |
+| Future Journal redesign | Human B3 + Bible | Yes | Yes | Accepted recommendation | Fit conditional | Brief later |
+| Accept Architecture as working roadmap | — | — | — | Process | — | **Yes** |
+| Realign VOLUME_1_MPDS | Bible §0.2 | Yes | Yes | Explicit | Legacy | **Yes** |
 
 ---
 
@@ -660,29 +737,37 @@ See Version Conflict Record (Book 1 title string).
 
 # REQUIRES HUMAN CONFIRMATION
 
-### 1. Exact Permanent Book 1 title
+### 1. Accept Series Architecture v1.1 as working catalog roadmap
 
-- **Decision:** Lock *Foundations: Judgment, Control, and Assent* as Permanent series title, or choose another string.  
-- **Why unresolved:** Bible §3.6 locks domain job only; Book 2 product text already prints the Foundations title.  
-- **Sources:** BIBLE-SRC §3.6; MS2-SRC series page / Production Locks / KDP Listing.  
-- **Current recommendation:** Keep *Foundations: Judgment, Control, and Assent* as working title for architecture and Book 2 cross-sell until confirmed; then either Bible-lock via SERIES-LEVEL CHANGE or revise product text.  
-- **Exact question:** **Do you permanently lock Book 1’s published title as *Foundations: Judgment, Control, and Assent*?**
+- **Decision:** Treat this document as CURRENT working Series Architecture (still subordinate to Series Bible).  
+- **Why unresolved:** Status remains PROPOSED until you accept it.  
+- **Sources:** This document; COMPLY-SRC.  
+- **Current recommendation:** Accept as working roadmap; do not move into `01_SOURCE_OF_TRUTH` yet.  
+- **Exact question:** **Do you accept Series Architecture v1.1 as the CURRENT working catalog roadmap?**
 
-### 2. Whether to Brief-lock a third founding application title now
+### 2. Realign or retire VOLUME_1_MPDS before Book 1 production
 
-- **Decision:** Approve Adversity (or other) as next numbered book.  
-- **Why unresolved:** Bible lists domains as examples; no Project Brief.  
-- **Sources:** BIBLE-SRC §3.6.  
-- **Current recommendation:** Defer; ship/finish Book 1 + Book 2 first; then Brief Adversity as leading Expansion candidate.  
-- **Exact question:** **Should Adversity (or another domain) be commissioned as Book 3 now?**
+- **Decision:** Plan to realign provisional legacy Volume 1 MDS to active Bible, or formally archive it as non-live.  
+- **Why unresolved:** Bible §0.2 requires realignment before Foundations manuscript finalization/reprint; not scheduled.  
+- **Sources:** BIBLE-SRC §0.2; SSW-2.  
+- **Current recommendation:** Archive-as-legacy + create new Book 1 Brief/MDS rather than patching Practice-Series file.  
+- **Exact question:** **Approve retiring `VOLUME_1_MPDS.md` as non-live and creating a fresh Book 1 Brief/MDS under The Stoic Collection?**
 
-### 3. Prospective *Stoic Journal for Men* (new)
+### 3. Working Foundations title in Book 2 product text until Brief
 
-- **Decision:** Whether to commission a Collection-aligned guided daily companion under that name.  
-- **Why unresolved:** No Brief; existing SKU ignored; fit only if medium-content / non-grid-spine.  
-- **Sources:** BIBLE-003, BIBLE-009, BIBLE-010; human instruction.  
-- **Current recommendation:** Keep as Potential Future Book; do not approve until Brief proves daily-transfer job distinct from Book 1 and Book 2.  
-- **Exact question:** **Commission a new Collection-standard *Stoic Journal for Men* Project Brief (yes/no)?**
+- **Decision:** Allow Book 2 series page / listing to keep *Foundations: Judgment, Control, and Assent* as working cross-sell until Book 1 Brief locks the real title.  
+- **Why unresolved:** Soft conflict SSW-1 remains operational.  
+- **Sources:** MS2-SRC; B1.  
+- **Current recommendation:** **Allow** until Brief; then align product text in one pass.  
+- **Exact question:** **Allow the working Foundations title to remain in Book 2 product text until the Book 1 Brief?**
+
+### Resolved by human (no longer open locks)
+
+| Prior item | Resolution |
+| --- | --- |
+| Lock Book 1 title now? | **B1:** Defer to Book 1 Brief / source creation |
+| Commission Book 3 now? | **B2:** Defer |
+| Commission Journal for Men Brief now? | **B3:** Future Expansion with complete redesign; not commissioned now |
 
 ---
 
@@ -711,16 +796,16 @@ See Version Conflict Record (Book 1 title string).
 
 | # | Title | Format | Primary Job | Builds From | Prepares For |
 | --- | --- | --- | --- | --- | --- |
-| 1 | *Foundations: Judgment, Control, and Assent* (**working title**) | Foundations workbook | Install core Stoic method | Entry | Book 2 |
+| 1 | *Foundations: Judgment, Control, and Assent* (**working until Brief**) | Foundations workbook | Install core Stoic method | Entry | Book 2 |
 | 2 | *Stoic Shadow Work Journal* | Guided examination journal/workbook | Examine hidden patterns / avoidance / self-deception | Book 1 or Method Primer | Future application domains |
 
 ## POTENTIAL FUTURE BOOKS
 
-- Adversity (external blows / obstacle) — Expansion / likely next numbered candidate  
+- Adversity (external blows / obstacle) — Expansion; **deferred** (B2)  
 - Emotion: Impressions Under Fire — Expansion  
 - Character: Virtues in Ordinary Action — Expansion  
 - Relationships: Duty, Boundaries, Social Virtue — Expansion  
-- **Stoic Journal for Men (new)** — Expansion companion **only if** Collection-standard guided daily transfer (not blank grid); brand-safe “for Men” framing  
+- **Stoic Journal for Men (new)** — Expansion companion/exercise workbook after **complete redesign** (B3)  
 
 ## REJECTED / REDUNDANT CONCEPTS
 
@@ -751,10 +836,11 @@ The smallest strong journey already approved by current sources is **Foundations
 | Field | Value |
 | --- | --- |
 | Path | `Stoic-Collection/04_OUTPUT/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` |
-| Status | PROPOSED |
-| Supersedes | None (first Series Architecture document in this folder) |
+| Status | PROPOSED (v1.1) |
+| Supersedes | Architecture v1.0 (same path) |
+| Companion audit | `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` |
 | Must not override | MASTER SERIES BIBLE v1.0 ACTIVE |
-| Next step | Human confirmation list → then Book 1 Project Brief / MDS (separate execution) |
+| Next step | Human confirmation list (accept roadmap; VOLUME_1 plan; working title in Book 2 text) → Book 1 Project Brief |
 
 **VERIFY THE SOURCES. ESTABLISH THE TRUTH SET. EXTRACT THE REQUIREMENTS. GOVERN THE UNCERTAINTY. PROVE THE ARCHITECTURE.**
 
