@@ -8,8 +8,9 @@
 **DOCUMENT TYPE:** Complete interior manuscript (pre-typeset)  
 **AUTHORITY:** Master AI Role Prompt v1.1 · Master Series Bible v1.0 · Book 2 MDS v1.0 · Book 2 Project Brief v1.1 · Book 2 Source Verification Report  
 **TRANSLATION LOCK (direct quotes):** Epictetus *Enchiridion* — George Long (1890); *Enchiridion* 2 opening quote — Elizabeth Carter (1758); Marcus Aurelius *Meditations* — George Long (1862); Seneca *De Ira* — Aubrey Stewart (1889)  
-**NOT A PRINT PDF.** Page markers follow the MDS page map for typesetting.
-**EDITORIAL STATUS:** Pass 1 complete against Series Bible v1.0 + Book 2 MDS v1.0 + Source Verification Report (see companion audit).
+**NOT A PRINT PDF.** Page markers follow the MDS page map for typesetting.  
+**EDITORIAL STATUS:** Pass 1 complete against Series Bible v1.0 + Book 2 MDS v1.0 + Source Verification Report (see companion audit).  
+**PRODUCTION LOCKS (2026-08-12):** Author/imprint = UnlovedProductions · ISBN = free KDP ISBN (insert number when KDP assigns) · © 2026 · Series page lists Book 1 + Book 2 · Not low-content.
 
 ---
 
@@ -28,13 +29,13 @@
 
 Books in this series share one method family: **SEE → SORT → OWN → CHOOSE → REVIEW**. Each title trains a different pressure domain.
 
-| Book | Working focus |
+| Book | Title / focus |
 | --- | --- |
-| Book 1 | Foundations — judgment, control, assent *(method install)* |
-| **Book 2 (this book)** | **Self-examination — hidden patterns, avoidance, accountability** |
-| Later titles | Distinct domains (adversity, emotion under fire, virtue in action, relationships) — one-line jobs to be finalized at publication |
+| Book 1 | *Foundations: Judgment, Control, and Assent* — install the method |
+| **Book 2 (this book)** | ***Stoic Shadow Work Journal*** — self-examination, hidden patterns, accountability |
+| Later titles | New pressure domains; same method family (SSOCR) |
 
-You can begin here. The Method Primer on page vi installs the tools you need.
+You can begin here. The Method Primer on page vi installs the tools you need. Book 1 deepens the foundations if you want the full method install first.
 
 ---
 
@@ -55,17 +56,37 @@ UnlovedProductions
 
 **Stoic Shadow Work Journal**  
 The Stoic Collection — Book 2  
-© UnlovedProductions. All rights reserved.
+**Author / Imprint:** UnlovedProductions  
+© 2026 UnlovedProductions. All rights reserved.
+
+**ISBN:** Free KDP ISBN — *insert the number Amazon assigns when the paperback title is created, then re-export the interior before final upload.*  
+Publisher name on record: UnlovedProductions. This title is **not** low-content; do not check the KDP low-content box.
 
 **Translations used for direct quotations in this edition**  
 - Epictetus, *Enchiridion*: George Long (1890), except Chapter 7 opening quotation from Elizabeth Carter (1758)  
-- Marcus Aurelius, *Meditations*: George Long  
+- Marcus Aurelius, *Meditations*: George Long (1862)  
 - Seneca, *De Ira* (*Of Anger*): Aubrey Stewart (1889), in *Minor Dialogues Together with the Dialogue On Clemency* (George Bell & Sons)
 
 See **Sources & Citations** for full bibliographic keys. Quotation verification follows the Book 2 Source Verification Report. Popular internet “Stoic quotes” without primary-text verification are excluded.
 
-**Disclaimer — Not therapy, not mysticism**  
-This book is a philosophical practice journal. It is not psychotherapy, medical advice, trauma treatment, or a Jungian / mystical “shadow work” manual. If you are in crisis or need clinical care, contact a qualified professional or local emergency services.
+**Disclaimer — Read before use**
+
+**What this book is**  
+A philosophical practice journal and guided workbook based on Stoic ideas of judgment, responsibility, virtue, and deliberate action. It is educational and reflective. It is intended for adults who want structured self-examination, not entertainment padding or blank lined paper.
+
+**What this book is not**  
+- Not psychotherapy, counseling, coaching, or clinical treatment  
+- Not medical, psychiatric, or psychological advice  
+- Not a trauma-processing protocol or crisis intervention tool  
+- Not a diagnostic instrument (it does not identify disorders or conditions)  
+- Not a Jungian, mystical, occult, or “spiritual healing” shadow-work manual  
+- Not a substitute for licensed professional care  
+- Not a guarantee of any outcome, improvement, or emotional result  
+
+Results vary. Insight on the page is not the same as clinical care. If personal material in these exercises becomes overwhelming, stop and seek appropriate help.
+
+**If you need help now**  
+If you are in crisis, unsafe, or having thoughts of harming yourself or others, do not rely on this book. Contact a qualified professional, local emergency services, or a local crisis line immediately. In the United States, you can call or text **988** (Suicide & Crisis Lifeline). Outside the U.S., use your local emergency number or equivalent crisis services.
 
 **Integrity note**  
 Where this book uses modern workbook structures (logs, maps, commitments), those structures are **publishing-created frameworks**. They are not ancient Stoic texts. Classical teachings are distinguished from modern interpretation throughout.
@@ -1506,10 +1527,10 @@ These are **modern** books. They are not ancient Stoic texts.
 
 ## Page 109 — The Stoic Collection
 
-| Book | Focus |
+| Book | Title / focus |
 | --- | --- |
-| 1 | Foundations — judgment, control, assent |
-| **2 (you are here)** | **Self-examination — patterns, avoidance, accountability** |
+| 1 | *Foundations: Judgment, Control, and Assent* — install the method |
+| **2 (you are here)** | ***Stoic Shadow Work Journal*** — self-examination, patterns, accountability |
 | Later | New domains; same method family (SSOCR) |
 
 Keep your Personal Standard Card. The next book should change the pressure source — not reset your tools to zero.
