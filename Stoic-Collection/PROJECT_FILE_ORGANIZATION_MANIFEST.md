@@ -77,7 +77,7 @@ Stoic-Collection/
 | `01_SOURCE_OF_TRUTH/Series_Bible/MASTER SERIES BIBLE PROMPTv1.1.md` | `stoic_series/MASTER SERIES BIBLE PROMPTv1.1.md` | Series Bible creation prompt |
 | `01_SOURCE_OF_TRUTH/Series_Bible/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | `stoic_series/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | Active Series Bible v1.0 (self-declared) |
 | `01_SOURCE_OF_TRUTH/Design_Specification/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | `stoic_series/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | MDS creation prompt |
-| `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 1 — PROJECT BRIEF & BOOK INFORMATIONv1.0.md` | *(created 2026-08-18)* | Book 1 controlling brief; working title Option 1 pending human lock |
+| `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 1 — PROJECT BRIEF & BOOK INFORMATIONv1.0.md` | *(created 2026-08-18)* | Book 1 controlling brief; title locked 2026-08-18: *Stoic Foundations* |
 | `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | `stoic_series/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | Book 2 controlling brief |
 | `01_SOURCE_OF_TRUTH/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` | `04_OUTPUT/Series_Architecture/…` (promoted 2026-08-17) | CURRENT working catalog roadmap; subordinate to Series Bible |
 

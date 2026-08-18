@@ -2,7 +2,7 @@
 
 ## Version 1.0
 
-**Status:** CONTROLLING for Book 1 facts. Working title = Option 1 unless human selects Option 2 or 3 before MDS.
+**Status:** CONTROLLING for Book 1 facts. Title/subtitle **LOCKED 2026-08-18:** *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*.
 
 **Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.0 ACTIVE; THE STOIC COLLECTION — SERIES ARCHITECTURE v1.1 CURRENT (catalog roadmap only; does not outrank the Bible)
 
@@ -23,57 +23,39 @@ The Stoic Collection
 **Book Number:**\
 1
 
-**Working Title (Option 1 — recommended):**\
-Stoic Foundations Journal
+**Title:**\
+Stoic Foundations
 
-**Subtitle (Option 1 — recommended):**\
-A Guided Journey Through Judgment, Control & Assent
+**Subtitle:**\
+A Guided Workbook on Judgment, Control, and Assent
 
 **Format name (interior / architecture):**\
 Foundations guided workbook
 
 ---
 
-# TITLE OPTIONS
+# TITLE LOCK
 
-Book 1’s **domain job is locked**. The published title string was OPEN until this Brief (Architecture human B1; Bible §3.6). Three options were scored against the Master AI Role decision hierarchy: reader transformation → instructional effectiveness → usability/clarity → perceived premium value → series consistency → brand recognition → production efficiency → market discoverability.
+Book 1’s **domain job is locked**. The published title string was OPEN until this Brief (Architecture human B1; Bible §3.6). Human locked the string **2026-08-18** from a no-journal option set. Do not put “journal” in the title or subtitle.
 
-All three keep the same book. They do not change the job, format, or boundaries.
+**Locked title:** Stoic Foundations  
+**Locked subtitle:** A Guided Workbook on Judgment, Control, and Assent
 
-## Option 1 — Recommended working title
+MDS, cover, and KDP listing use this string. Interior format remains a foundations guided workbook.
 
-**Title:** Stoic Foundations Journal\
-**Subtitle:** A Guided Journey Through Judgment, Control & Assent
+**Why this string:** “Stoic” is in the title. Format-honest. Names the domain (foundations / method install) without stealing Book 2’s examination job.
 
-**Why it wins:** Same naming family as Book 2 (*Stoic [Domain] Journal* + “A Guided Journey Through…”). Signals Book 1’s job (foundations / method install) without stealing Book 2’s examination domain. “Journal” is the Collection’s commercial product word; interior remains a sequenced workbook. Highest series recognition with the already-shipping Book 2.
+**Not selected (same no-journal set):**
 
-**Trade-off:** “Journal” can imply a blank notebook. Subtitle and product type (medium-content guided workbook) must kill that reading. Book 2 already accepted this trade-off successfully.
+- *The Stoic Method* / *From Impression to Assent — A Guided Workbook* — names the job; drier; “method” is publisher language; KDP title-collision risk.
+- *Judgment, Control, and Assent* / *A Guided Stoic Workbook* — concept-forward; “Stoic” only in the subtitle.
 
-**Rejected alternatives inside this option:** *Stoic Foundations Workbook* as the Amazon title (format-honest, weaker Collection family with Book 2).
+**Superseded — do not use:**
 
-## Option 2
+- *Stoic Foundations Journal* / *A Guided Journey Through Judgment, Control & Assent* (original Brief working title)
+- *Foundations: Judgment, Control, and Assent* as the published title (legacy Book 2 product-text working string)
 
-**Title:** Stoic Foundations\
-**Subtitle:** A Guided Workbook on Judgment, Control, and Assent
-
-**Why it is strong:** Cleaner, more premium, format-honest. Still puts “Stoic” in the title. Concepts sit in the subtitle so the cover does not become a lecture.
-
-**Why it is second:** Breaks the Book 2 *Journal* naming family. Slightly weaker browse-keyword match for readers already trained to look for “journal.”
-
-## Option 3
-
-**Title:** Foundations: Judgment, Control, and Assent\
-**Subtitle:** A Guided Stoic Workbook for Daily Practice
-
-**Why it is strong:** Matches the current Book 2 product-text working string (series page / KDP listing). Least catalog-churn if the only goal is not to touch Book 2 files.
-
-**Why it is third:** “Stoic” is not in the title. Colon titles read academic. Discoverability last in the Role hierarchy still matters when two other options do the job better. Architecture already treated this string as working, not Permanent.
-
-## Title lock rule
-
-MDS, cover, and KDP listing use **Option 1** unless the human explicitly selects Option 2 or 3.
-
-If Option 1 or 2 is confirmed, Book 2 product text that still prints *Foundations: Judgment, Control, and Assent* must be aligned in the already-deferred SSW-1 pass. Do not silently rewrite Book 2 in this Brief.
+Book 2 product text that still prints *Foundations: Judgment, Control, and Assent* must be aligned in the deferred SSW-1 pass. Do not silently rewrite Book 2 in this Brief.
 
 ---
 
@@ -561,7 +543,7 @@ This Project Brief defines:
 - Constraints
 - Reference systems
 - Commercial objectives
-- Working title / subtitle (Option 1, with human override)
+- Title / subtitle (*Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*)
 
 It does NOT override the Master Series Bible.
 
@@ -589,9 +571,9 @@ Potential improvements should be flagged as:
 
 - Book number: 1
 - Domain job: install core method
-- Format: foundations guided workbook (commercial title may say Journal)
+- Format: foundations guided workbook (commercial title does not use Journal)
 - Physical defaults: 6×9, B&W, white, no bleed, ~120 pp, KDP
-- Working title/subtitle: Option 1
+- Title/subtitle: *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*
 - No Method Primer
 - No Book 2 examination spine
 - Reference system required
