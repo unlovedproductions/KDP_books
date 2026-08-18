@@ -7,7 +7,7 @@
 **Content Review case:** `#51158280`  
 **Status after these emails:** not for sale (missed 5-day reply), then still blocked as misleading title; separate print-file hold on spine text  
 
-This document is a **do-not-repeat** lock for The Stoic Collection. It is not a redesign of the old SKU.
+This document is a **do-not-repeat** lock for The Stoic Collection. It is not a redesign of the old SKU. Enforce these rules on every upload via [KDP PRESUBMIT COMPLIANCE AUDIT.md](KDP%20PRESUBMIT%20COMPLIANCE%20AUDIT.md).
 
 Official policy cited by KDP and reviewed for this audit:
 

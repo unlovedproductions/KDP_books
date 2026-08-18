@@ -1,5 +1,7 @@
 # BOOK 2 — KDP PREVIEWER & PHYSICAL PROOF CHECKLIST
 
+**Publish gate:** complete [`KDP PRESUBMIT COMPLIANCE AUDIT.md`](../../04_OUTPUT/Audits/KDP%20PRESUBMIT%20COMPLIANCE%20AUDIT.md) first. Any **FAIL** or open **HOLD** blocks upload.
+
 Agent cannot complete Amazon login, Online Previewer approval, or proof order. You do these in KDP.
 
 **Locked files for this pass**
@@ -25,7 +27,8 @@ Agent cannot complete Amazon login, Online Previewer approval, or proof order. Y
 - [ ] No margin/gutter collisions (text/lines into forbidden zone)  
 - [ ] No low-resolution images  
 - [ ] All fonts OK / embedded  
-- [ ] Spine text inside spine safe area (not wrapping to front/back)  
+- [ ] Spine text ≥0.0625" from left/right folds (not wrapping to front/back)  
+- [ ] Spine text ≥0.375" (9.6 mm) from top and bottom cover edges  
 - [ ] Barcode zone empty / KDP barcode not covering copy  
 - [ ] Front/back text ≥0.125" inside trim  
 - [ ] Previewer shows even page count  

@@ -82,6 +82,9 @@ Re-check after KDP shows exact print cost for 116 pages. Do not price below prin
 
 ## Do not
 
+- Publish until [`KDP PRESUBMIT COMPLIANCE AUDIT.md`](../../04_OUTPUT/Audits/KDP%20PRESUBMIT%20COMPLIANCE%20AUDIT.md) has no **FAIL** or open **HOLD**  
 - Check **low-content**  
+- Repeat a generic format word (journal, notebook, workbook, books) across title + subtitle + series  
 - Upload cover without barcode clearance zone  
+- Upload spine text closer than **0.375"** to the top or bottom cover edges  
 - Change page count after cover without regenerating cover wrap  
