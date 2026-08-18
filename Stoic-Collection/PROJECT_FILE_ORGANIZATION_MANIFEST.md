@@ -27,6 +27,7 @@ Stoic-Collection/
 ├── 01_SOURCE_OF_TRUTH/
 │   ├── Master_AI_Role_Prompt/
 │   ├── Series_Bible/
+│   ├── Series_Architecture/
 │   ├── Design_Specification/
 │   └── Other_Controlling_Sources/
 ├── 02_APPROVED/
@@ -76,7 +77,9 @@ Stoic-Collection/
 | `01_SOURCE_OF_TRUTH/Series_Bible/MASTER SERIES BIBLE PROMPTv1.1.md` | `stoic_series/MASTER SERIES BIBLE PROMPTv1.1.md` | Series Bible creation prompt |
 | `01_SOURCE_OF_TRUTH/Series_Bible/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | `stoic_series/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | Active Series Bible v1.0 (self-declared) |
 | `01_SOURCE_OF_TRUTH/Design_Specification/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | `stoic_series/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | MDS creation prompt |
+| `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 1 — PROJECT BRIEF & BOOK INFORMATIONv1.0.md` | *(created 2026-08-18)* | Book 1 controlling brief; working title Option 1 pending human lock |
 | `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | `stoic_series/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | Book 2 controlling brief |
+| `01_SOURCE_OF_TRUTH/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` | `04_OUTPUT/Series_Architecture/…` (promoted 2026-08-17) | CURRENT working catalog roadmap; subordinate to Series Bible |
 
 ### 02_APPROVED
 
@@ -112,7 +115,8 @@ Stoic-Collection/
 | `04_OUTPUT/Audits/BOOK 2 — SOURCE VERIFICATION REPORT.md` | `stoic_series/BOOK 2 — SOURCE VERIFICATION REPORT.md` | Source verification audit |
 | `04_OUTPUT/Audits/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | `stoic_series/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | Editorial Pass 1 audit |
 | `04_OUTPUT/Audits/SOURCE-OF-TRUTH AUDIT.md` | *(created post-organization)* | Controlling-document authority audit |
-| `04_OUTPUT/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` | *(present on disk at manifest draft time)* | Exists in tree; authority not established by this manifest |
+| `04_OUTPUT/Series_Architecture/README.md` | stub after 2026-08-17 promotion | Points to CURRENT architecture under SoT |
+| `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` | *(created post-organization)* | Architecture compliance audit |
 | `04_OUTPUT/Decision_Records/` | — | Empty placeholder |
 | `04_OUTPUT/Other_Outputs/` | — | Empty placeholder (PDFs kept with production toolchain under Working) |
 
@@ -121,7 +125,7 @@ Stoic-Collection/
 | Current path | Prior path | Notes |
 | --- | --- | --- |
 | `05_ARCHIVE/Superseded/SERIES_BIBLE.md` | `stoic_series/SERIES_BIBLE.md` | “Stoic Practice Series” bible; superseded by active Collection Bible |
-| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | `stoic_series/VOLUME_1_MPDS.md` | Provisional legacy Volume 1 MPDS |
+| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | `stoic_series/VOLUME_1_MPDS.md` | Retired non-live 2026-08-17; do not use as Book 1 MDS |
 | `05_ARCHIVE/Obsolete/` | — | Empty placeholder |
 | `05_ARCHIVE/Rejected/` | — | Empty placeholder |
 | `05_ARCHIVE/Historical/` | — | Empty placeholder |
@@ -151,7 +155,8 @@ Stoic-Collection/
 | Document content edits during organization | None |
 | Production tree | Kept intact under `03_WORKING/Other_Working_Materials/production/` (scripts + fonts + PDFs together) |
 | Duplicate PDFs into `04_OUTPUT/Other_Outputs/` | Not done (avoid duplication; regenerate path stays with scripts) |
-| Tooling left at repo root | `.venv-kdp/` |
+| Architecture document location | Promoted 2026-08-17 from `04_OUTPUT/Series_Architecture/` to `01_SOURCE_OF_TRUTH/Series_Architecture/` (human approved) |
+| VOLUME_1_MPDS | Retired as non-live 2026-08-17; remains in `05_ARCHIVE/Superseded/` with retirement banner |
 
 ---
 

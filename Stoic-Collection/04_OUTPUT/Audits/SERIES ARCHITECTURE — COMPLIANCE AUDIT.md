@@ -1,6 +1,6 @@
 # SERIES ARCHITECTURE — COMPLIANCE AUDIT
 
-**Audited document:** `04_OUTPUT/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md`  
+**Audited document:** `01_SOURCE_OF_TRUTH/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` (CURRENT as of 2026-08-17; previously `04_OUTPUT/Series_Architecture/`)  
 **Against:**  
 1. `01_SOURCE_OF_TRUTH/Series_Bible/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` (v1.0 ACTIVE)  
 2. STOIC COLLECTION SERIES ARCHITECTURE — MASTER PROMPT (canonical)  
@@ -9,7 +9,7 @@
 **Audit date:** 2026-08-14  
 **Auditor role:** Series Architect compliance pass  
 **Architecture version at audit start:** 1.0 PROPOSED  
-**Architecture version after remediation:** 1.1 PROPOSED  
+**Architecture version after remediation:** 1.1 CURRENT (promoted 2026-08-17)  
 
 **Scope:** Detect silent skips, silent changes/ignores of source requirements, missing human-confirmation items, authority/version errors, restored legacy decisions. Remediate architecture doc in the same pass where fixable without overriding the Series Bible.
 
@@ -180,23 +180,29 @@ Treating Shadow Work **position** as permanently LOCKED solely from Brief “Boo
 
 ## 10. REMAINING HUMAN CONFIRMATIONS (POST v1.1)
 
-1. Accept Series Architecture v1.1 as the **CURRENT working catalog roadmap** (still subordinate to Bible)?  
-2. Approve plan to **realign or formally retire** `VOLUME_1_MPDS.md` before Book 1 production?  
-3. Until Book 1 Brief exists, **allow** Book 2 product text to keep the working Foundations title string?
+**Resolved 2026-08-17**
 
-*(Book 1 title wording, Book 1 subtitle, Book 3 commissioning, and Journal-for-Men Brief timing are deferred per B1–B3 — not urgent locks.)*
+1. Accept Series Architecture v1.1 as CURRENT working catalog roadmap — **approved and promoted** to `01_SOURCE_OF_TRUTH/Series_Architecture/`.  
+2. Retire `VOLUME_1_MPDS.md` as non-live — **done**; fresh Book 1 Brief/MDS still to be created.
+
+**Still open (deferred to a separate chat)**
+
+3. Until Book 1 Brief exists, allow Book 2 product text to keep the working Foundations title string?
+
+*(Book 1 title wording, Book 1 subtitle, Book 3 commissioning, and Journal-for-Men Brief timing remain deferred per B1–B3.)*
 
 ---
 
-## 11. FILES TOUCHED BY REMEDIATION
+## 11. FILES TOUCHED BY REMEDIATION / PROMOTION
 
 | File | Action |
 | --- | --- |
-| `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` | Created (this file) |
-| `04_OUTPUT/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` | Updated to v1.1 |
+| `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` | Created (this file); promotion note 2026-08-17 |
+| `01_SOURCE_OF_TRUTH/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md` | CURRENT v1.1 (moved from `04_OUTPUT` 2026-08-17) |
+| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | Retirement banner 2026-08-17 |
 
 **Not modified:** Series Bible, Book 2 MDS/manuscript, master prompts.
 
 ---
 
-**STOP.** Compliance audit complete. Architecture remediation applied in companion edit.
+**STOP.** Compliance audit complete. Architecture promoted 2026-08-17.

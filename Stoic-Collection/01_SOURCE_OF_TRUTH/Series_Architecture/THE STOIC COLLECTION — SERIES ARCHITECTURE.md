@@ -4,11 +4,12 @@
 **Series:** The Stoic Collection  
 **Document type:** Series Architecture (catalog / reader-development roadmap)  
 **Version:** 1.1  
-**Status:** PROPOSED — not Source of Truth; does not outrank the Master Series Bible  
+**Status:** CURRENT — working catalog roadmap; Source of Truth for series architecture; **does not outrank** the Master Series Bible  
 **Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.0 ACTIVE; BOOK 2 PROJECT BRIEF v1.1; BOOK 2 MDS v1.0; PROJECT_FILE_ORGANIZATION_MANIFEST (APPROVED)  
 **Process prompt:** STOIC COLLECTION SERIES ARCHITECTURE — MASTER PROMPT (canonical)  
 **Not:** a manuscript, book MDS, Series Bible rewrite, or production file  
-**Revision 1.1:** Compliance audit remediation; human decisions B1–B3 applied; organization manifest registered. See `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`.
+**Revision 1.1:** Compliance audit remediation; human decisions B1–B3 applied; organization manifest registered. See `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`.  
+**Promotion 2026-08-17:** Human accepted v1.1 as CURRENT working roadmap and promoted this file into `01_SOURCE_OF_TRUTH/Series_Architecture/`. `VOLUME_1_MPDS.md` retired as non-live. Book 2 working Foundations title left for a separate chat.
 
 **Human instructions applied:**  
 
@@ -27,7 +28,7 @@
 
 ### SOURCE STATUS: PARTIALLY VERIFIED
 
-Authority is established for series identity, Book 2 product identity, Book 1 *domain job*, Shadow Work as developmental position 2 (post impact re-eval), shared method (SSOCR), signatures, open-ended catalog logic, and file organization rules. Material gaps remain until Book 1 Project Brief locks title/subtitle and until this Architecture is explicitly accepted as the working roadmap.
+Authority is established for series identity, Book 2 product identity, Book 1 *domain job*, Shadow Work as developmental position 2 (post impact re-eval), shared method (SSOCR), signatures, open-ended catalog logic, file organization rules, and this Architecture as the CURRENT working catalog roadmap (subordinate to the Series Bible). Material gaps remain until Book 1 Project Brief locks title/subtitle. Book 2 working Foundations title in product text is deferred to a separate pass.
 
 ### Authoritative sources used
 
@@ -54,7 +55,7 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 | Document                                 | Status             | Why quarantined                                                   |
 | ---------------------------------------- | ------------------ | ----------------------------------------------------------------- |
 | `05_ARCHIVE/Superseded/SERIES_BIBLE.md`  | SUPERSEDED         | “Stoic Practice Series”; fixed 5-volume spine; Book 2 = Adversity |
-| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | PROVISIONAL LEGACY | Foundations under old series name; must realign before reprint    |
+| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | RETIRED / NON-LIVE 2026-08-17 | Provisional Practice-Series Foundations MDS; do not use. Fresh Book 1 Brief/MDS required |
 
 
 
@@ -76,8 +77,9 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 | --------------------------------------------------------- | -------------------------------------------------- |
 | Exact Book 1 published title / subtitle                   | OPEN — deferred to Book 1 Project Brief (human B1) |
 | Closed founding catalog (fixed N books / full title list) | OPEN — Bible establishes open-ended Book 3+        |
-| Architecture doc acceptance as CURRENT working roadmap    | REQUIRES HUMAN CONFIRMATION                        |
-| VOLUME_1_MPDS realignment before Book 1 production        | REQUIRES HUMAN CONFIRMATION (Bible §0.2)           |
+| Architecture doc acceptance as CURRENT working roadmap    | RESOLVED 2026-08-17 — CURRENT; promoted to SoT     |
+| VOLUME_1_MPDS realignment before Book 1 production        | RESOLVED 2026-08-17 — retired as non-live          |
+| Working Foundations title in Book 2 product text          | OPEN — deferred to a separate chat                 |
 
 
 
@@ -150,7 +152,7 @@ Older/product sources print *Foundations: Judgment, Control, and Assent*. Curren
 
 ### SSW-2 — VOLUME_1_MPDS.md
 
-Provisional legacy Foundations under old series name. Quarantined. Bible §0.2 requires realignment before Book 1 manuscript finalization/reprint. **Do not use as live Book 1 MDS.**
+Provisional legacy Foundations under old series name. Quarantined. **Retired as non-live 2026-08-17.** Do not use as live Book 1 MDS. Fresh Book 1 Brief/MDS under The Stoic Collection required.
 
 ### SSW-3 — Organization manifest “NOT FOUND” (prior audit)
 
@@ -857,8 +859,8 @@ Enter official architecture only if: distinct purpose, distinct problem, distinc
 
 ## Unresolved Conflicts
 
-1. Soft operational: Book 2 product text prints working Foundations title until Book 1 Brief — see SSW-1 / human list item 3.
-2. VOLUME_1_MPDS still provisional legacy pending realignment — see SSW-2.
+1. Soft operational: Book 2 product text prints working Foundations title until Book 1 Brief — see SSW-1 / remaining human item (deferred to a separate chat).
+2. VOLUME_1_MPDS — **resolved 2026-08-17:** retired as non-live.
 
 
 
@@ -878,7 +880,7 @@ See Version Conflict Record (Book 1 title string).
 - Draft/archive not treated as current — **Yes**  
 - Version-sensitive decisions cite correct versions — **Yes**  
 - Missing metadata disclosed — **Yes**  
-- Material ambiguity identified — **Yes** (Architecture acceptance; VOLUME_1 realignment; working title until Brief)  
+- Material ambiguity identified — **Yes** (Book 1 title/subtitle at Brief; Book 2 working title string deferred)  
 - Organization manifest registered — **Yes** (MANIFEST-SRC APPROVED)  
 - B1–B3 human decisions applied — **Yes**  
 - Compliance audit recorded — **Yes**  
@@ -905,8 +907,8 @@ See Version Conflict Record (Book 1 title string).
 | MVCC = 1+2                             | Yes                  | Yes              | Yes            | Strategic                              | No              | No                   |
 | Defer Book 3                           | Human B2             | —                | Yes            | Direct (human)                         | No              | No                   |
 | Future Journal redesign                | Human B3 + Bible     | Yes              | Yes            | Accepted recommendation                | Fit conditional | Brief later          |
-| Accept Architecture as working roadmap | —                    | —                | —              | Process                                | —               | **Yes**              |
-| Realign VOLUME_1_MPDS                  | Bible §0.2           | Yes              | Yes            | Explicit                               | Legacy          | **Yes**              |
+| Accept Architecture as working roadmap | Human 2026-08-17     | —                | Yes            | Direct (human)                         | No              | Resolved — CURRENT   |
+| Retire VOLUME_1_MPDS                   | Bible §0.2 + human   | Yes              | Yes            | Direct (human)                         | Legacy          | Resolved — retired   |
 
 
 ---
@@ -935,46 +937,26 @@ See Version Conflict Record (Book 1 title string).
 
 # REQUIRES HUMAN CONFIRMATION
 
+### 1. Working Foundations title in Book 2 product text until Brief
 
-
-### 1. Accept Series Architecture v1.1 as working catalog roadmap
-
-- **Decision:** Treat this document as CURRENT working Series Architecture (still subordinate to Series Bible).  
-- **Why unresolved:** Status remains PROPOSED until you accept it.  
-- **Sources:** This document; COMPLY-SRC.  
-- **Current recommendation:** Accept as working roadmap; do not move into `01_SOURCE_OF_TRUTH` yet.  
-- **Exact question:** **Do you accept Series Architecture v1.1 as the CURRENT working catalog roadmap?**
-
-
-
-### 2. Realign or retire VOLUME_1_MPDS before Book 1 production
-
-- **Decision:** Plan to realign provisional legacy Volume 1 MDS to active Bible, or formally archive it as non-live.  
-- **Why unresolved:** Bible §0.2 requires realignment before Foundations manuscript finalization/reprint; not scheduled.  
-- **Sources:** BIBLE-SRC §0.2; SSW-2.  
-- **Current recommendation:** Archive-as-legacy + create new Book 1 Brief/MDS rather than patching Practice-Series file.  
-- **Exact question:** **Approve retiring** `VOLUME_1_MPDS.md` **as non-live and creating a fresh Book 1 Brief/MDS under The Stoic Collection?**
-
-
-
-### 3. Working Foundations title in Book 2 product text until Brief
-
-- **Decision:** Allow Book 2 series page / listing to keep *Foundations: Judgment, Control, and Assent* as working cross-sell until Book 1 Brief locks the real title.  
-- **Why unresolved:** Soft conflict SSW-1 remains operational.  
+- **Decision:** Whether Book 2 series page / listing may keep *Foundations: Judgment, Control, and Assent* as working cross-sell until Book 1 Brief locks the real title.  
+- **Why unresolved:** Soft conflict SSW-1 remains operational. Deferred by human 2026-08-17 to a separate chat.  
 - **Sources:** MS2-SRC; B1.  
 - **Current recommendation:** **Allow** until Brief; then align product text in one pass.  
 - **Exact question:** **Allow the working Foundations title to remain in Book 2 product text until the Book 1 Brief?**
 
-
+No other material architecture decisions require human confirmation.
 
 ### Resolved by human (no longer open locks)
 
 
-| Prior item                            | Resolution                                                            |
-| ------------------------------------- | --------------------------------------------------------------------- |
-| Lock Book 1 title now?                | **B1:** Defer to Book 1 Brief / source creation                       |
-| Commission Book 3 now?                | **B2:** Defer                                                         |
-| Commission Journal for Men Brief now? | **B3:** Future Expansion with complete redesign; not commissioned now |
+| Prior item                            | Resolution                                                                                          |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Lock Book 1 title now?                | **B1:** Defer to Book 1 Brief / source creation                                                     |
+| Commission Book 3 now?                | **B2:** Defer                                                                                       |
+| Commission Journal for Men Brief now? | **B3:** Future Expansion with complete redesign; not commissioned now                               |
+| Accept Architecture v1.1 as roadmap?  | **2026-08-17:** Approved; promoted to `01_SOURCE_OF_TRUTH/Series_Architecture/` as CURRENT          |
+| Retire VOLUME_1_MPDS?                 | **2026-08-17:** Retired as non-live. Fresh Book 1 Brief/MDS to be created under The Stoic Collection |
 
 
 ---
@@ -1062,12 +1044,12 @@ The smallest strong journey already approved by current sources is **Foundations
 
 | Field             | Value                                                                                                        |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ |
-| Path              | `Stoic-Collection/04_OUTPUT/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md`               |
-| Status            | PROPOSED (v1.1)                                                                                              |
-| Supersedes        | Architecture v1.0 (same path)                                                                                |
+| Path              | `Stoic-Collection/01_SOURCE_OF_TRUTH/Series_Architecture/THE STOIC COLLECTION — SERIES ARCHITECTURE.md`      |
+| Status            | CURRENT (v1.1) — working catalog roadmap; subordinate to Series Bible                                        |
+| Supersedes        | Architecture v1.0 PROPOSED at `04_OUTPUT/Series_Architecture/`                                               |
 | Companion audit   | `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`                                                 |
 | Must not override | MASTER SERIES BIBLE v1.0 ACTIVE                                                                              |
-| Next step         | Human confirmation list (accept roadmap; VOLUME_1 plan; working title in Book 2 text) → Book 1 Project Brief |
+| Next step         | Fresh Book 1 Project Brief / MDS. Book 2 working title string: separate chat.                                |
 
 
 **VERIFY THE SOURCES. ESTABLISH THE TRUTH SET. EXTRACT THE REQUIREMENTS. GOVERN THE UNCERTAINTY. PROVE THE ARCHITECTURE.**

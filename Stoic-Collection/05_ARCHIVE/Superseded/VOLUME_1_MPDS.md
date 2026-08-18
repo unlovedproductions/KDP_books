@@ -1,3 +1,13 @@
+# RETIRED — VOLUME_1_MPDS (non-live)
+
+**RETIRED / NON-LIVE — 2026-08-17**  
+Do **not** use this file as current Book 1 MDS, catalog evidence, or manuscript source.  
+It is provisional legacy under “The Stoic Practice Series” and a 5-volume spine.  
+Book 1 of **The Stoic Collection** requires a **new Project Brief and MDS** aligned to the active Series Bible and CURRENT Series Architecture.  
+Human approved retirement rather than realigning this file.
+
+---
+
 # Volume 1 — Master Publishing Design Specification
 
 **Series:** The Stoic Practice Series *(PROVISIONAL name)*  
