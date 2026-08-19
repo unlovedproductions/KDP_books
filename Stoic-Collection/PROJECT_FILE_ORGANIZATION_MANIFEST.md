@@ -104,7 +104,7 @@ Stoic-Collection/
 | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` | same under `stoic_series/` | Generated cover |
 | `03_WORKING/Other_Working_Materials/production/output/cover_dimensions.txt` | same under `stoic_series/` | Cover math sidecar |
 | `03_WORKING/Other_Working_Materials/production/output/interior_page_count.txt` | same under `stoic_series/` | Page-count sidecar |
-| `03_WORKING/Book_Blueprints/` | — | Empty placeholder |
+| `03_WORKING/Book_Blueprints/BOOK 1 — STOIC FOUNDATIONS — MASTER PUBLISHING DESIGN SPECIFICATION.md` | *(created 2026-08-18)* | Book 1 MDS v1.0 — architecture complete; working until promoted to `02_APPROVED/Book_Blueprints/` |
 | `03_WORKING/Manuscripts/` | — | Empty placeholder |
 | `03_WORKING/Product_Specifications/` | — | Empty placeholder |
 
