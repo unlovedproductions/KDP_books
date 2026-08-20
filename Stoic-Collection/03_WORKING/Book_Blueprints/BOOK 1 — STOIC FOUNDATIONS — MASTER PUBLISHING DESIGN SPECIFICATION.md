@@ -8,8 +8,8 @@
 **Subtitle:** A Guided Workbook on Judgment, Control, and Assent  
 **Document type:** Book MDS — authoritative for manuscript production  
 **Version:** 1.0  
-**Status:** Architecture complete — ready for manuscript after source-verification pass. **Working** until human promotes to `02_APPROVED/Book_Blueprints/`.  
-**Not a manuscript.** Do not treat examples below as finished prose.
+**Status:** Architecture complete. Quote table filled from `04_OUTPUT/Audits/BOOK 1 — SOURCE VERIFICATION REPORT.md` (2026-08-20). **Working** until human promotes to `02_APPROVED/Book_Blueprints/`.  
+**Not a manuscript.** Do not treat examples below as finished prose. Do not begin manuscript until this MDS is Approved.
 
 **Do not use:** `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` (retired / non-live).
 
@@ -47,7 +47,7 @@
 | ID | Assumption | Implication |
 | --- | --- | --- |
 | A1 | Author/imprint legal line = UnlovedProductions until a personal author name is supplied | Use UnlovedProductions on title/copyright; do not invent a pen name |
-| A2 | Translation default follows Series Bible preference pending license check | Manuscript must run `[[VERIFY COPYRIGHT]]` / **REQUIRES SOURCE VERIFICATION** before final quotes |
+| A2 | Translation set locked US PD (no modern-license purchase) | Direct quotes: George Long (1890) for Epictetus *Enchiridion*/*Discourses* and Marcus *Meditations*; Aubrey Stewart (1889) for Seneca *De Ira*. Do not quote Hard / Hays / Graver & Long *Letters* without a later license. Typesetting: re-diff §2 blocks against source URLs (`[[VERIFY COPYRIGHT]]` as QC, not as an open translator choice). |
 | A3 | House production fonts follow Book 2 typesetter (Liberation family) unless a later production lock changes them | Typesetting pass may swap to another Bible-legal stack; labels stay small-cap/sans |
 | A4 | Amazon title field = *Stoic Foundations* only; subtitle carries *Workbook* | Do not duplicate “Workbook” / “Journal” / “Notebook” in the title field (`[[VERIFY KDP]]` against Collection content-review lessons) |
 
@@ -390,7 +390,7 @@ Slogan familiarity → notice impression → separate fact from judgment → sor
 
 | P | Purpose | Action | Obj | Type | Dens | Int | Why |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 106 | Primary texts | R | 3–5 recommended editions **REQUIRES SOURCE VERIFICATION** for ISBNs/years | T | Mid | R | Next study |
+| 106 | Primary texts | R | Long 1890 Epictetus/Marcus; Stewart 1889 *De Ira* (Gutenberg #64576); Hard/Hays as optional purchase not quote sources | T | Mid | R | Next study |
 | 107 | Scholarly / reliable introductions | R | 3–5 titles with one-line why — after *this* book | T | Mid | R | Depth |
 | 108 | Modern practice (labeled) + boundary | R | 2–3 practice books clearly separated; “not primary sources” | T | Mid | R | Clarity |
 
@@ -520,23 +520,33 @@ Manuscript AI must tag every prompt. **Banned repeats:** five wordings of “wha
 
 ### Verification mandate
 
-All quotations: **REQUIRES SOURCE VERIFICATION** against primary text + chosen translation before typesetting.  
-Popular internet “Stoic quotes”: **exclude** unless verified with work + section ID.
+Chapter-opening quotations are **LOCKED** to the approved blocks below (Book 1 Source Verification Report, 2026-08-20). Typesetting must re-diff each block against the report’s source URLs (OCR).  
+Popular internet “Stoic quotes”: **exclude** unless they match a locked block with work + section ID + translator.  
+Do not mix translators in one block. Do not invent additional primary-source keys.
 
-### Example quote slots (NOT manuscript quotes — targets for verification)
+### Locked chapter-opening quotes (manuscript must use these texts)
 
-| Ch | Intended thematic target | Candidate authors | Status |
-| --- | --- | --- | --- |
-| 1 | Practice vs discourse | Epictetus | REQUIRES SOURCE VERIFICATION |
-| 2 | Impressions | Epictetus | REQUIRES SOURCE VERIFICATION |
-| 3 | Opinions/judgments disturb | Epictetus *Ench.* lineage | REQUIRES SOURCE VERIFICATION |
-| 4 | What is up to us | Epictetus *Enchiridion* 1 region | REQUIRES SOURCE VERIFICATION |
-| 5 | Assent / use of impressions | Epictetus *Discourses* | REQUIRES SOURCE VERIFICATION |
-| 6 | Responsibility / self-correction without rage at self | Seneca / Epictetus | REQUIRES SOURCE VERIFICATION |
-| 7 | Virtue in action | Marcus / virtue formula | REQUIRES SOURCE VERIFICATION |
-| 8 | Evening / daily examination | Seneca letters tradition | REQUIRES SOURCE VERIFICATION |
+Max one short quote per chapter open. Attribute translator + year on the page. Citation keys: report §6.
 
-If verification fails for a slot: **omit quote**.
+| Ch | Theme | Citation | Key | Status | Approved text |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Practice vs discourse | Epictetus, *Enchiridion* 46, trans. George Long (1890) | [S10] | APPROVED | On no occasion call yourself a philosopher, and do not speak much among the uninstructed about theorems (philosophical rules, precepts): but do that which follows from them. For example at a banquet do not say how a man ought to eat, but eat as you ought to eat. |
+| 2 | Impressions | Epictetus, *Enchiridion* 1, trans. George Long (1890) | [S3] | APPROVED | Straightway then practise saying to every harsh appearance, You are an appearance, and in no manner what you appear to be. |
+| 3 | Opinions/judgments disturb | Epictetus, *Enchiridion* 5, trans. George Long (1890) | [S2] | APPROVED | Men are disturbed not by the things which happen, but by the opinions about the things. |
+| 4 | What is up to us | Epictetus, *Enchiridion* 1, trans. George Long (1890) | [S1] | APPROVED | Of things some are in our power, and others are not. In our power are opinion (ὑπόληψις), movement towards a thing (ὁρμή), desire, aversion (ἔκκλισις, turning from a thing); and in a word, whatever are our own acts: not in our power are the body, property, reputation, offices (magisterial power), and in a word, whatever are not our own acts. |
+| 5 | Assent / use of impressions | Epictetus, *Discourses* 2.18, trans. George Long (1890) | [S11] | APPROVED | But in the first place be not hurried away by the rapidity of the appearance, but say, Appearances, wait for me a little: let me see who you are, and what you are about: let me put you to the test. |
+| 6 | Responsibility without self-abuse | Epictetus, *Enchiridion* 5, trans. George Long (1890) | [S2] | APPROVED | It is the act of an ill-instructed man to blame others for his own bad condition; it is the act of one who has begun to be instructed, to lay the blame on himself; and of one whose instruction is completed, neither to blame another, nor himself. |
+| 7 | Virtue in action | Marcus Aurelius, *Meditations* 9.16, trans. George Long | [S5] | APPROVED | Not in passivity, but in activity lie the evil and the good of the rational social animal, just as his virtue and his vice lie not in passivity, but in activity. |
+| 8 | Evening examination | Seneca, *De Ira* (*Of Anger*) 3.36, trans. Aubrey Stewart (1889) | [S7] | APPROVED | It was the custom of Sextius when the day was over, and he had betaken himself to rest, to inquire of his spirit: “What bad habit of yours have you cured to-day? what vice have you checked? in what respect are you better?” |
+
+**Shorter printable options (same citation; do not blend with another translator):**
+
+- Ch 1: Do you also show not your theorems to the uninstructed, but show the acts which come from their digestion.
+- Ch 4: Of things some are in our power, and others are not.
+- Ch 6 alt (only if layout must avoid a second *Ench.* 5 excerpt): Seneca, *De Ira* 3.36, Stewart [S7] — I pardon you this time: see that you never do that anymore?
+- Ch 8 optional lesson excerpt (not a second epigraph unless layout allows): I pass the whole day in review before myself, and repeat all that I have said and done: I conceal nothing from myself, and omit nothing.
+
+**Labels required in lesson, not in the quote block:** Control Sort “my share” and SSOCR are publishing-created. Series Evening Examination form is publishing methodology. “Four virtues as action tests” is series pedagogy; cardinal-virtue names rest on [S6], not on *Med.* 9.16 alone.
 
 ### Modern interpretation labeling
 
@@ -588,15 +598,24 @@ Include only these (≈16 entries). Each follows Series Bible entry structure.
 **Pages:** 101–105.  
 **Method:** Series hybrid — interior quote attribution + keyed bibliography `[S1]…`.
 
-### Source classes to populate during manuscript (do not invent now)
+### Source classes (locked cores; manuscript lists only what it actually uses)
 
-**Primary (expected):**
+**Primary (direct-quote set):**
 
-- Epictetus, *Enchiridion* / *Discourses* — translation TBD pending `[[VERIFY COPYRIGHT]]`  
-- Marcus Aurelius, *Meditations* — translation TBD  
-- Seneca, selected *Letters* / essays on self-examination — translation TBD  
+- Epictetus, *Enchiridion* / *Discourses* — George Long (1890) `[S1]` `[S2]` `[S3]` `[S4]` `[S10]` `[S11]` `[S14]`  
+- Marcus Aurelius, *Meditations* — George Long `[S5]`  
+- Seneca, *De Ira* (*Of Anger*) 3.36 — Aubrey Stewart (1889) `[S7]`  
+- Do not quote Seneca *Letters* unless a later verification entry is added. Do not quote Hard / Hays.
 
-**Scholarly secondary (as used):** only those actually consulted — e.g. standard handbooks (Sellars, Brennan, Graver, Long). List only if used. **REQUIRES SOURCE VERIFICATION** of bibliographic details.
+**Scholarly secondary (bibliographic cores verified 2026-08-20; list only if used):**
+
+- John Sellars, *Stoicism* (2006 / 2nd ed.) `[S6]`  
+- Tad Brennan, *The Stoic Life* (OUP, 2005) `[S6]`  
+- Margaret Graver, *Stoicism and Emotion* (Chicago, 2007) `[S8]`  
+- A. A. Long, *Epictetus: A Stoic and Socratic Guide to Life* (OUP, 2002) `[S9]`  
+- SEP “Epictetus” `[S12]`; IEP “Stoic Ethics” `[S13]`  
+
+ISBN/year strings: copy from the Source Verification Report §5. Do not invent.
 
 **Modern research:** Not required. If manuscript makes a behavioral-science claim, add a real citation or delete the claim.
 
@@ -633,6 +652,8 @@ Include only these (≈16 entries). Each follows Series Bible entry structure.
 
 **Ordering:** Primary → Scholarship → Modern practice.
 
+**Locked cores (from Source Verification Report §5):** Long 1890; Stewart 1889 Gutenberg #64576; Sellars; Brennan 2005; Graver 2007; A. A. Long 2002. Modern-practice subsection only: Irvine *A Guide to the Good Life* (OUP, 2008); Robertson *How to Think Like a Roman Emperor* (St. Martin’s, 2019) — labeled not primary. Hays 2002 optional as modern English Marcus — **do not quote**.
+
 **Relationship to Sources & Citations:** Citations = works used; Further Reading = recommended next.
 
 ---
@@ -655,12 +676,12 @@ Short entries · plain English · classical vs modern vs publishing callouts · 
 
 | Check | Status |
 | --- | --- |
-| Quote pathway exists | PASS — verification slots assigned; omit-if-fail rule |
+| Quote pathway exists | PASS — eight chapter openings APPROVED 2026-08-20 |
 | Philosophical claims supportable | PASS — limited to standard Stoic roster |
 | Classical vs modern distinguishable | PASS — SSOCR/tools labeled publishing |
 | Publishing frameworks not attributed to ancients | PASS — p.100 + §9A |
-| Reference system completable | PASS — if verification pass done before lock |
-| No fabricated sources in MDS | PASS — bibliographic details deferred to verification |
+| Reference system completable | PASS — verification report is the citation pack |
+| No fabricated sources in MDS | PASS — quote texts and cores taken from the 2026-08-20 report |
 
 ---
 
@@ -921,8 +942,8 @@ Pass §15 tests + Series Bible quality standards + Brief success sentence:
 
 ### Residual manuscript-phase tasks (not architecture gaps)
 
-1. Quote verification pass  
-2. Bibliography completion from works actually used  
+1. Quote verification pass — **DONE** 2026-08-20 (`BOOK 1 — SOURCE VERIFICATION REPORT.md`); table filled in this MDS  
+2. Bibliography completion from works actually used (manuscript)  
 3. Font finalization in typesetting  
 4. KDP gutter confirmation at export  
 5. Author personal name if desired beyond UnlovedProductions  
@@ -933,9 +954,11 @@ Pass §15 tests + Series Bible quality standards + Brief success sentence:
 
 # STOP CONDITION
 
-This MDS is complete.
+Architecture and quote lock are complete.
 
-**Do not begin manuscript production in this phase.**
+**Human gate:** promote this MDS to `02_APPROVED/Book_Blueprints/` before manuscript production.
+
+**Do not begin manuscript production while this file remains Working.**
 
 Authority parents used:
 
