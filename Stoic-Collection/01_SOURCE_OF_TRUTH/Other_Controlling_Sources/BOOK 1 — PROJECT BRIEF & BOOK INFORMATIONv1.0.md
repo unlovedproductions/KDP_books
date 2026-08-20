@@ -601,3 +601,15 @@ It must provide a clear and credible pathway for the reader to understand:
 The reader should leave holding tools, not impressions of wisdom.
 
 This system must feel like an integrated part of a premium reading experience, not an academic appendix and not a blank notebook with a Stoic cover.
+
+---
+
+# SOURCE VERIFICATION PASS
+
+**Date:** 2026-08-20  
+**Verdict:** **PASS.** Load-bearing classical claims in this Brief match verified primary loci. Publishing-created frameworks (SSOCR, Control Sort “my share,” series Evening Examination wording) are already correctly labeled as non-ancient. CBT, if used, remains a labeled modern note. No fabricated quotations appear in this Brief. No Brief doctrine was rewritten.
+
+**Citation pack** (approved quote blocks, translator lock, citation keys, Further Reading cores):  
+`04_OUTPUT/Audits/BOOK 1 — SOURCE VERIFICATION REPORT.md`
+
+Do not insert unverified quotes into this Brief. MDS and manuscript must use only APPROVED blocks from that report. Unverified items remain **REQUIRES SOURCE VERIFICATION** until they appear there.

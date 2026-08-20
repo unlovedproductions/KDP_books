@@ -113,6 +113,7 @@ Stoic-Collection/
 | Current path | Prior path | Notes |
 | --- | --- | --- |
 | `04_OUTPUT/Audits/BOOK 2 — SOURCE VERIFICATION REPORT.md` | `stoic_series/BOOK 2 — SOURCE VERIFICATION REPORT.md` | Source verification audit |
+| `04_OUTPUT/Audits/BOOK 1 — SOURCE VERIFICATION REPORT.md` | *(created 2026-08-20)* | Book 1 citation pack + Brief source-verification PASS |
 | `04_OUTPUT/Audits/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | `stoic_series/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | Editorial Pass 1 audit |
 | `04_OUTPUT/Audits/SOURCE-OF-TRUTH AUDIT.md` | *(created post-organization)* | Controlling-document authority audit |
 | `04_OUTPUT/Series_Architecture/README.md` | stub after 2026-08-17 promotion | Points to CURRENT architecture under SoT |
