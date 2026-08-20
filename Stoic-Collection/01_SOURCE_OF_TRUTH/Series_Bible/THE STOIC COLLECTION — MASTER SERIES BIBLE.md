@@ -3,10 +3,11 @@
 **Publisher:** UnlovedProductions  
 **Series:** The Stoic Collection  
 **Document type:** Permanent series source of truth  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** ACTIVE — governs all titles in The Stoic Collection  
 **Not:** a manuscript, book outline, or book-specific blueprint  
 **Authority parents:** MASTER AI ROLE PROMPT v1.1; MASTER SERIES BIBLE PROMPT v1.1  
+**Changelog 1.1 (2026-08-18):** §0.2 — `VOLUME_1_MPDS.md` retired non-live; Book 1 published title locked at Book 1 Brief (book-level, not a series Permanent). No change to SSOCR, signatures, or §3.6 founding logic.  
 
 **Decision hierarchy (inherited):**  
 1. Reader transformation → 2. Instructional effectiveness → 3. Usability/clarity → 4. Perceived premium value → 5. Series consistency → 6. Brand recognition → 7. Production efficiency → 8. Market discoverability  
@@ -34,7 +35,8 @@ A book-level **Master Publishing Design Specification (MDS)** is required before
 | Prior artifact | Status under this Bible |
 | --- | --- |
 | `SERIES_BIBLE.md` (“The Stoic Practice Series”) | **SUPERSEDED** for series naming, catalog order, and permanent brand identity. Useful production/citation patterns may be reused only if restated here. |
-| `VOLUME_1_MPDS.md` | **PROVISIONAL LEGACY** for any Volume 1 titled *Foundations*. Must be realigned to this Bible before manuscript finalization or reprint. |
+| `VOLUME_1_MPDS.md` | **RETIRED / NON-LIVE** (2026-08-17). Do not realign. Do not use as live Book 1 MDS. Book 1 of The Stoic Collection requires the Book 1 Project Brief and a fresh MDS. |
+| Book 1 published title / subtitle | **BOOK-LEVEL (not a series Permanent).** Locked by Book 1 Project Brief v1.0 (2026-08-18): *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*. §3.6 still locks domain job only. |
 | Prior catalog Book 2 = *Adversity* | **SUPERSEDED**. Book 2 is defined by the Book 2 Project Brief as *Stoic Shadow Work Journal*. |
 
 **Resolution principle:** The official series name is **The Stoic Collection**. No future MDS may use “The Stoic Practice Series” as the published series name.

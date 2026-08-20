@@ -5,12 +5,13 @@
 **Document type:** Series Architecture (catalog / reader-development roadmap)  
 **Version:** 1.1  
 **Status:** CURRENT — working catalog roadmap; Source of Truth for series architecture; **does not outrank** the Master Series Bible  
-**Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.0 ACTIVE; BOOK 1 PROJECT BRIEF v1.0; BOOK 2 PROJECT BRIEF v1.1; BOOK 2 MDS v1.0; PROJECT_FILE_ORGANIZATION_MANIFEST (APPROVED)  
+**Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.1 ACTIVE; BOOK 1 PROJECT BRIEF v1.0; BOOK 2 PROJECT BRIEF v1.1; BOOK 2 MDS v1.0; PROJECT_FILE_ORGANIZATION_MANIFEST (APPROVED)  
 **Process prompt:** STOIC COLLECTION SERIES ARCHITECTURE — MASTER PROMPT (canonical)  
 **Not:** a manuscript, book MDS, Series Bible rewrite, or production file  
 **Revision 1.1:** Compliance audit remediation; human decisions B1–B3 applied; organization manifest registered. See `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`.  
 **Promotion 2026-08-17:** Human accepted v1.1 as CURRENT working roadmap and promoted this file into `01_SOURCE_OF_TRUTH/Series_Architecture/`. `VOLUME_1_MPDS.md` retired as non-live. Book 2 working Foundations title left for a separate chat.  
-**Title lock 2026-08-18:** Book 1 published title/subtitle locked by Book 1 Brief: *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*. Book 2 product-text alignment remains SSW-1.
+**Title lock 2026-08-18:** Book 1 published title/subtitle locked by Book 1 Brief: *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*. Book 2 product-text alignment remains SSW-1.  
+**Audit 2026-08-18:** Series Bible and Architecture audit — register currency (OPEN-001 resolved); Bible v1.1 §0.2 lag fix. No catalog redesign.
 
 **Human instructions applied:**  
 
@@ -37,10 +38,11 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 | Source ID      | Document                                             | Version             | Date / status            | Authority         | Current?                    | Used?          | Notes                                               |
 | -------------- | ---------------------------------------------------- | ------------------- | ------------------------ | ----------------- | --------------------------- | -------------- | --------------------------------------------------- |
 | ROLE-SRC       | MASTER AI ROLE PROMPTv1.1.md                         | v1.1                | Process prompt           | Hierarchy #1      | Yes                         | Yes            | Decision hierarchy, series thinking, quality rules  |
-| BIBLE-SRC      | THE STOIC COLLECTION — MASTER SERIES BIBLE.md        | v1.0 ACTIVE         | ACTIVE                   | Hierarchy #2      | Yes                         | Yes            | Primary series SoT                                  |
+| BIBLE-SRC      | THE STOIC COLLECTION — MASTER SERIES BIBLE.md        | v1.1 ACTIVE         | ACTIVE                   | Hierarchy #2      | Yes                         | Yes            | Primary series SoT                                  |
 | BRIEF1-SRC     | BOOK 1 — PROJECT BRIEF & BOOK INFORMATIONv1.0.md     | v1.0                | Controlling Book 1 facts | Hierarchy #3      | Yes                         | Yes            | Book 1 title/identity/format locked 2026-08-18      |
 | BRIEF2-SRC     | BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md     | v1.1                | Controlling Book 2 facts | Hierarchy #3      | Yes                         | Yes            | Book 2 title/identity/format; numbering evidence    |
 | MDSPROMPT-SRC  | MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md | v1.1                | Process prompt           | Hierarchy #4      | Yes                         | Secondary      | Book-level process; not catalog SoT                 |
+| MDS1-SRC       | BOOK 1 — STOIC FOUNDATIONS — … MDS.md                | v1.0 Working        | Architecture complete    | Working evidence  | Not Approved                | Yes (evidence) | Method-install architecture; not series SoT         |
 | MDS2-SRC       | BOOK 2 — … MASTER PUBLISHING DESIGN SPECIFICATION.md | v1.0                | Architecture complete    | Hierarchy #5      | Yes                         | Yes            | Book 2 architecture evidence                        |
 | MS2-SRC        | BOOK 2 manuscript + PRODUCTION LOCKS / KDP LISTING   | 2026-08-12 locks    | Approved product text    | Evidence only     | Yes for Book 2 print claims | Yes (evidence) | Working Foundations title string — not Bible-locked |
 | MANIFEST-SRC   | PROJECT_FILE_ORGANIZATION_MANIFEST.md                | APPROVED 2026-08-14 | Living org record        | Organization only | Yes                         | Yes            | Paths/placement; **not** content authority          |
@@ -57,7 +59,7 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 | Document                                 | Status             | Why quarantined                                                   |
 | ---------------------------------------- | ------------------ | ----------------------------------------------------------------- |
 | `05_ARCHIVE/Superseded/SERIES_BIBLE.md`  | SUPERSEDED         | “Stoic Practice Series”; fixed 5-volume spine; Book 2 = Adversity |
-| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | RETIRED / NON-LIVE 2026-08-17 | Provisional Practice-Series Foundations MDS; do not use. Fresh Book 1 Brief/MDS required |
+| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | RETIRED / NON-LIVE 2026-08-17 | Provisional Practice-Series Foundations MDS; do not use. Book 1 Brief exists; MDS is in Working. |
 
 
 
@@ -159,7 +161,7 @@ Book 1 Brief locked *Stoic Foundations* / *A Guided Workbook on Judgment, Contro
 
 ### SSW-2 — VOLUME_1_MPDS.md
 
-Provisional legacy Foundations under old series name. Quarantined. **Retired as non-live 2026-08-17.** Do not use as live Book 1 MDS. Fresh Book 1 Brief/MDS under The Stoic Collection required.
+Provisional legacy Foundations under old series name. Quarantined. **Retired as non-live 2026-08-17.** Do not use as live Book 1 MDS. Book 1 Brief v1.0 exists; Book 1 MDS v1.0 exists in `03_WORKING/Book_Blueprints/` (not Approved). Bible v1.1 §0.2 matches retirement.
 
 ### SSW-3 — Organization manifest “NOT FOUND” (prior audit)
 
@@ -192,11 +194,12 @@ Superseded by APPROVED `Stoic-Collection/PROJECT_FILE_ORGANIZATION_MANIFEST.md` 
 | BRIEF2-003 | BRIEF2-SRC | v1.1       | Specs              | 6×9, B&W, white, no bleed, ~120 pp, premium guided workbook, KDP                                                                                                                                      | DESIGN GUIDANCE       | P1       | Page count architectural        | Book 2 format                               |
 | MDS2-001   | MDS2-SRC   | v1.0       | §1                 | Book 2 domain = unexamined patterns / avoidance / self-deception; must not steal Book 1 method-install job or future adversity external-blow job                                                      | MANDATORY             | P0       | None                            | Differentiation Book 1/2/3                  |
 | MDS2-002   | MDS2-SRC   | v1.0       | A1                 | Method Primer enables late entry at Book 2                                                                                                                                                            | STRATEGIC             | P1       | None                            | Independence                                |
-| ARCH-001   | ARCHPROMPT | —          | §27                | Collection must contain genuine Foundations as official starting point                                                                                                                                | MANDATORY             | P0       | Title open                      | Book 1                                      |
+| ARCH-001   | ARCHPROMPT | —          | §27                | Collection must contain genuine Foundations as official starting point                                                                                                                                | MANDATORY             | P0       | Title locked at Brief 2026-08-18 | Book 1                                      |
 | ARCH-002   | ARCHPROMPT | —          | §47                | Do not treat prior target book count as binding unless Bible locks it                                                                                                                                 | MANDATORY             | P0       | None                            | Book count                                  |
-| OPEN-001   | —          | —          | —                  | Exact Book 1 published title                                                                                                                                                                          | OPEN                  | P0       | Deferred to Book 1 Brief (B1)   | Branding                                    |
+| BRIEF1-001 | BRIEF1-SRC | v1.0       | ID                 | Book 1 title *Stoic Foundations*; subtitle *A Guided Workbook on Judgment, Control, and Assent*; Book Number 1                                                                                        | MANDATORY             | P0       | None                            | Book 1 identity                             |
+| OPEN-001   | BRIEF1-SRC | v1.0       | ID                 | Exact Book 1 published title                                                                                                                                                                          | RESOLVED 2026-08-18   | P0       | Locked: *Stoic Foundations*     | Branding                                    |
 | OPEN-002   | —          | —          | —                  | Approved Book 3+ titles and order                                                                                                                                                                     | OPEN                  | P1       | Briefs; B2 defers commissioning | Future catalog                              |
-| HUM-001    | Human B1   | 2026-08-14 | —                  | Book 1 job locked; title at Brief                                                                                                                                                                     | MANDATORY (process)   | P0       | None                            | Book 1 governance                           |
+| HUM-001    | Human B1   | 2026-08-14 | —                  | Book 1 job locked; title locked 2026-08-18 by Book 1 Brief (*Stoic Foundations*)                                                                                                                      | MANDATORY (process)   | P0       | None                            | Book 1 governance                           |
 | HUM-002    | Human B1   | 2026-08-14 | —                  | Shadow Work position = max-impact placement per Bible + architect                                                                                                                                     | MANDATORY (process)   | P0       | None                            | Book 2 position                             |
 | HUM-003    | Human B2   | 2026-08-14 | —                  | Defer Book 3 commissioning                                                                                                                                                                            | MANDATORY (process)   | P0       | None                            | Future books                                |
 | HUM-004    | Human B3   | 2026-08-14 | —                  | New Journal for Men = Future Expansion with full redesign                                                                                                                                             | MANDATORY (process)   | P0       | None                            | Future Journal                              |
@@ -881,7 +884,7 @@ See Version Conflict Record (Book 1 title string).
 
 # FINAL SOURCE AUDIT (checklist)
 
-- Newest identifiable authoritative series SoT used: Bible v1.0 ACTIVE — **Yes**  
+- Newest identifiable authoritative series SoT used: Bible v1.1 ACTIVE — **Yes**  
 - Authority established rather than assumed — **Yes** (with PARTIALLY VERIFIED status)  
 - Superseded sources quarantined — **Yes**  
 - Draft/archive not treated as current — **Yes**  
@@ -1055,7 +1058,7 @@ The smallest strong journey already approved by current sources is **Foundations
 | Status            | CURRENT (v1.1) — working catalog roadmap; subordinate to Series Bible                                        |
 | Supersedes        | Architecture v1.0 PROPOSED at `04_OUTPUT/Series_Architecture/`                                               |
 | Companion audit   | `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`                                                 |
-| Must not override | MASTER SERIES BIBLE v1.0 ACTIVE                                                                              |
+| Must not override | MASTER SERIES BIBLE v1.1 ACTIVE                                                                              |
 | Next step         | Book 1 MDS. SSW-1: align Book 2 product text to *Stoic Foundations*.                                         |
 
 

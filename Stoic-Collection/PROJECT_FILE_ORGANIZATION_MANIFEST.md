@@ -75,7 +75,7 @@ Stoic-Collection/
 | --- | --- | --- |
 | `01_SOURCE_OF_TRUTH/Master_AI_Role_Prompt/MASTER AI ROLE PROMPTv1.1.md` | `stoic_series/MASTER AI ROLE PROMPTv1.1.md` | Governing role prompt |
 | `01_SOURCE_OF_TRUTH/Series_Bible/MASTER SERIES BIBLE PROMPTv1.1.md` | `stoic_series/MASTER SERIES BIBLE PROMPTv1.1.md` | Series Bible creation prompt |
-| `01_SOURCE_OF_TRUTH/Series_Bible/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | `stoic_series/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | Active Series Bible v1.0 (self-declared) |
+| `01_SOURCE_OF_TRUTH/Series_Bible/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | `stoic_series/THE STOIC COLLECTION — MASTER SERIES BIBLE.md` | Active Series Bible v1.1 (self-declared); §0.2 lag fix 2026-08-18 |
 | `01_SOURCE_OF_TRUTH/Design_Specification/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | `stoic_series/MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md` | MDS creation prompt |
 | `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 1 — PROJECT BRIEF & BOOK INFORMATIONv1.0.md` | *(created 2026-08-18)* | Book 1 controlling brief; title locked 2026-08-18: *Stoic Foundations* |
 | `01_SOURCE_OF_TRUTH/Other_Controlling_Sources/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | `stoic_series/BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md` | Book 2 controlling brief |
@@ -116,7 +116,8 @@ Stoic-Collection/
 | `04_OUTPUT/Audits/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | `stoic_series/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | Editorial Pass 1 audit |
 | `04_OUTPUT/Audits/SOURCE-OF-TRUTH AUDIT.md` | *(created post-organization)* | Controlling-document authority audit |
 | `04_OUTPUT/Series_Architecture/README.md` | stub after 2026-08-17 promotion | Points to CURRENT architecture under SoT |
-| `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` | *(created post-organization)* | Architecture compliance audit |
+| `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` | *(created post-organization)* | Architecture compliance audit (open-list superseded 2026-08-18) |
+| `04_OUTPUT/Audits/SERIES BIBLE AND ARCHITECTURE AUDIT.md` | *(created 2026-08-18)* | Dual Bible + Architecture currency/fidelity audit |
 | `04_OUTPUT/Decision_Records/` | — | Empty placeholder |
 | `04_OUTPUT/Other_Outputs/` | — | Empty placeholder (PDFs kept with production toolchain under Working) |
 
