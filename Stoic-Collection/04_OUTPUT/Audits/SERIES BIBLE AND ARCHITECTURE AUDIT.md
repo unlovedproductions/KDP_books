@@ -193,8 +193,8 @@ Catalog map, Book 1 identity blocks, and evidence table already showed *Stoic Fo
 ### Requires action (not new catalog policy)
 
 1. **SSW-1:** Align Book 2 series page / locks / listing from *Foundations: Judgment, Control, and Assent* to *Stoic Foundations*.  
-2. **Promote Book 1 MDS** from `03_WORKING/Book_Blueprints/` to `02_APPROVED/Book_Blueprints/` when accepted.  
-3. Then Book 1 source-verification + manuscript. Do not write manuscript against retired Volume 1 MDS.
+2. **Promote Book 1 MDS** — **DONE** 2026-08-20 (`02_APPROVED/Book_Blueprints/`).  
+3. Then Book 1 manuscript. Do not write manuscript against retired Volume 1 MDS. Source verification already complete.
 
 ### Explicitly not required now
 

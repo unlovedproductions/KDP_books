@@ -6,7 +6,7 @@
 **Status:** COMPLETE — Brief PASS; manuscript generation gated until this report is followed  
 **Date:** 2026-08-20  
 **Scope:** Citation pack for Book 1 back matter and chapter-opening quotes; source-verification pass on `BOOK 1 — PROJECT BRIEF & BOOK INFORMATIONv1.0.md`; translation/copyright policy; glossary anchors; Further Reading bibliographic cores  
-**Authority:** MASTER AI ROLE PROMPT v1.1 · Series Bible (ACTIVE) · Book 1 Project Brief v1.0 · Book 1 MDS v1.0 (Working)  
+**Authority:** MASTER AI ROLE PROMPT v1.1 · Series Bible (ACTIVE) · Book 1 Project Brief v1.0 · Book 1 MDS v1.0 (Approved 2026-08-20)  
 
 **Rule applied:** No fabricated quotes. No paraphrase inside quotation marks. Cite only sources retrieved in this research session. Prefer US public-domain translations for KDP commercial use unless a licensed modern translation is later approved.
 

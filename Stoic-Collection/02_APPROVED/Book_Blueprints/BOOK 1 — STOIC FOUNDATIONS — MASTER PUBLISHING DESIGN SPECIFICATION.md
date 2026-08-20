@@ -9,8 +9,8 @@
 **Subtitle:** A Guided Workbook on Judgment, Control, and Assent  
 **Document type:** Book MDS — authoritative for manuscript production  
 **Version:** 1.0  
-**Status:** Architecture complete. Quote table filled from `04_OUTPUT/Audits/BOOK 1 — SOURCE VERIFICATION REPORT.md` (2026-08-20). **Working** until human promotes to `02_APPROVED/Book_Blueprints/`.  
-**Not a manuscript.** Do not treat examples below as finished prose. Do not begin manuscript until this MDS is Approved.
+**Status:** **Approved 2026-08-20.** Architecture complete. Quote table locked from `04_OUTPUT/Audits/BOOK 1 — SOURCE VERIFICATION REPORT.md` (2026-08-20). Authoritative for manuscript production. Path: `02_APPROVED/Book_Blueprints/`.  
+**Not a manuscript.** Do not treat examples below as finished prose.
 
 **Do not use:** `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` (retired / non-live).
 
@@ -1143,7 +1143,7 @@ Pass §15 tests + Series Bible quality standards + Brief success sentence:
 3. Font finalization in typesetting
 4. KDP gutter confirmation at export
 5. Author personal name if desired beyond UnlovedProductions
-6. Human promotion of this MDS from `03_WORKING` to `02_APPROVED`
+6. Human promotion of this MDS from `03_WORKING` to `02_APPROVED` — **DONE** 2026-08-20
 7. SSW-1 Book 2 product-text alignment (separate pass)
 
 ---
@@ -1152,11 +1152,9 @@ Pass §15 tests + Series Bible quality standards + Brief success sentence:
 
 # STOP CONDITION
 
-Architecture and quote lock are complete.
+Architecture, quote lock, and human promotion are complete.
 
-**Human gate:** promote this MDS to `02_APPROVED/Book_Blueprints/` before manuscript production.
-
-**Do not begin manuscript production while this file remains Working.**
+**Manuscript production may proceed** under this MDS + Book 1 Project Brief v1.0 + Book 1 Source Verification Report (2026-08-20). Do not redesign structure. Do not invent quotes.
 
 Authority parents used:
 

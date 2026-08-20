@@ -85,6 +85,7 @@ Stoic-Collection/
 
 | Current path | Prior path | Notes |
 | --- | --- | --- |
+| `02_APPROVED/Book_Blueprints/BOOK 1 — STOIC FOUNDATIONS — MASTER PUBLISHING DESIGN SPECIFICATION.md` | `03_WORKING/Book_Blueprints/…` (promoted 2026-08-20) | Book 1 MDS v1.0 — **Approved** |
 | `02_APPROVED/Book_Blueprints/BOOK 2 — STOIC SHADOW WORK JOURNAL — MASTER PUBLISHING DESIGN SPECIFICATION.md` | `stoic_series/BOOK 2 — STOIC SHADOW WORK JOURNAL — MASTER PUBLISHING DESIGN SPECIFICATION.md` | Book 2 MDS v1.0 |
 | `02_APPROVED/Manuscripts/BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md` | `stoic_series/BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md` | Book 2 manuscript |
 | `02_APPROVED/Product_Specifications/BOOK 2 — PRODUCTION LOCKS.md` | `stoic_series/BOOK 2 — PRODUCTION LOCKS.md` | Production locks (2026-08-12) |
@@ -104,7 +105,7 @@ Stoic-Collection/
 | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` | same under `stoic_series/` | Generated cover |
 | `03_WORKING/Other_Working_Materials/production/output/cover_dimensions.txt` | same under `stoic_series/` | Cover math sidecar |
 | `03_WORKING/Other_Working_Materials/production/output/interior_page_count.txt` | same under `stoic_series/` | Page-count sidecar |
-| `03_WORKING/Book_Blueprints/BOOK 1 — STOIC FOUNDATIONS — MASTER PUBLISHING DESIGN SPECIFICATION.md` | *(created 2026-08-18)* | Book 1 MDS v1.0 — architecture complete; working until promoted to `02_APPROVED/Book_Blueprints/` |
+| `03_WORKING/Book_Blueprints/README.md` | stub after 2026-08-20 promotion | Points to Approved Book 1 MDS |
 | `03_WORKING/Manuscripts/` | — | Empty placeholder |
 | `03_WORKING/Product_Specifications/` | — | Empty placeholder |
 

@@ -5,13 +5,14 @@
 **Document type:** Series Architecture (catalog / reader-development roadmap)  
 **Version:** 1.1  
 **Status:** CURRENT — working catalog roadmap; Source of Truth for series architecture; **does not outrank** the Master Series Bible  
-**Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.1 ACTIVE; BOOK 1 PROJECT BRIEF v1.0; BOOK 2 PROJECT BRIEF v1.1; BOOK 2 MDS v1.0; PROJECT_FILE_ORGANIZATION_MANIFEST (APPROVED)  
+**Authority parents:** MASTER AI ROLE PROMPT v1.1; THE STOIC COLLECTION — MASTER SERIES BIBLE v1.1 ACTIVE; BOOK 1 PROJECT BRIEF v1.0; BOOK 1 MDS v1.0; BOOK 2 PROJECT BRIEF v1.1; BOOK 2 MDS v1.0; PROJECT_FILE_ORGANIZATION_MANIFEST (APPROVED)  
 **Process prompt:** STOIC COLLECTION SERIES ARCHITECTURE — MASTER PROMPT (canonical)  
 **Not:** a manuscript, book MDS, Series Bible rewrite, or production file  
 **Revision 1.1:** Compliance audit remediation; human decisions B1–B3 applied; organization manifest registered. See `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`.  
 **Promotion 2026-08-17:** Human accepted v1.1 as CURRENT working roadmap and promoted this file into `01_SOURCE_OF_TRUTH/Series_Architecture/`. `VOLUME_1_MPDS.md` retired as non-live. Book 2 working Foundations title left for a separate chat.  
 **Title lock 2026-08-18:** Book 1 published title/subtitle locked by Book 1 Brief: *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*. Book 2 product-text alignment remains SSW-1.  
 **Audit 2026-08-18:** Series Bible and Architecture audit — register currency (OPEN-001 resolved); Bible v1.1 §0.2 lag fix. No catalog redesign.
+**MDS1 promotion 2026-08-20:** Human approved Book 1 MDS v1.0; live file is `02_APPROVED/Book_Blueprints/BOOK 1 — STOIC FOUNDATIONS — MASTER PUBLISHING DESIGN SPECIFICATION.md`.
 
 **Human instructions applied:**  
 
@@ -42,7 +43,7 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 | BRIEF1-SRC     | BOOK 1 — PROJECT BRIEF & BOOK INFORMATIONv1.0.md     | v1.0                | Controlling Book 1 facts | Hierarchy #3      | Yes                         | Yes            | Book 1 title/identity/format locked 2026-08-18      |
 | BRIEF2-SRC     | BOOK 2 — PROJECT BRIEF & BOOK INFORMATIONv1.1.md     | v1.1                | Controlling Book 2 facts | Hierarchy #3      | Yes                         | Yes            | Book 2 title/identity/format; numbering evidence    |
 | MDSPROMPT-SRC  | MASTER PUBLISHING DESIGN SPECIFICATION PROMPTv1.1.md | v1.1                | Process prompt           | Hierarchy #4      | Yes                         | Secondary      | Book-level process; not catalog SoT                 |
-| MDS1-SRC       | BOOK 1 — STOIC FOUNDATIONS — … MDS.md                | v1.0 Working        | Architecture complete    | Working evidence  | Not Approved                | Yes (evidence) | Method-install architecture; not series SoT         |
+| MDS1-SRC       | BOOK 1 — STOIC FOUNDATIONS — … MDS.md                | v1.0                | Approved 2026-08-20      | Hierarchy #5      | Yes                         | Yes            | Method-install architecture; not series SoT         |
 | MDS2-SRC       | BOOK 2 — … MASTER PUBLISHING DESIGN SPECIFICATION.md | v1.0                | Architecture complete    | Hierarchy #5      | Yes                         | Yes            | Book 2 architecture evidence                        |
 | MS2-SRC        | BOOK 2 manuscript + PRODUCTION LOCKS / KDP LISTING   | 2026-08-12 locks    | Approved product text    | Evidence only     | Yes for Book 2 print claims | Yes (evidence) | Working Foundations title string — not Bible-locked |
 | MANIFEST-SRC   | PROJECT_FILE_ORGANIZATION_MANIFEST.md                | APPROVED 2026-08-14 | Living org record        | Organization only | Yes                         | Yes            | Paths/placement; **not** content authority          |
@@ -59,7 +60,7 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 | Document                                 | Status             | Why quarantined                                                   |
 | ---------------------------------------- | ------------------ | ----------------------------------------------------------------- |
 | `05_ARCHIVE/Superseded/SERIES_BIBLE.md`  | SUPERSEDED         | “Stoic Practice Series”; fixed 5-volume spine; Book 2 = Adversity |
-| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | RETIRED / NON-LIVE 2026-08-17 | Provisional Practice-Series Foundations MDS; do not use. Book 1 Brief exists; MDS is in Working. |
+| `05_ARCHIVE/Superseded/VOLUME_1_MPDS.md` | RETIRED / NON-LIVE 2026-08-17 | Provisional Practice-Series Foundations MDS; do not use. Book 1 Brief exists; Book 1 MDS v1.0 is Approved. |
 
 
 
@@ -161,7 +162,7 @@ Book 1 Brief locked *Stoic Foundations* / *A Guided Workbook on Judgment, Contro
 
 ### SSW-2 — VOLUME_1_MPDS.md
 
-Provisional legacy Foundations under old series name. Quarantined. **Retired as non-live 2026-08-17.** Do not use as live Book 1 MDS. Book 1 Brief v1.0 exists; Book 1 MDS v1.0 exists in `03_WORKING/Book_Blueprints/` (not Approved). Bible v1.1 §0.2 matches retirement.
+Provisional legacy Foundations under old series name. Quarantined. **Retired as non-live 2026-08-17.** Do not use as live Book 1 MDS. Book 1 Brief v1.0 exists; Book 1 MDS v1.0 is **Approved** in `02_APPROVED/Book_Blueprints/`. Bible v1.1 §0.2 matches retirement.
 
 ### SSW-3 — Organization manifest “NOT FOUND” (prior audit)
 
@@ -1059,7 +1060,7 @@ The smallest strong journey already approved by current sources is **Foundations
 | Supersedes        | Architecture v1.0 PROPOSED at `04_OUTPUT/Series_Architecture/`                                               |
 | Companion audit   | `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`                                                 |
 | Must not override | MASTER SERIES BIBLE v1.1 ACTIVE                                                                              |
-| Next step         | Book 1 MDS. SSW-1: align Book 2 product text to *Stoic Foundations*.                                         |
+| Next step         | Book 1 manuscript under Approved MDS. SSW-1: align Book 2 product text to *Stoic Foundations*.               |
 
 
 **VERIFY THE SOURCES. ESTABLISH THE TRUTH SET. EXTRACT THE REQUIREMENTS. GOVERN THE UNCERTAINTY. PROVE THE ARCHITECTURE.**
