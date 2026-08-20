@@ -1,0 +1,27 @@
+id,slug,url,source_type,channel,fetched,credibility,recency,bias
+01,amazon_us_childrens_coloring_bestsellers_3374,https://www.amazon.com/Best-Sellers-Childrens-Coloring-Books/zgbs/books/3374,primary,amazon-primary,2026-08-20,5,5,Category rank not Books BSR; mixed kids/adult/licensed
+02,amazon_us_new_releases_3374,https://www.amazon.com/gp/new-releases/books/3374,primary,amazon-primary,2026-08-20,5,5,Hot new releases over-index seasonal and cozy
+03,amazon_us_childrens_activity_bestsellers_3373,https://www.amazon.com/Best-Sellers-Childrens-Activity-Books/zgbs/books/3373,primary,amazon-primary,2026-08-20,5,5,Parent category; picture books mix in
+04,amazon_us_search_kids_coloring_book,https://www.amazon.com/s?k=kids+coloring+book,primary,amazon-primary,2026-08-20,4,5,WebFetch blocked; browser snapshot; no BSR integers
+05,amazon_us_search_dinosaur_coloring,https://www.amazon.com/s?k=dinosaur+coloring+book+for+kids,primary,amazon-primary,2026-08-20,4,5,WebFetch blocked; browser snapshot
+06,amazon_us_search_unicorn_coloring,https://www.amazon.com/s?k=unicorn+coloring+book+for+kids,primary,amazon-primary,2026-08-20,4,5,WebFetch blocked; browser snapshot
+07,amazon_uk_search_kids_colouring,https://www.amazon.co.uk/s?k=kids+colouring+book,primary,amazon-primary,2026-08-20,4,5,WebFetch error; browser scrape; USD-converted prices
+08,amazon_uk_theme_serps,https://www.amazon.co.uk/s?k=dinosaur+colouring+book+kids,primary,amazon-primary,2026-08-20,4,5,Bundle of UK theme SERPs; review count proxy
+09,amazon_uk_bestsellers_sort_contamination,https://www.amazon.co.uk/s?k=colouring+book+kids&i=stripbooks&s=exact-aware-popularity-rank,primary,amazon-primary,2026-08-20,4,5,Popularity sort is adult-cozy contaminated
+10,amazon_de_ausmalbuch_kinder,https://www.amazon.de/s?k=Ausmalbuch+Kinder,primary,amazon-primary,2026-08-20,4,5,WebFetch Tut uns Leid; browser scrape after retry
+11,pw_circana_activity_books_2026,https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101056-hot-activity-book-sector-offers-screen-free-fun.html,industry,news-current,2026-08-20,5,5,Trade lens; licensed + Coco Wyo
+12,circana_2026_book_trends,https://www.circana.com/post/turning-the-page-on-2026-book-trends,industry,industry-specific,2026-08-20,5,5,Category-level; no theme split
+13,kdp_content_guidelines,https://kdp.amazon.com/en_US/help/topic/G200672390,official,regulatory-legal,2026-08-20,5,5,Binding policy
+14,kdp_low_content_books,https://kdp.amazon.com/en_US/help/topic/GGE5T76TWKA85DJM,official,regulatory-legal,2026-08-20,5,5,Coloring not low-content
+15,kdp_ip_faq,https://kdp.amazon.com/en_US/help/topic/G200672400,official,regulatory-legal,2026-08-20,5,5,Not legal advice
+16,kdp_kindle_content_quality,https://kdp.amazon.com/en_US/help/topic/G200952510,official,regulatory-legal,2026-08-20,5,5,eBook guide; coloring print-not-Kindle
+17,kdp_print_royalty_change_2025,https://www.kdpcommunity.com/s/article/Update-Changes-to-KDP-royalty-rates-for-print-books-priced-below-certain-list-prices-for-example-less-than-9-99-USD-and-updates-to-color-printing-costs,official,regulatory-legal,2026-08-20,5,5,Dated 2025-06-10
+18,kdp_community_no_sales_coloring_2022,https://kdpcommunity.com/s/question/0D58V00006iSW4qSAG/no-sales-coloring-book,discussion,forum-discussion,2026-08-20,3,2,Thread from 2022
+19,kdp_community_32_books_no_sales_2025,https://kdpcommunity.com/s/question/0D5at00000aKOMoCAO/new-to-amazon-kdp-1-month-32-books-no-views-or-sales-seeking-honest-advice,discussion,forum-discussion,2026-08-20,4,5,OP was adult coloring; replies generalize
+20,pinterest_parenting_trend_report_2026,https://newsroom.pinterest.com/news/parenting-trend-report-2026/,primary,web-general,2026-08-20,4,5,Pinterest search growth not Amazon sales
+21,mari_kii_kdp_coloring_launch_failure,https://marikiismaart.com/2026/01/14/publish-a-kdp-coloring-book/,primary,web-general,2026-08-20,4,5,Houseplant niche not kids
+22,kdpeasy_kids_coloring_affiliate,https://www.kdpeasy.com/niches/kids-coloring-books,industry/affiliate,industry-specific,2026-08-20,2,4,Sells KDP tools
+23,coloringbook_dev_niches_2026_affiliate,https://coloringbook.dev/blog/best-selling-coloring-book-niches-2026,industry/affiliate,industry-specific,2026-08-20,2,4,Sells generation product
+24,accio_themed_colouring_trends_weak,https://www.accio.com/business/trend-of-colouring-books-for-kids-2026,industry/affiliate,web-general,2026-08-20,2,3,Unverified Trends citation
+25,google_trends_direct_fetch_failed,https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=halloween%20coloring%20book,christmas%20coloring%20book,primary-empty,web-general,2026-08-20,1,5,429 and timeout; Reddit also blocked
+26,lessoncraftstudio_kids_niches_affiliate,https://www.lessoncraftstudio.com/en/blog/coloring-book-niches-still-sell-2026,industry/affiliate,industry-specific,2026-08-20,2,4,Unverified competition counts
