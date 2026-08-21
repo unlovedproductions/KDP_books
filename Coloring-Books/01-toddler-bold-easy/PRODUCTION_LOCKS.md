@@ -15,11 +15,11 @@
 | Cover finish | Glossy | KDP: typical for children’s books |
 | Cover text inset | ≥ 0.25" inside trim | Official min is 0.125" ([Paperback Cover](https://kdp.amazon.com/help/topic/G201953020)) |
 | Spine text | 7 pt; 104 pp > 79 pp allowed | Spine = 0.234208"; 0.0625" clearance each side |
-| Barcode | Leave 2.0" × 1.2" lower-right **back** empty | KDP places barcode ([Low-Content / barcode note](https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM); same box on standard paperbacks) |
+| Barcode | Leave 2.0" × 1.2" lower-right **back**, **0.25" from spine and from trim** | KDP places barcode; covers with art/text in that box are rejected ([Barcodes](https://kdp.amazon.com/en_US/help/topic/G5HDYGP4BXLX4RUW)). Transparency codes are retired for books created after November 2025 — this title does not get an extra code above the box. |
 | List price | ≥ $9.99 / €9.99 / £7.99 | 60% print royalty floor |
 | Reading age | 2–5 | Metadata |
 | ISBN | **979-8-1940-3221-1** (KDP-assigned) | Free KDP ISBN; manuscript must match ([ISBN](https://kdp.amazon.com/en_US/help/topic/G201834170)) |
-| Imprint | **Independently published** | Forced on free KDP ISBN. UnlovedProductions stays author/brand/copyright, not the KDP imprint field |
+| Imprint | **Independently published** | Forced on free KDP ISBN. Author/brand/copyright is **Unloved Productions**, not the KDP imprint field |
 | Low-content checkbox | **Off** | Official: coloring books are *not generally* low-content ([Low-Content Books](https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM)) |
 | AI disclosure | **Not AI-generated** | Geometry drawn in code, not an image model |
 | eBook | **Do not publish** | Coloring books are print; Kindle is the wrong format |

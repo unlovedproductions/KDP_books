@@ -74,7 +74,7 @@ def title_page(c: pdfcanvas.Canvas) -> None:
     c.drawCentredString(TRIM_W / 2, 4.7 * IN, "Animals · Trucks · Foods · Everyday things")
     c.setFont("DejaVu", 11)
     c.drawCentredString(TRIM_W / 2, 1.6 * IN, "Thick lines for little hands")
-    c.drawCentredString(TRIM_W / 2, 1.25 * IN, "UnlovedProductions")
+    c.drawCentredString(TRIM_W / 2, 1.25 * IN, "Unloved Productions")
     c.showPage()
 
 
@@ -91,9 +91,9 @@ def belongs_copyright(c: pdfcanvas.Canvas) -> None:
     c.setFont("DejaVu", 10)
     y = 2.8 * IN
     lines = [
-        "Copyright © 2026 UnlovedProductions. All rights reserved.",
+        "Copyright © 2026 Unloved Productions. All rights reserved.",
         "ISBN 979-8-1940-3221-1",
-        "KDP imprint: Independently published. Brand: UnlovedProductions.",
+        "KDP imprint: Independently published. Brand: Unloved Productions.",
         "Original line drawings. Not affiliated with any other brand.",
         "Printed on demand. Interior: black ink on white paper.",
         "First edition.",
@@ -135,11 +135,19 @@ def ready(c: pdfcanvas.Canvas) -> None:
     c.showPage()
 
 
-def coloring_page(c: pdfcanvas.Canvas, label: str, draw_fn) -> None:
+def coloring_page(c: pdfcanvas.Canvas, label: str, draw_fn, page_num: int) -> None:
     _base(c)
     cx = TRIM_W / 2
+    if page_num % 2 == 1:
+        cx += 0.12 * IN
+    else:
+        cx -= 0.12 * IN
     cy = TRIM_H / 2 + 0.35 * IN
-    draw_fn(c, cx, cy)
+    c.saveState()
+    c.translate(cx, cy)
+    c.scale(0.86, 0.86)
+    draw_fn(c, 0, 0)
+    c.restoreState()
     c.setFillColorRGB(0, 0, 0)
     c.setFont("DejaVuBold", 22)
     c.drawCentredString(TRIM_W / 2, 0.78 * IN, label)
@@ -152,13 +160,13 @@ def main() -> None:
     path = OUT / "Toddler_Bold_Easy_INTERIOR.pdf"
     c = pdfcanvas.Canvas(str(path), pagesize=(TRIM_W, TRIM_H))
     c.setTitle("Big Easy Coloring Book for Toddlers Ages 2-5")
-    c.setAuthor("UnlovedProductions")
+    c.setAuthor("Unloved Productions")
     title_page(c)
     belongs_copyright(c)
     how_to(c)
     ready(c)
-    for label, fn in PAGES:
-        coloring_page(c, label, fn)
+    for i, (label, fn) in enumerate(PAGES):
+        coloring_page(c, label, fn, page_num=5 + i)
     c.save()
     _rewrite_embedded_fonts(path)
     (OUT / "interior_page_count.txt").write_text(f"{PAGE_COUNT}\n")

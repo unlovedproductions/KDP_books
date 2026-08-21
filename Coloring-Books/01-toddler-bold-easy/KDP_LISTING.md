@@ -12,7 +12,7 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Language | English |
 | Title | Big Easy Coloring Book for Toddlers Ages 2-5 |
 | Subtitle | 100 Simple Pictures of Animals, Trucks, Foods and Everyday Things with Thick Lines for Little Hands |
-| Author | UnlovedProductions |
+| Author | Unloved Productions |
 | Series | none (until 2+ coloring titles exist; then a coloring series, never inside Stoic Collection) |
 | Description | see below |
 | Publishing rights | I own the copyright |
@@ -25,7 +25,7 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | AI-generated content | **No** |
 | Low-content | **No** |
 | ISBN | **979-8-1940-3221-1** (free KDP ISBN; raw 9798194032211) |
-| Imprint | **Independently published** (forced by free KDP ISBN; cannot be UnlovedProductions) |
+| Imprint | **Independently published** (forced by free KDP ISBN; cannot be Unloved Productions) |
 | Publication date | KDP default |
 | Print options | Black & white interior, **white** paper, 8.5" × 11", **no bleed**, glossy cover |
 | Manuscript | `production/output/Toddler_Bold_Easy_INTERIOR.pdf` (104 pages) |

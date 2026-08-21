@@ -156,7 +156,7 @@ def main() -> None:
     path = OUT / "Toddler_Bold_Easy_COVER.pdf"
     c = canvas.Canvas(str(path), pagesize=(width, height))
     c.setTitle("Big Easy Coloring Book for Toddlers Ages 2-5 — Cover")
-    c.setAuthor("UnlovedProductions")
+    c.setAuthor("Unloved Productions")
 
     c.setFillColor(YELLOW)
     c.rect(0, 0, width, height, stroke=0, fill=1)
@@ -203,7 +203,7 @@ def main() -> None:
     c.setFont("DejaVu", 11)
     c.drawCentredString(cx, BLEED + 1.12 * IN, "Thick lines for little hands")
     c.setFont("DejaVu", 10)
-    c.drawCentredString(cx, BLEED + SAFE + 0.15 * IN, "UnlovedProductions")
+    c.drawCentredString(cx, BLEED + SAFE + 0.15 * IN, "Unloved Productions")
 
     bx = back_x + TRIM_W / 2
     c.setFillColor(NAVY)
@@ -222,17 +222,22 @@ def main() -> None:
         c.drawCentredString(bx, y, line)
         y -= 24
 
-    # KDP auto barcode: 2" x 1.2" white box, back cover lower right.
+    # KDP auto barcode: 2" x 1.2", ≥0.25" from spine and from trim.
+    # https://kdp.amazon.com/en_US/help/topic/G5HDYGP4BXLX4RUW
+    barcode_inset = 0.25 * IN
     barcode_w, barcode_h = 2.0 * IN, 1.2 * IN
-    barcode_x = back_x + TRIM_W - barcode_w
-    barcode_y = BLEED
+    barcode_x = back_x + TRIM_W - barcode_inset - barcode_w
     c.setFillColor(white)
     c.setStrokeColor(white)
-    c.rect(barcode_x, barcode_y, barcode_w, barcode_h, stroke=0, fill=1)
+    c.rect(barcode_x, 0, barcode_w, BLEED + barcode_inset + barcode_h, stroke=0, fill=1)
 
     c.setFillColor(NAVY)
     c.setFont("DejaVu", 8)
-    c.drawString(back_x + SAFE, BLEED + barcode_h + 0.28 * IN, "UnlovedProductions  ·  First edition 2026")
+    c.drawString(
+        back_x + SAFE,
+        BLEED + barcode_inset + barcode_h + 0.4 * IN,
+        "Unloved Productions  ·  First edition 2026",
+    )
 
     c.save()
     _rewrite_embedded_fonts(path)

@@ -1,6 +1,7 @@
 # BOOK 1 — PROJECT BRIEF
 
-**Imprint:** UnlovedProductions  
+**Author / brand:** Unloved Productions  
+**KDP imprint field:** Independently published (free ISBN)  
 **Status:** WORKING — closed-shape sellable interiors 2026-08-20  
 **Theme slot:** Produce-first #1 (toddler bold/easy multi-theme)
 
