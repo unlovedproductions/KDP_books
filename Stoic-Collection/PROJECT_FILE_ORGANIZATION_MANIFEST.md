@@ -106,7 +106,7 @@ Stoic-Collection/
 | `03_WORKING/Other_Working_Materials/production/output/cover_dimensions.txt` | same under `stoic_series/` | Cover math sidecar |
 | `03_WORKING/Other_Working_Materials/production/output/interior_page_count.txt` | same under `stoic_series/` | Page-count sidecar |
 | `03_WORKING/Book_Blueprints/README.md` | stub after 2026-08-20 promotion | Points to Approved Book 1 MDS |
-| `03_WORKING/Manuscripts/` | — | Empty placeholder |
+| `03_WORKING/Manuscripts/BOOK 1 — STOIC FOUNDATIONS — MANUSCRIPT.md` | *(created 2026-08-20)* | Book 1 interior manuscript — first complete draft; not Approved |
 | `03_WORKING/Product_Specifications/` | — | Empty placeholder |
 
 ### 04_OUTPUT
