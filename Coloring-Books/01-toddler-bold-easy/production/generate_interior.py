@@ -109,8 +109,8 @@ def coloring_page(c: pdfcanvas.Canvas, label: str, draw_fn) -> None:
     cy = TRIM_H / 2 + 0.35 * IN
     draw_fn(c, cx, cy)
     c.setFillColorRGB(0, 0, 0)
-    c.setFont("Helvetica-Bold", 20)
-    c.drawCentredString(TRIM_W / 2, 0.72 * IN, label)
+    c.setFont("Helvetica-Bold", 22)
+    c.drawCentredString(TRIM_W / 2, 0.78 * IN, label)
     c.showPage()
 
 

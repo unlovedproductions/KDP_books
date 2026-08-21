@@ -1,7 +1,7 @@
 # BOOK 1 — PROJECT BRIEF
 
 **Imprint:** UnlovedProductions  
-**Status:** WORKING — production started 2026-08-20  
+**Status:** WORKING — closed-shape sellable interiors 2026-08-20  
 **Theme slot:** Produce-first #1 (toddler bold/easy multi-theme)
 
 ## Title (working)
