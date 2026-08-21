@@ -106,7 +106,7 @@ Stoic-Collection/
 | `03_WORKING/Other_Working_Materials/production/output/cover_dimensions.txt` | same under `stoic_series/` | Cover math sidecar |
 | `03_WORKING/Other_Working_Materials/production/output/interior_page_count.txt` | same under `stoic_series/` | Page-count sidecar |
 | `03_WORKING/Book_Blueprints/README.md` | stub after 2026-08-20 promotion | Points to Approved Book 1 MDS |
-| `03_WORKING/Manuscripts/BOOK 1 — STOIC FOUNDATIONS — MANUSCRIPT.md` | *(created 2026-08-20)* | Book 1 interior manuscript — first complete draft; not Approved |
+| `03_WORKING/Manuscripts/BOOK 1 — STOIC FOUNDATIONS — MANUSCRIPT.md` | *(created 2026-08-20; Editorial Pass 1 2026-08-21)* | Book 1 interior manuscript — PASS WITH FIXES APPLIED; not yet human-Approved |
 | `03_WORKING/Product_Specifications/` | — | Empty placeholder |
 
 ### 04_OUTPUT
@@ -116,6 +116,7 @@ Stoic-Collection/
 | `04_OUTPUT/Audits/BOOK 2 — SOURCE VERIFICATION REPORT.md` | `stoic_series/BOOK 2 — SOURCE VERIFICATION REPORT.md` | Source verification audit |
 | `04_OUTPUT/Audits/BOOK 1 — SOURCE VERIFICATION REPORT.md` | *(created 2026-08-20)* | Book 1 citation pack + Brief source-verification PASS |
 | `04_OUTPUT/Audits/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | `stoic_series/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | Editorial Pass 1 audit |
+| `04_OUTPUT/Audits/BOOK 1 — MANUSCRIPT EDITORIAL AUDIT.md` | *(created 2026-08-21)* | Book 1 manuscript Editorial Pass 1 — PASS WITH FIXES APPLIED |
 | `04_OUTPUT/Audits/SOURCE-OF-TRUTH AUDIT.md` | *(created post-organization)* | Controlling-document authority audit |
 | `04_OUTPUT/Series_Architecture/README.md` | stub after 2026-08-17 promotion | Points to CURRENT architecture under SoT |
 | `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` | *(created post-organization)* | Architecture compliance audit (open-list superseded 2026-08-18) |

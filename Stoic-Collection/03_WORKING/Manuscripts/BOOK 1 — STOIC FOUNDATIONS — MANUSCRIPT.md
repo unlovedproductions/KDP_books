@@ -9,7 +9,7 @@
 **AUTHORITY:** Master AI Role Prompt v1.1 · Master Series Bible v1.1 ACTIVE · Book 1 Project Brief v1.0 · Book 1 MDS v1.0 (Approved 2026-08-20) · Book 1 Source Verification Report (2026-08-20)  
 **TRANSLATION LOCK (direct quotes):** Epictetus *Enchiridion* and *Discourses* — George Long (1890); Marcus Aurelius *Meditations* — George Long (1890); Seneca *De Ira* — Aubrey Stewart (1889)  
 **NOT A PRINT PDF.** Page markers follow the MDS page map for typesetting.  
-**EDITORIAL STATUS:** First complete draft. Not yet editorial-audited.  
+**EDITORIAL STATUS:** Editorial Pass 1 (2026-08-21). PASS WITH FIXES APPLIED. Cleared for typesetting pending KDP production checks.  
 **PRODUCTION:** Author/imprint = UnlovedProductions · ISBN = free KDP ISBN (insert number when KDP assigns) · © 2026 · Not low-content. Amazon title field = *Stoic Foundations* only.
 
 ---
@@ -66,6 +66,8 @@ Publisher name on record: UnlovedProductions. This title is **not** low-content;
 - Epictetus, *Enchiridion* and *Discourses*: George Long (1890), *The Discourses of Epictetus, with the Encheiridion and Fragments* (George Bell and Sons)  
 - Marcus Aurelius, *Meditations*: George Long (1890)  
 - Seneca, *De Ira* (*Of Anger*): Aubrey Stewart (1889), in *Minor Dialogues Together with the Dialogue On Clemency* (George Bell and Sons)
+
+Quotations from Epictetus and Marcus Aurelius follow George Long (1890). Quotations from Seneca, *Of Anger*, follow Aubrey Stewart (1889). These translations are in the public domain in the United States.
 
 See **Sources & Citations** for full bibliographic keys. Quotation verification follows the Book 1 Source Verification Report. Popular internet “Stoic quotes” without primary-text verification are excluded.
 
@@ -136,7 +138,7 @@ ________________________________________________________________
 ________________________________________________________________
 ________________________________________________________________
 
-**ASSENT PAUSE on the lapse itself**  
+**ASSENT PAUSE on the lapse itself** *(three-step box taught in Chapter 5 — use it here when you return)*  
 Impression: _______________________________________________  
 Pause used (breaths / cue): _________________________________  
 Remainder (unassented): ____________________________________
@@ -346,6 +348,7 @@ In this book, **method** means a loop you can run without flipping back through 
 
 SEE the impression → SORT facts, judgments, and control → OWN your share → CHOOSE one act → REVIEW the day.
 
+**Prompt 1.3 (L2 / method-job)**  
 Write, in one sentence, what “method” will mean for you here (not a slogan — a job):
 
 ________________________________________________________________
@@ -1045,7 +1048,13 @@ Question 3 is a method/practice focus: one act, not a personality overhaul.
 
 You already closed Chapters 1–7 with a Progress Mark so this form would not become a slogan before you had incidents. Tonight it becomes a skill.
 
-Optional classical texture (same chapter, not a second epigraph): Seneca also writes that he passes the whole day in review and conceals nothing from himself.[S7] Use that as a standard of honesty, not as a license to self-attack.
+Optional classical texture (same chapter, not a second epigraph):
+
+> I pass the whole day in review before myself, and repeat all that I have said and done: I conceal nothing from myself, and omit nothing.
+>
+> — Seneca, *De Ira* 3.36, trans. Aubrey Stewart (1889) [S7]
+
+Use that as a standard of honesty, not as a license to self-attack.
 
 ---
 
@@ -1156,7 +1165,7 @@ ________________________________________________________________
 
 ## Pages 88–89 — PERSONAL STANDARD CARD (DRAFT)
 
-### PERSONAL STANDARD CARD — DRAFT
+### PERSONAL STANDARD CARD — DRAFT (L7 / draft-standard)
 
 This card is a publishing tool. It is **not** finalized. Date it as a draft.
 
@@ -1316,7 +1325,8 @@ Key:
 ### Character
 **Reader definition:** The settled disposition built by repeated judgments and acts.  
 **Classical-compatible:** Shown in activity.[S5]  
-**In this book:** Draft Personal Standard Card — not a personality quiz and not a Character Audit.
+**In this book:** Draft Personal Standard Card — not a personality quiz and not a Character Audit.  
+**Citation:** [S5]
 
 ### Discipline
 **Reader definition:** Trained choice — repeating the loop until it is available under ordinary friction.  
@@ -1390,6 +1400,8 @@ Classical sources supply the doctrines these tools apply.[S1][S2][S3][S4][S5][S7
 | [S5] | Marcus Aurelius, *Meditations* 9.16, trans. George Long (1890) |
 | [S6] | Stoic cardinal virtues — Sellars, *Stoicism*; Brennan, *The Stoic Life*; IEP “Stoic Ethics” |
 | [S7] | Seneca, *De Ira* 3.36, trans. Aubrey Stewart (1889) |
+| [S8] | Graver, *Stoicism and Emotion* (2007) — Further Reading; not quoted as ancient |
+| [S9] | A. A. Long, *Epictetus: A Stoic and Socratic Guide to Life* (2002) — Further Reading |
 | [S10] | Epictetus, *Enchiridion* 46, trans. George Long (1890) |
 | [S11] | Epictetus, *Discourses* 2.18, trans. George Long (1890) |
 | [S12] | Stanford Encyclopedia of Philosophy, “Epictetus” — assent / use of impressions (secondary) |
@@ -1398,7 +1410,7 @@ Classical sources supply the doctrines these tools apply.[S1][S2][S3][S4][S5][S7
 
 **Primary texts (quoted)**  
 Epictetus. *The Discourses of Epictetus, with the Encheiridion and Fragments.* Translated by George Long. London: George Bell and Sons, 1890.  
-Marcus Aurelius. *Meditations.* Translated by George Long. (Long translation; this edition quotes 9.16.)  
+Marcus Aurelius. *Meditations.* Translated by George Long. 19th-c. US public-domain translation (this edition quotes 9.16). Access copy used for verification: Lexundria Long Book 9 §16.  
 Seneca. *Of Anger* (*De Ira*), Book III, ch. 36. In *Minor Dialogues Together with the Dialogue On Clemency.* Translated by Aubrey Stewart. London: George Bell and Sons, 1889. Project Gutenberg #64576.
 
 **Scholarly secondaries (used for glossary / virtue taxonomy, not quoted as ancients)**  
@@ -1439,8 +1451,8 @@ Why these help *after* Book 1: they explain the psychology and ethics you just p
 
 - **John Sellars, *Stoicism*** (2006; 2nd ed. later) — Clear map of logic, physics, ethics; use for the four virtues and system context.[S6]  
 - **Tad Brennan, *The Stoic Life*** (OUP, 2005) — Emotions, duties, fate at a serious introductory level.[S6]  
-- **A. A. Long, *Epictetus: A Stoic and Socratic Guide to Life*** (OUP, 2002) — How Epictetus teaches; useful after you have used impressions in practice.  
-- **Margaret Graver, *Stoicism and Emotion*** (Chicago, 2007) — If you still hear “Stoic” as “no feeling”; this is scholarship, not a workbook.
+- **A. A. Long, *Epictetus: A Stoic and Socratic Guide to Life*** (Clarendon / OUP, 2002; ISBN 0-19-924556-8 / 978-0-19-924556-7) — How Epictetus teaches; useful after you have used impressions in practice.[S9]  
+- **Margaret Graver, *Stoicism and Emotion*** (University of Chicago Press, 2007; cloth ISBN-13 978-0-226-30557-8) — If you still hear “Stoic” as “no feeling”; this is scholarship, not a workbook.[S8]
 
 ---
 
@@ -1448,8 +1460,8 @@ Why these help *after* Book 1: they explain the psychology and ethics you just p
 
 These are **modern practice books**. They are not classical texts. They are not this Collection’s engine.
 
-- William B. Irvine, *A Guide to the Good Life* (Oxford University Press, 2008) — Popular modern Stoic practice.  
-- Donald J. Robertson, *How to Think Like a Roman Emperor* (St. Martin’s Press, 2019) — Biography plus modern CBT-adjacent technique. **Do not** treat as proof that “the Stoics invented CBT.”  
+- William B. Irvine, *A Guide to the Good Life: The Ancient Art of Stoic Joy* (Oxford University Press, 2008; ISBN 0-19-537461-4) — Popular modern Stoic practice.  
+- Donald J. Robertson, *How to Think Like a Roman Emperor* (St. Martin’s Press, 2019; ISBN 978-1-250-19662-0) — Biography plus modern CBT-adjacent technique. **Do not** treat as proof that “the Stoics invented CBT.”  
 
 If a later page in your life needs clinical care, get clinical care. These titles do not authorize this workbook as therapy.
 
@@ -1484,12 +1496,12 @@ Continue practice on ordinary incidents until the five moves are available witho
 
 Tied to the **draft** Personal Standard Card (pp. 88–89). Six prompts maximum. Not blank filler.
 
-1. One ordinary cue I will treat as SEE practice this week: _______________  
-2. The addition I most often glue onto facts: ___________________________  
-3. The unmovable I will stop fighting: ________________________________  
-4. The share I will own without abuse: ________________________________  
-5. The next act virtue requires (copy from Ch7 if still true): ___________  
-6. The time I will run Evening Examination: ___________________________  
+1. **(L7 / integration-cue)** One ordinary cue I will treat as SEE practice this week: _______________  
+2. **(L7 / integration-addition)** The addition I most often glue onto facts: ___________________________  
+3. **(L7 / integration-unmovable)** The unmovable I will stop fighting: ________________________________  
+4. **(L7 / integration-share)** The share I will own without abuse: ________________________________  
+5. **(L7 / integration-act)** The next act virtue requires (copy from Ch7 if still true): ___________  
+6. **(L7 / integration-review)** The time I will run Evening Examination: ___________________________  
 
 ---
 
