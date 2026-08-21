@@ -3,13 +3,21 @@
 
 from __future__ import annotations
 
+import subprocess
 from pathlib import Path
 
 from reportlab.lib.colors import Color, white
 from reportlab.lib.units import inch as IN
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 
 ROOT = Path(__file__).resolve().parent
+FONT_DIR = ROOT / "fonts"
+pdfmetrics.registerFont(TTFont("DejaVu", str(FONT_DIR / "DejaVuSans.ttf")))
+pdfmetrics.registerFont(TTFont("DejaVuBold", str(FONT_DIR / "DejaVuSans-Bold.ttf")))
+FONT = "DejaVu"
+FONT_BOLD = "DejaVuBold"
 OUT = ROOT / "output"
 COUNT_FILE = OUT / "interior_page_count.txt"
 
@@ -19,6 +27,28 @@ BLEED = 0.125 * IN
 SAFE = 0.25 * IN
 WHITE_PPI = 0.002252
 SPINE_TEXT_PT = 7
+
+
+def _rewrite_embedded_fonts(path: Path) -> None:
+    tmp = path.with_suffix(".gs.pdf")
+    subprocess.run(
+        [
+            "gs",
+            "-q",
+            "-dNOPAUSE",
+            "-dBATCH",
+            "-dSAFER",
+            "-sDEVICE=pdfwrite",
+            "-dCompatibilityLevel=1.4",
+            "-dEmbedAllFonts=true",
+            "-dSubsetFonts=true",
+            "-dPDFSETTINGS=/prepress",
+            f"-sOutputFile={tmp}",
+            str(path),
+        ],
+        check=True,
+    )
+    tmp.replace(path)
 
 YELLOW = Color(0.98, 0.82, 0.22)
 NAVY = Color(0.12, 0.22, 0.38)
@@ -141,7 +171,7 @@ def main() -> None:
     c.translate(spine_x + spine / 2, height / 2)
     c.rotate(90)
     c.setFillColor(white)
-    c.setFont("Helvetica-Bold", SPINE_TEXT_PT)
+    c.setFont("DejaVuBold", SPINE_TEXT_PT)
     c.drawCentredString(0, -2, "BIG EASY COLORING  ·  AGES 2–5")
     c.restoreState()
 
@@ -150,15 +180,15 @@ def main() -> None:
     c.setFillColor(NAVY)
     c.roundRect(cx - 70, top - 0.55 * IN, 140, 0.48 * IN, 14, stroke=0, fill=1)
     c.setFillColor(white)
-    c.setFont("Helvetica-Bold", 16)
+    c.setFont("DejaVuBold", 16)
     c.drawCentredString(cx, top - 0.38 * IN, "AGES 2–5")
 
     c.setFillColor(NAVY)
-    c.setFont("Helvetica-Bold", 36)
+    c.setFont("DejaVuBold", 36)
     c.drawCentredString(cx, top - 1.15 * IN, "BIG EASY")
-    c.setFont("Helvetica-Bold", 28)
+    c.setFont("DejaVuBold", 28)
     c.drawCentredString(cx, top - 1.65 * IN, "COLORING BOOK")
-    c.setFont("Helvetica", 16)
+    c.setFont("DejaVu", 16)
     c.drawCentredString(cx, top - 2.05 * IN, "for Toddlers")
 
     hero_cat(c, cx, BLEED + 5.05 * IN)
@@ -166,20 +196,20 @@ def main() -> None:
     mini_apple(c, cx + 2.15 * IN, BLEED + 2.65 * IN)
 
     c.setFillColor(NAVY)
-    c.setFont("Helvetica-Bold", 16)
+    c.setFont("DejaVuBold", 16)
     c.drawCentredString(cx, BLEED + 1.85 * IN, "100 SIMPLE PICTURES")
-    c.setFont("Helvetica", 12)
+    c.setFont("DejaVu", 12)
     c.drawCentredString(cx, BLEED + 1.48 * IN, "Animals · Trucks · Foods · Everyday things")
-    c.setFont("Helvetica", 11)
+    c.setFont("DejaVu", 11)
     c.drawCentredString(cx, BLEED + 1.12 * IN, "Thick lines for little hands")
-    c.setFont("Helvetica", 10)
+    c.setFont("DejaVu", 10)
     c.drawCentredString(cx, BLEED + SAFE + 0.15 * IN, "UnlovedProductions")
 
     bx = back_x + TRIM_W / 2
     c.setFillColor(NAVY)
-    c.setFont("Helvetica-Bold", 18)
+    c.setFont("DejaVuBold", 18)
     c.drawCentredString(bx, BLEED + TRIM_H - 1.6 * IN, "One big picture on every page.")
-    c.setFont("Helvetica", 13)
+    c.setFont("DejaVu", 13)
     back_lines = [
         "100 original easy drawings for ages 2–5.",
         "Thick closed lines. Lots of space to color.",
@@ -201,10 +231,11 @@ def main() -> None:
     c.rect(barcode_x, barcode_y, barcode_w, barcode_h, stroke=0, fill=1)
 
     c.setFillColor(NAVY)
-    c.setFont("Helvetica", 8)
+    c.setFont("DejaVu", 8)
     c.drawString(back_x + SAFE, BLEED + barcode_h + 0.28 * IN, "UnlovedProductions  ·  First edition 2026")
 
     c.save()
+    _rewrite_embedded_fonts(path)
     dim = OUT / "cover_dimensions.txt"
     dim.write_text(
         "\n".join(
