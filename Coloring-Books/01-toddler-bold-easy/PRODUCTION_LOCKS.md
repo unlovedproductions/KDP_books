@@ -18,7 +18,8 @@
 | Barcode | Leave 2.0" × 1.2" lower-right **back** empty | KDP places barcode ([Low-Content / barcode note](https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM); same box on standard paperbacks) |
 | List price | ≥ $9.99 / €9.99 / £7.99 | 60% print royalty floor |
 | Reading age | 2–5 | Metadata |
-| ISBN | **Free KDP ISBN** | Eligible because this is **not** low-content |
+| ISBN | **979-8-1940-3221-1** (KDP-assigned) | Free KDP ISBN; manuscript must match ([ISBN](https://kdp.amazon.com/en_US/help/topic/G201834170)) |
+| Imprint | **Independently published** | Forced on free KDP ISBN. UnlovedProductions stays author/brand/copyright, not the KDP imprint field |
 | Low-content checkbox | **Off** | Official: coloring books are *not generally* low-content ([Low-Content Books](https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM)) |
 | AI disclosure | **Not AI-generated** | Geometry drawn in code, not an image model |
 | eBook | **Do not publish** | Coloring books are print; Kindle is the wrong format |
