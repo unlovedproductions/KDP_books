@@ -1,0 +1,11 @@
+page_count=124
+paper=white_bw
+spine_in=0.279248
+trim=6x9
+bleed=0.125
+spine_top_bottom_in=0.375
+spine_fold_in=0.0625
+total_width_in=12.529248
+total_height_in=9.250000
+formula=spine=pages*0.002252 (KDP official white)
+output=Stoic_Foundations_Book1_COVER.pdf

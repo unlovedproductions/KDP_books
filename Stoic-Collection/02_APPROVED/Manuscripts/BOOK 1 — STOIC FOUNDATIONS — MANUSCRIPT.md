@@ -9,7 +9,7 @@
 **AUTHORITY:** Master AI Role Prompt v1.1 · Master Series Bible v1.1 ACTIVE · Book 1 Project Brief v1.0 · Book 1 MDS v1.0 (Approved 2026-08-20) · Book 1 Source Verification Report (2026-08-20)  
 **TRANSLATION LOCK (direct quotes):** Epictetus *Enchiridion* and *Discourses* — George Long (1890); Marcus Aurelius *Meditations* — George Long (1890); Seneca *De Ira* — Aubrey Stewart (1889)  
 **NOT A PRINT PDF.** Page markers follow the MDS page map for typesetting.  
-**EDITORIAL STATUS:** Editorial Pass 1 (2026-08-21). PASS WITH FIXES APPLIED. Cleared for typesetting pending KDP production checks.  
+**EDITORIAL STATUS:** Approved 2026-08-21. Editorial Pass 1 applied. Typesetting source.  
 **PRODUCTION:** Author/imprint = UnlovedProductions · ISBN = free KDP ISBN (insert number when KDP assigns) · © 2026 · Not low-content. Amazon title field = *Stoic Foundations* only.
 
 ---

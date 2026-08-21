@@ -88,6 +88,7 @@ Stoic-Collection/
 | `02_APPROVED/Book_Blueprints/BOOK 1 — STOIC FOUNDATIONS — MASTER PUBLISHING DESIGN SPECIFICATION.md` | `03_WORKING/Book_Blueprints/…` (promoted 2026-08-20) | Book 1 MDS v1.0 — **Approved** |
 | `02_APPROVED/Book_Blueprints/BOOK 2 — STOIC SHADOW WORK JOURNAL — MASTER PUBLISHING DESIGN SPECIFICATION.md` | `stoic_series/BOOK 2 — STOIC SHADOW WORK JOURNAL — MASTER PUBLISHING DESIGN SPECIFICATION.md` | Book 2 MDS v1.0 |
 | `02_APPROVED/Manuscripts/BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md` | `stoic_series/BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md` | Book 2 manuscript |
+| `02_APPROVED/Manuscripts/BOOK 1 — STOIC FOUNDATIONS — MANUSCRIPT.md` | `03_WORKING/Manuscripts/…` (promoted 2026-08-21) | Book 1 manuscript — **Approved** |
 | `02_APPROVED/Product_Specifications/BOOK 2 — PRODUCTION LOCKS.md` | `stoic_series/BOOK 2 — PRODUCTION LOCKS.md` | Production locks (2026-08-12) |
 | `02_APPROVED/Product_Specifications/BOOK 2 — KDP LISTING SETUP.md` | `stoic_series/BOOK 2 — KDP LISTING SETUP.md` | KDP listing fields |
 | `02_APPROVED/Other_Approved_Materials/` | — | Empty placeholder |
@@ -99,15 +100,21 @@ Stoic-Collection/
 | `03_WORKING/Other_Working_Materials/BOOK 2 — KDP PREVIEWER & PROOF CHECKLIST.md` | `stoic_series/BOOK 2 — KDP PREVIEWER & PROOF CHECKLIST.md` | Operator checklist |
 | `03_WORKING/Other_Working_Materials/production/` | `stoic_series/production/` | Intact toolchain: scripts, fonts, output PDFs |
 | `03_WORKING/Other_Working_Materials/production/typeset_book2.py` | `stoic_series/production/typeset_book2.py` | Interior typesetter |
+| `03_WORKING/Other_Working_Materials/production/typeset_book1.py` | *(created 2026-08-21)* | Book 1 interior typesetter (Liberation house stack) |
 | `03_WORKING/Other_Working_Materials/production/cover_book2.py` | `stoic_series/production/cover_book2.py` | Cover generator |
+| `03_WORKING/Other_Working_Materials/production/cover_book1.py` | *(created 2026-08-21)* | Book 1 cover generator; spine 0.375″ top/bottom |
 | `03_WORKING/Other_Working_Materials/production/fonts/*` | `stoic_series/production/fonts/*` | Liberation font symlinks (6) |
 | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` | same under `stoic_series/` | Generated interior |
 | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` | same under `stoic_series/` | Generated cover |
 | `03_WORKING/Other_Working_Materials/production/output/cover_dimensions.txt` | same under `stoic_series/` | Cover math sidecar |
-| `03_WORKING/Other_Working_Materials/production/output/interior_page_count.txt` | same under `stoic_series/` | Page-count sidecar |
+| `03_WORKING/Other_Working_Materials/production/output/interior_page_count.txt` | same under `stoic_series/` | Book 2 page-count sidecar |
+| `03_WORKING/Other_Working_Materials/production/output/Stoic_Foundations_Book1_INTERIOR.pdf` | *(created 2026-08-21)* | Book 1 interior, 124 pp, 6×9 B&W |
+| `03_WORKING/Other_Working_Materials/production/output/Stoic_Foundations_Book1_COVER.pdf` | *(created 2026-08-21)* | Book 1 cover wrap |
+| `03_WORKING/Other_Working_Materials/production/output/book1_interior_page_count.txt` | *(created 2026-08-21)* | Book 1 page-count sidecar |
+| `03_WORKING/Other_Working_Materials/production/output/book1_cover_dimensions.txt` | *(created 2026-08-21)* | Book 1 cover math sidecar |
 | `03_WORKING/Book_Blueprints/README.md` | stub after 2026-08-20 promotion | Points to Approved Book 1 MDS |
-| `03_WORKING/Manuscripts/BOOK 1 — STOIC FOUNDATIONS — MANUSCRIPT.md` | *(created 2026-08-20; Editorial Pass 1 2026-08-21)* | Book 1 interior manuscript — PASS WITH FIXES APPLIED; not yet human-Approved |
-| `03_WORKING/Product_Specifications/` | — | Empty placeholder |
+| `03_WORKING/Manuscripts/README.md` | stub after 2026-08-21 promotion | Points to Approved Book 1 manuscript |
+| `03_WORKING/Product_Specifications/BOOK 1 — PRODUCTION LOCKS.md` | *(created 2026-08-21)* | First typeset locks; ISBN pending KDP |
 
 ### 04_OUTPUT
 
