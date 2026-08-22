@@ -1,0 +1,11 @@
+page_count=104
+paper=white_bw
+spine_in=0.234208
+trim=8.5x11
+bleed=0.125
+total_width_in=17.484208
+total_height_in=11.250000
+formula=spine=pages*0.002252 (KDP official white)
+spine_text_pt=7
+barcode=KDP auto 2.0x1.2 lower-right back, left clear
+output=Toddler_Trucks_COVER.pdf
