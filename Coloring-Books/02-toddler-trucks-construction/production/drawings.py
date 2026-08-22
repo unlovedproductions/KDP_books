@@ -972,7 +972,7 @@ def toolbox(c, x, y):
 
 PAGES = [
     ("dump truck", dump_truck),
-    ("dump up", dump_up),
+    ("tipping dump", dump_up),
     ("mini dump", mini_dump),
     ("digger", digger),
     ("long digger", long_digger),

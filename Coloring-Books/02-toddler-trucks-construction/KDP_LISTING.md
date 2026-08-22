@@ -64,3 +64,13 @@ A quiet activity book for toddlers who love trucks.
 - Do not claim interiors are hand-painted or AI-illustrated.
 - Never put this title in Stoic Collection.
 - Do not invent an ISBN. Stamp it after KDP assigns one.
+
+## Upload order
+
+1. Create the paperback. Do not check low-content. Do not add a Kindle edition.
+2. Paste title, subtitle, author (Unloved / Productions), description, keywords, categories above.
+3. Upload interior and cover. Approve Print Previewer.
+4. Take the free KDP ISBN. Tell me the number. I stamp the copyright page and you re-upload interior.
+5. Price $9.99 / £7.99+ / €9.99+. Expanded Distribution on.
+6. Create series **Big Easy Coloring Books for Toddlers**. Add Book 1, then this title as Book 2.
+

@@ -13,7 +13,7 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Title | Big Easy Coloring Book for Toddlers Ages 2-5 |
 | Subtitle | 100 Simple Pictures of Animals, Trucks, Foods and Everyday Things with Thick Lines for Little Hands |
 | Author | Unloved Productions |
-| Series | none (until 2+ coloring titles exist; then a coloring series, never inside Stoic Collection) |
+| Series | **Big Easy Coloring Books for Toddlers** — add this title when Book 2 uploads. Never inside Stoic Collection. |
 | Description | see below |
 | Publishing rights | I own the copyright |
 | Primary audience | Children |
@@ -69,5 +69,5 @@ A quiet activity book for toddlers and preschoolers at home, in the car, or wait
 - Do not upload a Kindle edition of the coloring pages.
 - Do not use “Bluey”, “Peppa”, “Disney”, “Frozen”, or any lookalike in title, subtitle, or keywords.
 - Do not claim the interiors are hand-painted or AI-illustrated. They are original vector drawings.
-- Do not put this title in a series until book 2 is ready to upload. Never inside Stoic Collection.
+- When Book 2 uploads, add both titles to **Big Easy Coloring Books for Toddlers**. Never inside Stoic Collection.
 - Do not pick `Children’s Books > Animals > …` as a category for this mixed coloring book.
