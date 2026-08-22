@@ -42,6 +42,8 @@ Confirm spine with KDP Cover Calculator before final upload.
 
 **After KDP title creation:** paste assigned ISBN onto copyright page → re-export interior PDF → upload.
 
-**Still yours in KDP:** listing fields · Online Previewer · physical proof · `KDP PRESUBMIT COMPLIANCE AUDIT` (copy per title). Do not upload while that audit has **FAIL** or open **HOLD**.
+**Still yours in KDP:** Online Previewer · physical proof · ISBN insert + interior re-export. Do not upload while [`BOOK 1 — KDP PRESUBMIT COMPLIANCE AUDIT.md`](../../04_OUTPUT/Audits/BOOK%201%20—%20KDP%20PRESUBMIT%20COMPLIANCE%20AUDIT.md) has **FAIL** or open **HOLD**.
+
+Listing copy: `02_APPROVED/Product_Specifications/BOOK 1 — KDP LISTING SETUP.md`
 
 **Not this pass:** Book 2 product-text SSW-1 rewrite.

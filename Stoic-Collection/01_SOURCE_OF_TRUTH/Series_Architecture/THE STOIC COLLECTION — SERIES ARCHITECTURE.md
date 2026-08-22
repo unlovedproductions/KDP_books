@@ -1062,7 +1062,7 @@ The smallest strong journey already approved by current sources is **Foundations
 | Supersedes        | Architecture v1.0 PROPOSED at `04_OUTPUT/Series_Architecture/`                                               |
 | Companion audit   | `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`                                                 |
 | Must not override | MASTER SERIES BIBLE v1.1 ACTIVE                                                                              |
-| Next step         | Book 1 KDP listing + presubmit after interior/cover proof. SSW-1 deferred. |
+| Next step         | Book 1: clear presubmit HOLDs (ISBN, Previewer, proof, live nodes/price). SSW-1 deferred. |
 
 
 **VERIFY THE SOURCES. ESTABLISH THE TRUTH SET. EXTRACT THE REQUIREMENTS. GOVERN THE UNCERTAINTY. PROVE THE ARCHITECTURE.**

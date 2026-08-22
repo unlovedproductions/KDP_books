@@ -91,6 +91,7 @@ Stoic-Collection/
 | `02_APPROVED/Manuscripts/BOOK 1 — STOIC FOUNDATIONS — MANUSCRIPT.md` | `03_WORKING/Manuscripts/…` (promoted 2026-08-21) | Book 1 manuscript — **Approved** |
 | `02_APPROVED/Product_Specifications/BOOK 2 — PRODUCTION LOCKS.md` | `stoic_series/BOOK 2 — PRODUCTION LOCKS.md` | Production locks (2026-08-12) |
 | `02_APPROVED/Product_Specifications/BOOK 2 — KDP LISTING SETUP.md` | `stoic_series/BOOK 2 — KDP LISTING SETUP.md` | KDP listing fields |
+| `02_APPROVED/Product_Specifications/BOOK 1 — KDP LISTING SETUP.md` | *(created 2026-08-21)* | Book 1 KDP listing fields |
 | `02_APPROVED/Other_Approved_Materials/` | — | Empty placeholder |
 
 ### 03_WORKING
@@ -124,6 +125,7 @@ Stoic-Collection/
 | `04_OUTPUT/Audits/BOOK 1 — SOURCE VERIFICATION REPORT.md` | *(created 2026-08-20)* | Book 1 citation pack + Brief source-verification PASS |
 | `04_OUTPUT/Audits/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | `stoic_series/BOOK 2 — MANUSCRIPT EDITORIAL AUDIT.md` | Editorial Pass 1 audit |
 | `04_OUTPUT/Audits/BOOK 1 — MANUSCRIPT EDITORIAL AUDIT.md` | *(created 2026-08-21)* | Book 1 manuscript Editorial Pass 1 — PASS WITH FIXES APPLIED |
+| `04_OUTPUT/Audits/BOOK 1 — KDP PRESUBMIT COMPLIANCE AUDIT.md` | *(created 2026-08-21)* | Book 1 presubmit — HOLD, no FAIL |
 | `04_OUTPUT/Audits/SOURCE-OF-TRUTH AUDIT.md` | *(created post-organization)* | Controlling-document authority audit |
 | `04_OUTPUT/Series_Architecture/README.md` | stub after 2026-08-17 promotion | Points to CURRENT architecture under SoT |
 | `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md` | *(created post-organization)* | Architecture compliance audit (open-list superseded 2026-08-18) |
