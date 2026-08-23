@@ -44,7 +44,7 @@ Brief-allowed search language. Not the Amazon title string.
 1. stoic workbook  
 2. dichotomy of control  
 3. guided stoic practice  
-4. stoic journal  
+4. control and assent  
 5. stoicism workbook  
 6. judgment and assent  
 7. stoic daily practice  

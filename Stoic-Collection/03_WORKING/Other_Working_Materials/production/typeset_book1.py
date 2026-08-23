@@ -365,6 +365,66 @@ def page_span(title: str) -> int:
     return max(1, b - a + 1)
 
 
+# First unique body hit after front matter (PDF pages 1–8). Not TOC labels.
+TOC_NEEDLES = (
+    ("Introduction: The Work Begins Here", "finishable program that installs"),
+    ("1. Start With the Method", "Chapter 1 Start With the Method"),
+    ("2. What Hits the Mind", "Chapter 2 What Hits the Mind"),
+    ("3. Facts and Additions", "Chapter 3 Facts and Additions"),
+    ("4. Up to You", "Chapter 4 Up to You"),
+    ("5. Before You Assent", "Chapter 5 Before You Assent"),
+    ("6. Ownership Without Abuse", "Chapter 6 Ownership Without Abuse"),
+    ("7. Virtue Tests the Next Act", "Chapter 7 Virtue Tests the Next Act"),
+    ("8. Review Until It Is Ordinary", "Chapter 8 Review Until It Is Ordinary"),
+    ("Integration: A Standard You Can Carry", "Completion here does not mean you have finished Stoicism"),
+    ("Stoic Terminology & Concepts Guide", "This guide defines terms used in this book in plain language"),
+    ("Sources & Citations", "On-page quotes include author, work, section, translator"),
+    ("Further Reading", "Read these after this book if you want the pages behind the quotes"),
+    ("The Stoic Collection", "No speculative later catalog"),
+)
+
+
+def patch_toc(text: str, arabic: dict[str, int]) -> str:
+    lines = text.splitlines(keepends=True)
+    out: list[str] = []
+    in_toc = False
+    for line in lines:
+        if line.startswith("## Page viii — Contents"):
+            in_toc = True
+        elif in_toc and line.startswith("## "):
+            in_toc = False
+        if in_toc and line.lstrip().startswith("|"):
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if len(cells) >= 2 and cells[0] in arabic:
+                nl = "\n" if line.endswith("\n") else ""
+                line = f"| {cells[0]} | {arabic[cells[0]]} |{nl}"
+        out.append(line)
+    return "".join(out)
+
+
+def measure_toc(pdf_path: Path) -> dict[str, int]:
+    reader = PdfReader(str(pdf_path))
+    remaining = list(TOC_NEEDLES)
+    found: dict[str, int] = {}
+    for i, page in enumerate(reader.pages):
+        if i < 8:
+            continue
+        blob = re.sub(r"\s+", " ", page.extract_text() or "")
+        still = []
+        for label, needle in remaining:
+            if needle in blob:
+                found[label] = i + 1 - 8
+            else:
+                still.append((label, needle))
+        remaining = still
+        if not remaining:
+            break
+    if remaining:
+        missing = ", ".join(label for label, _ in remaining)
+        raise SystemExit(f"TOC anchors not found in interior PDF: {missing}")
+    return found
+
+
 FRAME_W = PAGE_W - GUTTER - OUTER
 FRAME_H = PAGE_H - TOP - BOTTOM
 
@@ -567,10 +627,10 @@ def _append_blank(writer: PdfWriter, n: int) -> int:
     return n + 1
 
 
-def build():
+def build(ms_text: str | None = None):
     register_fonts()
     sty = styles()
-    text = MS_PATH.read_text(encoding="utf-8")
+    text = ms_text if ms_text is not None else MS_PATH.read_text(encoding="utf-8")
     pages = parse_manuscript(text)
     if not pages:
         raise SystemExit("No pages parsed from manuscript")
@@ -665,5 +725,22 @@ def build():
     return OUT_PDF, n
 
 
+def build_with_printed_toc():
+    source = MS_PATH.read_text(encoding="utf-8")
+    build(source)
+    nums = measure_toc(OUT_PDF)
+    patched = patch_toc(source, nums)
+    if patched == source:
+        print("TOC already matches printed arabic pages")
+        return OUT_PDF
+    print("TOC arabic:", nums)
+    build(patched)
+    nums2 = measure_toc(OUT_PDF)
+    if nums2 != nums:
+        print("TOC shifted after patch; second pass", nums2)
+        build(patch_toc(source, nums2))
+    return OUT_PDF
+
+
 if __name__ == "__main__":
-    build()
+    build_with_printed_toc()

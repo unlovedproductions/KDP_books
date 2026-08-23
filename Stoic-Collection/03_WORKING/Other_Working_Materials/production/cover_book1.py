@@ -109,9 +109,6 @@ def build(n: int | None = None):
     bar_y = trim_y0 + SAFE
     c.setFillColorRGB(1, 1, 1)
     c.rect(bar_x, bar_y, bar_w, bar_h, stroke=0, fill=1)
-    c.setFillColorRGB(0.45, 0.45, 0.45)
-    c.setFont("LibSans", 7)
-    c.drawCentredString(bar_x + bar_w / 2, bar_y + bar_h / 2 - 3, "KDP BARCODE ZONE")
 
     cx = spine_x0 + spine / 2
     c.saveState()
