@@ -33,9 +33,9 @@ Books in this series share one method family: **SEE → SORT → OWN → CHOOSE 
 | --- | --- |
 | **Book 1 (this book)** | ***Stoic Foundations*** — install the method: judgment, control, and assent |
 | Book 2 | *Stoic Shadow Work Journal* — self-examination of hidden patterns and avoidance |
-| Later titles | New pressure domains; same method family |
+| Book 3 | *Stoic Adversity* — aim the method at external blows and endurance |
 
-This is the official starting book. You do not need a prior Collection title. Later books assume this method or supply a short Primer.
+This is the official starting book. You do not need a prior Collection title. Later books assume this method or supply a short Primer. You do not need every title to finish this one.
 
 ---
 
@@ -1239,9 +1239,11 @@ This book did not give you more quotes. It gave you a method you can run on toda
 
 Now that you can run the method, you can aim it at what you usually avoid seeing.
 
-That is Book 2 — *Stoic Shadow Work Journal*. Same engine. Different pressure: hidden patterns, avoidance, self-deception. You are not required to buy it to have “finished” this one. You are invited because the tools are now installed.
+That is Book 2 — *Stoic Shadow Work Journal*. Same engine. Different pressure: hidden patterns, avoidance, self-deception.
 
-No guilt for owning one book. No fake catalog of later ASINs. Keep practicing on ordinary incidents until the loop is boring. Then, if you want heat, take the loop where you flinch.
+When the blow is outside you — blocked plans, delay, other people’s moves — Book 3 — *Stoic Adversity* — aims the same engine at endurance and what you can control.
+
+You are not required to buy either to have finished this one. No guilt for owning one book. No fake ASINs. Keep practicing on ordinary incidents until the loop is boring. Then take the loop where it fails.
 
 ---
 
@@ -1474,12 +1476,18 @@ If a later page in your life needs clinical care, get clinical care. These title
 
 ### The Stoic Collection
 
-| Book | Title | Job |
-| --- | --- | --- |
-| **1 (this book)** | *Stoic Foundations* | Install the method |
-| 2 | *Stoic Shadow Work Journal* | Aim the method at hidden patterns / avoidance |
+Each title trains a different pressure. Same method family: **SEE → SORT → OWN → CHOOSE → REVIEW**. You do not need every book to finish this one.
 
-No speculative later catalog. No fake ASINs.
+**Book 1 — *Stoic Foundations*** (this book)  
+A guided workbook that installs one portable method. You practice on ordinary incidents until judgment, control, and assent are skills, not slogans.
+
+**Book 2 — *Stoic Shadow Work Journal***  
+The same method, aimed at what you usually will not look at: avoidance, self-deception, repeating patterns. Not mystical shadow work. Not a clinical trauma workbook.
+
+**Book 3 — *Stoic Adversity***  
+The same method when the blow is outside you: blocked plans, loss, delay, other people’s moves. Train endurance and drop the fight with what you cannot command.
+
+No Book 4 listed until it exists. No fake ASINs.
 
 ---
 
