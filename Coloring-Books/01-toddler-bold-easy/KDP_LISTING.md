@@ -17,6 +17,7 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Description | see below |
 | Publishing rights | I own the copyright |
 | Primary audience | Children |
+| Fiction or nonfiction | **Nonfiction** |
 | Reading age | 2–5 |
 | Grade | Preschool – Kindergarten |
 | Categories | See **KDP picker paths** below. Do not use Amazon browse nicknames. |

@@ -90,7 +90,7 @@ def belongs_copyright(c: pdfcanvas.Canvas) -> None:
     y = 2.8 * IN
     lines = [
         "Copyright © 2026 Unloved Productions. All rights reserved.",
-        "ISBN: assigned by KDP on upload.",
+        "ISBN 979-8-1945-6575-7",
         "KDP imprint: Independently published. Brand: Unloved Productions.",
         "Original line drawings. Not affiliated with any other brand.",
         "Printed on demand. Interior: black ink on white paper.",

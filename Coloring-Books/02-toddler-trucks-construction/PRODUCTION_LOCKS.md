@@ -20,8 +20,9 @@ Same print engineering as Book 1. New ISBN on upload.
 | Barcode | 2.0" × 1.2" lower-right **back**, **0.25" from spine and from trim** | [Barcodes](https://kdp.amazon.com/en_US/help/topic/G5HDYGP4BXLX4RUW) |
 | List price | ≥ $9.99 / €9.99 / £7.99 | 60% floor; US print cost **$2.84** at 104 pp large B&W ([Printing cost](https://kdp.amazon.com/en_US/help/topic/G201834340)) |
 | Reading age | 2–5 | Metadata |
-| ISBN | **Assign on KDP upload** (free KDP ISBN) | Do not invent; stamp interior after KDP assigns |
+| ISBN | **979-8-1945-6575-7** (KDP-assigned) | Free KDP ISBN; manuscript must match |
 | Imprint | **Independently published** | Forced on free KDP ISBN |
+| Fiction or nonfiction | **Nonfiction** | Activity book, not a story |
 | Low-content checkbox | **Off** | Coloring books are not generally low-content |
 | AI disclosure | **Not AI-generated** | Geometry in code |
 | eBook | **Do not publish** | Print only |

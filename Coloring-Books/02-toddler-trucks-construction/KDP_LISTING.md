@@ -17,6 +17,7 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Description | see below |
 | Publishing rights | I own the copyright |
 | Primary audience | Children |
+| Fiction or nonfiction | **Nonfiction** |
 | Reading age | 2–5 |
 | Grade | Preschool – Kindergarten |
 | Categories | Same picker paths as Book 1. Do not pick Trucks-as-story or Animals. |
@@ -24,8 +25,8 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Adult content | No |
 | AI-generated content | **No** |
 | Low-content | **No** |
-| ISBN | Assign on upload (free KDP ISBN). Then stamp the interior copyright page. |
-| Imprint | **Independently published** |
+| ISBN | **979-8-1945-6575-7** (free KDP ISBN; raw 9798194565757) |
+| Imprint | **Independently published** (forced by free KDP ISBN; cannot be Unloved Productions) |
 | Publication date | KDP default |
 | Print options | Black & white interior, **white** paper, 8.5" × 11", **no bleed**, glossy cover |
 | Manuscript | `production/output/Toddler_Trucks_INTERIOR.pdf` (104 pages) |
@@ -63,14 +64,14 @@ A quiet activity book for toddlers who love trucks.
 - Do not use CAT, Tonka, Hot Wheels, Blippi, Paw Patrol, Disney, or any lookalike in title, subtitle, or keywords.
 - Do not claim interiors are hand-painted or AI-illustrated.
 - Never put this title in Stoic Collection.
-- Do not invent an ISBN. Stamp it after KDP assigns one.
+- Interior copyright already stamped with ISBN 979-8-1945-6575-7. Re-upload this interior PDF.
 
 ## Upload order
 
-1. Create the paperback. Do not check low-content. Do not add a Kindle edition.
+1. Create the paperback. Do not check low-content. Do not add a Kindle edition. Fiction/nonfiction: **Nonfiction**.
 2. Paste title, subtitle, author (Unloved / Productions), description, keywords, categories above.
 3. Upload interior and cover. Approve Print Previewer.
-4. Take the free KDP ISBN. Tell me the number. I stamp the copyright page and you re-upload interior.
+4. Confirm ISBN **979-8-1945-6575-7** and imprint **Independently published**.
 5. Price $9.99 / £7.99+ / €9.99+. Expanded Distribution on.
 6. Create series **Big Easy Coloring Books for Toddlers**. Add Book 1, then this title as Book 2.
 
