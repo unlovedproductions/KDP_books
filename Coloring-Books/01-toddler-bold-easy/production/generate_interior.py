@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import subprocess
+from math import cos, radians, sin
 from pathlib import Path
 
 from reportlab.lib.units import inch as IN
@@ -27,6 +28,132 @@ TRIM_H = 11 * IN
 MARGIN = 0.50 * IN
 PAGE_COUNT = 104
 DRAWING_COUNT = 100
+SCALES: list[float] = []
+
+
+class _ExtentPath:
+    def __init__(self) -> None:
+        self.pts: list[tuple[float, float]] = []
+
+    def moveTo(self, x: float, y: float) -> None:
+        self.pts.append((x, y))
+
+    def lineTo(self, x: float, y: float) -> None:
+        self.pts.append((x, y))
+
+    def close(self) -> None:
+        return None
+
+
+class _DrawExtent:
+    """Records drawing geometry, including capsule rotate/translate, in page space."""
+
+    def __init__(self) -> None:
+        self._ctm = [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+        self._stack: list[list[float]] = []
+        self.minx = 0.0
+        self.miny = 0.0
+        self.maxx = 0.0
+        self.maxy = 0.0
+        self.empty = True
+
+    def saveState(self) -> None:
+        self._stack.append(self._ctm[:])
+
+    def restoreState(self) -> None:
+        self._ctm = self._stack.pop()
+
+    def translate(self, x: float, y: float) -> None:
+        a, b, c, d, e, f = self._ctm
+        self._ctm = [a, b, c, d, a * x + c * y + e, b * x + d * y + f]
+
+    def rotate(self, deg: float) -> None:
+        r = radians(deg)
+        ca, sa = cos(r), sin(r)
+        a, b, c, d, e, f = self._ctm
+        self._ctm = [a * ca + c * sa, b * ca + d * sa, c * ca - a * sa, d * ca - b * sa, e, f]
+
+    def scale(self, sx: float, sy: float) -> None:
+        a, b, c, d, e, f = self._ctm
+        self._ctm = [a * sx, b * sx, c * sy, d * sy, e, f]
+
+    def _map(self, x: float, y: float) -> tuple[float, float]:
+        a, b, c, d, e, f = self._ctm
+        return a * x + c * y + e, b * x + d * y + f
+
+    def _add(self, x: float, y: float) -> None:
+        if self.empty:
+            self.minx = self.maxx = x
+            self.miny = self.maxy = y
+            self.empty = False
+            return
+        self.minx = min(self.minx, x)
+        self.miny = min(self.miny, y)
+        self.maxx = max(self.maxx, x)
+        self.maxy = max(self.maxy, y)
+
+    def _corners(self, x0: float, y0: float, x1: float, y1: float) -> None:
+        for x, y in ((x0, y0), (x0, y1), (x1, y0), (x1, y1)):
+            self._add(*self._map(x, y))
+
+    def circle(self, x: float, y: float, r: float, stroke: int = 1, fill: int = 0) -> None:
+        self._corners(x - r, y - r, x + r, y + r)
+
+    def ellipse(self, x1: float, y1: float, x2: float, y2: float, stroke: int = 1, fill: int = 0) -> None:
+        self._corners(x1, y1, x2, y2)
+
+    def roundRect(self, x: float, y: float, w: float, h: float, r: float, stroke: int = 1, fill: int = 0) -> None:
+        self._corners(x, y, x + w, y + h)
+
+    def arc(self, x1: float, y1: float, x2: float, y2: float, start: float, extent: float) -> None:
+        self._corners(x1, y1, x2, y2)
+
+    def beginPath(self) -> _ExtentPath:
+        return _ExtentPath()
+
+    def drawPath(self, path: _ExtentPath, stroke: int = 1, fill: int = 0) -> None:
+        for x, y in path.pts:
+            self._add(*self._map(x, y))
+
+    def setStrokeColorRGB(self, *_a: float) -> None:
+        return None
+
+    def setFillColorRGB(self, *_a: float) -> None:
+        return None
+
+    def setLineWidth(self, _w: float) -> None:
+        return None
+
+    def setLineCap(self, _n: int) -> None:
+        return None
+
+    def setLineJoin(self, _n: int) -> None:
+        return None
+
+
+def _place_drawing(c: pdfcanvas.Canvas, draw_fn, top: float, bottom: float) -> None:
+    ext = _DrawExtent()
+    draw_fn(ext, 0, 0)
+    if ext.empty:
+        raise SystemExit("drawing produced no geometry")
+    pad = OUTER / 2 + 2
+    minx, miny = ext.minx - pad, ext.miny - pad
+    maxx, maxy = ext.maxx + pad, ext.maxy + pad
+    bw, bh = maxx - minx, maxy - miny
+    if bw < 1 or bh < 1:
+        raise SystemExit("drawing bounds collapsed")
+    left = MARGIN
+    right = TRIM_W - MARGIN
+    avail_w = right - left
+    avail_h = top - bottom
+    scale = min(avail_w / bw, avail_h / bh) * 0.96
+    SCALES.append(scale)
+    c.saveState()
+    c.translate((left + right) / 2, (bottom + top) / 2)
+    c.scale(scale, scale)
+    c.translate(-(minx + maxx) / 2, -(miny + maxy) / 2)
+    draw_fn(c, 0, 0)
+    c.restoreState()
 
 
 def _rewrite_embedded_fonts(path: Path) -> None:
@@ -135,22 +262,12 @@ def ready(c: pdfcanvas.Canvas) -> None:
     c.showPage()
 
 
-def coloring_page(c: pdfcanvas.Canvas, label: str, draw_fn, page_num: int) -> None:
+def coloring_page(c: pdfcanvas.Canvas, label: str, draw_fn) -> None:
     _base(c)
-    cx = TRIM_W / 2
-    if page_num % 2 == 1:
-        cx += 0.12 * IN
-    else:
-        cx -= 0.12 * IN
-    cy = TRIM_H / 2 + 0.35 * IN
-    c.saveState()
-    c.translate(cx, cy)
-    c.scale(0.86, 0.86)
-    draw_fn(c, 0, 0)
-    c.restoreState()
+    _place_drawing(c, draw_fn, top=TRIM_H - MARGIN, bottom=1.25 * IN)
     c.setFillColorRGB(0, 0, 0)
     c.setFont("DejaVuBold", 22)
-    c.drawCentredString(TRIM_W / 2, 0.78 * IN, label)
+    c.drawCentredString(TRIM_W / 2, 0.72 * IN, label)
     c.showPage()
 
 
@@ -166,11 +283,11 @@ def main() -> None:
     how_to(c)
     ready(c)
     for i, (label, fn) in enumerate(PAGES):
-        coloring_page(c, label, fn, page_num=5 + i)
+        coloring_page(c, label, fn)
     c.save()
     _rewrite_embedded_fonts(path)
     (OUT / "interior_page_count.txt").write_text(f"{PAGE_COUNT}\n")
-    print(f"wrote {path} ({PAGE_COUNT} pages)")
+    print(f"wrote {path} ({PAGE_COUNT} pages); scale {min(SCALES):.2f}–{max(SCALES):.2f}")
 
 
 if __name__ == "__main__":
