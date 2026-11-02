@@ -380,7 +380,7 @@ TOC_NEEDLES = (
     ("Stoic Terminology & Concepts Guide", "This guide defines terms used in this book in plain language"),
     ("Sources & Citations", "On-page quotes include author, work, section, translator"),
     ("Further Reading", "Read these after this book if you want the pages behind the quotes"),
-    ("The Stoic Collection", "No speculative later catalog"),
+    ("The Stoic Collection", "No title is locked"),
 )
 
 

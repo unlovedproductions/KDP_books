@@ -10,7 +10,8 @@
 **Not:** a manuscript, book MDS, Series Bible rewrite, or production file  
 **Revision 1.1:** Compliance audit remediation; human decisions B1–B3 applied; organization manifest registered. See `04_OUTPUT/Audits/SERIES ARCHITECTURE — COMPLIANCE AUDIT.md`.  
 **Promotion 2026-08-17:** Human accepted v1.1 as CURRENT working roadmap and promoted this file into `01_SOURCE_OF_TRUTH/Series_Architecture/`. `VOLUME_1_MPDS.md` retired as non-live. Book 2 working Foundations title left for a separate chat.  
-**Title lock 2026-08-18:** Book 1 published title/subtitle locked by Book 1 Brief: *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*. Book 2 product-text alignment remains SSW-1.  
+**Title lock 2026-08-18:** Book 1 published title/subtitle locked by Book 1 Brief: *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*.  
+**SSW-1 applied 2026-11-02:** Book 2 manuscript, locks, listing, and cover use *Stoic Foundations*. Neither manuscript prints a Book 3 retail title.  
 **Audit 2026-08-18:** Series Bible and Architecture audit — register currency (OPEN-001 resolved); Bible v1.1 §0.2 lag fix. No catalog redesign.
 **MDS1 promotion 2026-08-20:** Human approved Book 1 MDS v1.0; live file is `02_APPROVED/Book_Blueprints/BOOK 1 — STOIC FOUNDATIONS — MASTER PUBLISHING DESIGN SPECIFICATION.md`.
 **MS1 promotion 2026-08-21:** Human approved Book 1 manuscript; live file is `02_APPROVED/Manuscripts/BOOK 1 — STOIC FOUNDATIONS — MANUSCRIPT.md`. First typeset 2026-08-21.
@@ -32,7 +33,7 @@
 
 ### SOURCE STATUS: PARTIALLY VERIFIED
 
-Authority is established for series identity, Book 2 product identity, Book 1 *domain job* and published title/subtitle, Shadow Work as developmental position 2 (post impact re-eval), shared method (SSOCR), signatures, open-ended catalog logic, file organization rules, and this Architecture as the CURRENT working catalog roadmap (subordinate to the Series Bible). Book 2 product text still prints the old Foundations working string (SSW-1).
+Authority is established for series identity, Book 2 product identity, Book 1 *domain job* and published title/subtitle, Shadow Work as developmental position 2 (post impact re-eval), shared method (SSOCR), signatures, open-ended catalog logic, file organization rules, and this Architecture as the CURRENT working catalog roadmap (subordinate to the Series Bible). Book 2 product text uses the locked Book 1 title (SSW-1 applied 2026-11-02).
 
 ### Authoritative sources used
 
@@ -86,7 +87,7 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 | Closed founding catalog (fixed N books / full title list) | OPEN — Bible establishes open-ended Book 3+        |
 | Architecture doc acceptance as CURRENT working roadmap    | RESOLVED 2026-08-17 — CURRENT; promoted to SoT     |
 | VOLUME_1_MPDS realignment before Book 1 production        | RESOLVED 2026-08-17 — retired as non-live          |
-| Working Foundations title in Book 2 product text          | OPEN — deferred to a separate chat                 |
+| Working Foundations title in Book 2 product text          | RESOLVED 2026-11-02 — SSW-1 applied in product text |
 
 
 
@@ -96,7 +97,7 @@ Authority is established for series identity, Book 2 product identity, Book 1 *d
 1. Series name Practice Series → Collection — **resolved** (Bible §0.2).
 2. Book 2 Adversity → Shadow Work — **resolved** (Brief + Bible §0.2).
 3. Fixed 5-book spine — **not restated** in active Bible; quarantined.
-4. Book 1 title string in Book 2 product text vs locked Brief title — **governed**: Brief wins; SSW-1 alignment still deferred.
+4. Book 1 title string in Book 2 product text vs locked Brief title — **resolved 2026-11-02**. Product text uses *Stoic Foundations*.
 
 ---
 
@@ -133,14 +134,14 @@ Consult only for historical comparison and change detection.
 - Status: CONTROLLING Book 1 facts  
 - Requirement: Published title *Stoic Foundations*; subtitle *A Guided Workbook on Judgment, Control, and Assent*. Locked 2026-08-18.
 
-**Version C — Book 2 manuscript / Production Locks / KDP Listing**  
+**Version C — Book 2 manuscript / Production Locks / KDP Listing / cover**  
 
-- Status: Approved product text (stale on Book 1 name)  
-- Requirement: Series page lists Book 1 as *Foundations: Judgment, Control, and Assent*.
+- Status: Aligned 2026-11-02  
+- Requirement: Series page lists Book 1 as *Stoic Foundations*.
 
-**Conflict:** Book 2 product text still prints the pre-Brief working string. Brief outranks product text for Book 1 identity.
+**Conflict:** Closed. Brief outranks product text, and product text now matches the Brief.
 
-**Architectural Impact:** Catalog and MDS use the Brief string. Book 2 files stay until SSW-1 alignment.
+**Architectural Impact:** Catalog, MDS, and Book 2 shipping text use the Brief string.
 
 **Authority Assessment:** Brief (hierarchy #3 for Book 1) outranks Book 2 product text on Book 1’s title.
 
@@ -148,7 +149,7 @@ Consult only for historical comparison and change detection.
 
 **Confidence:** High.
 
-**Required Action:** USE LOCKED BRIEF TITLE — treat Book 2’s old string as stale cross-sell pending SSW-1.
+**Required Action:** DONE 2026-11-02. Product text uses *Stoic Foundations*. Do not restore the colon string.
 
 ---
 
@@ -160,7 +161,7 @@ Consult only for historical comparison and change detection.
 
 ### SSW-1 — Foundations title in Book 2 product text
 
-Book 1 Brief locked *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent* (2026-08-18). Book 2 manuscript / locks / listing still print *Foundations: Judgment, Control, and Assent*. **Do not treat the Book 2 string as the Book 1 title.** Align Book 2 product text in the deferred SSW-1 pass. Do not silently rewrite Book 2 in this Architecture edit.
+Book 1 Brief locked *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent* (2026-08-18). SSW-1 applied 2026-11-02: Book 2 manuscript, locks, listing, and cover print *Stoic Foundations*. Do not restore *Foundations: Judgment, Control, and Assent*.
 
 ### SSW-2 — VOLUME_1_MPDS.md
 
@@ -314,7 +315,7 @@ Bible §3.6 founding logic places method install first. Architecture prompt §27
 
 **Confidence:** High.
 
-**Conflict Check:** Book 2 product text still prints the old working string — SSW-1.
+**Conflict Check:** SSW-1 applied 2026-11-02. Book 2 product text uses *Stoic Foundations*.
 
 ---
 
@@ -872,7 +873,7 @@ Enter official architecture only if: distinct purpose, distinct problem, distinc
 
 ## Unresolved Conflicts
 
-1. Soft operational: Book 2 product text still prints *Foundations: Judgment, Control, and Assent* after Book 1 title lock — see SSW-1 (deferred alignment).
+1. Soft operational: Book 2 product text vs locked Book 1 title — **closed 2026-11-02** (SSW-1).
 2. VOLUME_1_MPDS — **resolved 2026-08-17:** retired as non-live.
 
 
@@ -893,7 +894,7 @@ See Version Conflict Record (Book 1 title string).
 - Draft/archive not treated as current — **Yes**  
 - Version-sensitive decisions cite correct versions — **Yes**  
 - Missing metadata disclosed — **Yes**  
-- Material ambiguity identified — **Yes** (Book 2 product-text Book 1 name still stale; SSW-1)  
+- Material ambiguity identified — **No** on the Book 1 title string (SSW-1 closed 2026-11-02). Book 3 retail title is not locked. *Journal* in the Book 2 Amazon title is a publish HOLD, not a catalog redesign.  
 - Organization manifest registered — **Yes** (MANIFEST-SRC APPROVED)  
 - B1–B3 human decisions applied — **Yes**  
 - Compliance audit recorded — **Yes**  
@@ -914,7 +915,7 @@ See Version Conflict Record (Book 1 title string).
 | -------------------------------------- | -------------------- | ---------------- | -------------- | -------------------------------------- | --------------- | -------------------- |
 | Series name                            | Yes                  | Yes              | Yes            | Explicit                               | Resolved        | No                   |
 | Book 1 position/job                    | Yes                  | Yes              | Yes            | Explicit                               | No              | No                   |
-| Book 1 title string                    | Working product only | Yes              | Partial        | Deferred to Brief (B1)                 | Governed        | No (not urgent lock) |
+| Book 1 title string                    | Brief v1.0           | Yes              | Yes            | Locked 2026-08-18; SSW-1 applied 2026-11-02 | Resolved   | No                   |
 | Book 2 identity                        | Yes                  | Yes              | Yes            | Explicit                               | Resolved        | No                   |
 | Book 2 position #2                     | Yes                  | Yes              | Yes            | Strategic re-eval (B1)                 | No              | No                   |
 | MVCC = 1+2                             | Yes                  | Yes              | Yes            | Strategic                              | No              | No                   |
@@ -950,15 +951,11 @@ See Version Conflict Record (Book 1 title string).
 
 # REQUIRES HUMAN CONFIRMATION
 
-### 1. Align Book 2 product text to locked Book 1 title
+### 1. Align Book 2 product text to locked Book 1 title — RESOLVED 2026-11-02
 
-- **Decision:** Update Book 2 series page / listing / related product text from *Foundations: Judgment, Control, and Assent* to *Stoic Foundations*.  
-- **Why unresolved:** SSW-1 remains operational. Deferred by human 2026-08-17 to a separate chat; still required after the 2026-08-18 title lock.  
-- **Sources:** BRIEF1-SRC; MS2-SRC.  
-- **Current recommendation:** Align in one pass. Do not leave the old colon string in shipping Book 2 files.  
-- **Exact question:** **Run the SSW-1 Book 2 product-text alignment now?**
+Book 2 manuscript, production locks, KDP listing, and cover now use *Stoic Foundations*. The old colon string is not the Book 1 title.
 
-No other material architecture decisions require human confirmation.
+No other material architecture decisions require human confirmation. Book 3 commissioning stays deferred (B2). *Journal* in the Book 2 Amazon title remains a publish HOLD under the KDP presubmit (A9), not an architecture redesign.
 
 ### Resolved by human (no longer open locks)
 

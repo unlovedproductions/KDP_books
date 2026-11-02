@@ -170,18 +170,18 @@ Human-only in KDP. Agent cannot pass these.
 
 ---
 
-## 2. BOOK 2 RUN — Stoic Shadow Work Journal (2026-08-18)
+## 2. BOOK 2 RUN — Stoic Shadow Work Journal (rechecked 2026-11-02)
 
-Filled against current locks and files. Not an upload. Previewer/proof remain human.
+Local files regenerated this date. Not an upload. Previewer, proof, ISBN, and the Journal-in-title decision remain human.
 
 | Field | Value |
 | --- | --- |
 | Book / SKU | Book 2 — *Stoic Shadow Work Journal* |
-| Interior | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` (116 pp) |
-| Cover | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` |
+| Interior | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` (116 pp, 6×9) |
+| Cover | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` (spine 0.261232") |
 | Listing spec | `02_APPROVED/Product_Specifications/BOOK 2 — KDP LISTING SETUP.md` |
-| Cover source | `03_WORKING/Other_Working_Materials/production/cover_book2.py` (`SPINE_SAFE = 0.0625"`) |
-| **OVERALL** | **HOLD** (A9 open) **and FAIL** (D5) — **do not upload** |
+| Cover source | `cover_book2.py` — spine text 7 pt, 0.375" top/bottom, 0.0625" folds; empty barcode box inset 0.25" |
+| **OVERALL** | **HOLD** — no FAIL. Do not upload. |
 
 ### Word scan
 
@@ -200,21 +200,24 @@ Filled against current locks and files. Not an upload. Previewer/proof remain hu
 | A8 | **PASS** | Journal is not repeated across title+subtitle+series. This is **not** the dead SKU pattern (*Stoic Journal for Men* + *A Daily Reflection Journal…*). |
 | A9 | **HOLD** | Title contains **Journal**. Case `#51158280` ordered that descriptor out of the Amazon title field. Human must retitle or accept residual Content Review risk **in writing** before upload. Keywords may keep “stoic journal”. |
 | B1 | **PASS** (spec) | Listing/Production Locks: do not check low-content. |
-| B2–B7, B9–B12 | **PASS** (spec) / **HOLD** (B2, B4, B10 until KDP UI) | Categories/nodes and price must be confirmed live. AI form unanswered until upload. |
-| B8 | **HOLD** | Free ISBN not yet assigned / not on copyright. |
-| C1–C7 | **PASS** (local locks) | 116 pp even; 6×9 B&W white; no bleed; medium-content manuscript. C4/C8 still `[[VERIFY KDP]]` / proof. |
-| D4 | **PASS** (intent) | Script keeps 0.0625" at spine folds. |
-| D5 / D9 | **FAIL** | `max_spine_text = TRIM_H - 2 * SPINE_SAFE` with `SPINE_SAFE = 0.0625"`. Required top/bottom = **0.375"**. Same class of defect as PRI-8T0CVEAGEY5. |
-| D1–D3, D6–D8 | **PASS** (spec) pending Previewer | Wrap + bleed; 116 ≥ 79; barcode zone in script. |
-| E1–E5 | **PASS** | Workbook identity; not the ignored blank SKU; Brief/MDS differentiation. |
+| B2, B4, B10, B12 | **HOLD** | AI form, live category nodes, price after KDP shows the 116-page print cost, and series enrollment happen in KDP. |
+| B3, B5–B7, B9, B11 | **PASS** (spec) | English. Keywords stay in the keyword boxes. Description names Book 1 as *Stoic Foundations*. Print options match the 116-page 6×9 B&W white files. Rights stay with UnlovedProductions. |
+| B8 | **HOLD** | Free ISBN not assigned. Copyright page still says to insert the number. |
+| C1–C4, C7 | **PASS** (local) | 116 even pages. Media box 432×648 pt. Six fonts embedded. Content pages are the workbook; the typesetter then adds practice-log pages to reach 116. C4 gutter still needs Previewer. |
+| C5, C6 | **HOLD** | ISBN instruction is still on the copyright page. Not a valid ISBN. |
+| C8 | **HOLD** | Pen test is the physical proof. |
+| D4 | **PASS** (measured) | 7 pt Liberation Sans Bold on a 0.261232" spine. Baseline at the spine center. Ascent clearance to the fold is 0.096", above 0.0625". |
+| D5, D9 | **PASS** (measured) | Text length 2.69" centered on the 9" trim. Clearance to the cover edge is about 3.28", above 0.375". `SPINE_TB = 0.375"`. |
+| D1–D3, D6–D8 | **PASS** (local) pending Previewer | One wrap, 0.125" bleed, 12.511232" × 9.250000". 116 ≥ 79. Barcode box is empty white, 2" × 1.2", inset 0.25" from the spine and the bottom trim. Cover says *Stoic Foundations* for Book 1 and *Stoic Shadow Work Journal* for this book. No `KDP BARCODE ZONE` string. |
+| E1–E5 | **PASS** | Workbook identity. Series page has *Stoic Foundations* and no *Stoic Adversity*. Not the ignored blank SKU. |
 | F1–F5 | **HOLD** | Not run in KDP. |
 
 ### Required before Book 2 upload
 
-1. Fix cover generator: spine text ≥0.375" from top and bottom; keep ≥0.0625" from folds; regenerate wrap; confirm vs Cover Calculator.  
-2. Human lock on A9: keep *Stoic Shadow Work Journal* (accept Content Review risk) **or** retitle so the Amazon title field has no generic format descriptor. Do not add Journal/Workbook to the subtitle either way.  
-3. Assign ISBN → copyright → re-export interior.  
-4. Previewer + author proof.  
+1. Human lock on A9: keep *Stoic Shadow Work Journal* (accept Content Review risk) **or** retitle so the Amazon title field has no generic format descriptor. Do not add Journal or Workbook to the subtitle either way.  
+2. Assign ISBN → copyright page → `typeset_book2.py` → re-export interior.  
+3. KDP Cover Calculator at 116 pp, then Print Previewer and an author proof.  
+4. Set price from the live 116-page print cost. Answer the AI form. Leave low-content unchecked.  
 5. Watch Content Review mail for 5 days after submit.
 
 Book 1 Option 1 (*Stoic Foundations Journal*) inherits the same A9 HOLD if used as the Amazon title.

@@ -55,7 +55,7 @@ MDS, cover, and KDP listing use this string. Interior format remains a foundatio
 - *Stoic Foundations Journal* / *A Guided Journey Through Judgment, Control & Assent* (original Brief working title)
 - *Foundations: Judgment, Control, and Assent* as the published title (legacy Book 2 product-text working string)
 
-Book 2 product text that still prints *Foundations: Judgment, Control, and Assent* must be aligned in the deferred SSW-1 pass. Do not silently rewrite Book 2 in this Brief.
+SSW-1 applied 2026-11-02 in Book 2 manuscript, production locks, listing, and cover. This Brief was not rewritten.
 
 ---
 

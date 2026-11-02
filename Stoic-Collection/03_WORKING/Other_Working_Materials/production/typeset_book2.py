@@ -31,8 +31,13 @@ from reportlab.platypus import (
     Flowable,
 )
 
-ROOT = Path(__file__).resolve().parents[1]
-MS_PATH = ROOT / "BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md"
+COLLECTION = Path(__file__).resolve().parents[3]
+MS_PATH = (
+    COLLECTION
+    / "02_APPROVED"
+    / "Manuscripts"
+    / "BOOK 2 — STOIC SHADOW WORK JOURNAL — MANUSCRIPT.md"
+)
 OUT_DIR = Path(__file__).resolve().parent / "output"
 FONT_DIR = Path(__file__).resolve().parent / "fonts"
 

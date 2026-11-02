@@ -8,9 +8,9 @@ Agent cannot complete Amazon login, Online Previewer approval, or proof order. Y
 
 | Asset | Path | Spec |
 | --- | --- | --- |
-| Interior | `stoic_series/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` | 6×9, 116 pp, B&W, no bleed |
-| Cover | `stoic_series/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` | wrap + 0.125" bleed; spine = 116 × 0.002252" |
-| Cover math | `stoic_series/production/output/cover_dimensions.txt` | verify vs KDP Cover Calculator |
+| Interior | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` | 6×9, page count from `interior_page_count.txt`, B&W, no bleed |
+| Cover | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` | wrap + 0.125" bleed; spine = pages × 0.002252" |
+| Cover math | `03_WORKING/Other_Working_Materials/production/output/cover_dimensions.txt` | verify vs KDP Cover Calculator |
 
 ## A. Before upload
 
@@ -55,4 +55,4 @@ Only after A–C pass:
 - [ ] AI disclosure answered honestly  
 - [ ] Publish (or schedule)  
 
-**Status:** Files prepared locally. Previewer + proof = **your action**.
+**Status:** Cover and interior regenerated 2026-11-02. ISBN, Previewer, proof, and the Journal-in-title decision are still yours. Do not upload while the Book 2 presubmit is HOLD.
