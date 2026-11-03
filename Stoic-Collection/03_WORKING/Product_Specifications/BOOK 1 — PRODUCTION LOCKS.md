@@ -46,4 +46,4 @@ Confirm spine with KDP Cover Calculator before final upload.
 
 Listing copy: `02_APPROVED/Product_Specifications/BOOK 1 — KDP LISTING SETUP.md`
 
-**Not this pass:** Book 2 product-text SSW-1 rewrite.
+**SSW-1:** Applied 2026-11-02 in Book 2 manuscript, locks, listing, and cover.

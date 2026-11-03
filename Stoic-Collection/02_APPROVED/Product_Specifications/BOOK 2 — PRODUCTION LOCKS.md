@@ -10,7 +10,7 @@
 | Author / imprint | **UnlovedProductions** |
 | ISBN | **Free KDP ISBN** (Amazon-assigned; insert on copyright page when created; Amazon-only distribution for that ISBN) |
 | Copyright | **© 2026 UnlovedProductions** |
-| Series page | **List Book 1** (*Foundations: Judgment, Control, and Assent*) **and Book 2** |
+| Series page | **List Book 1** (*Stoic Foundations*) **and Book 2**. No Book 3 retail title. |
 | Low-content checkbox | **Do not check** — medium-content guided workbook |
 | Trim | 6 × 9 in |
 | Interior | Black & white |
@@ -23,15 +23,15 @@
 
 | Asset | Path |
 | --- | --- |
-| Interior PDF | `stoic_series/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` |
-| Cover PDF | `stoic_series/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` |
-| Listing fields | `stoic_series/BOOK 2 — KDP LISTING SETUP.md` |
-| Previewer / proof | `stoic_series/BOOK 2 — KDP PREVIEWER & PROOF CHECKLIST.md` |
+| Interior PDF | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` |
+| Cover PDF | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` |
+| Listing fields | `02_APPROVED/Product_Specifications/BOOK 2 — KDP LISTING SETUP.md` |
+| Previewer / proof | `03_WORKING/Other_Working_Materials/BOOK 2 — KDP PREVIEWER & PROOF CHECKLIST.md` |
 
 ## Typesetting / cover handoff
 
-**Interior:** typeset from manuscript; regenerate via `stoic_series/production/typeset_book2.py`.  
-**Cover:** regenerate via `stoic_series/production/cover_book2.py` after any page-count change.  
+**Interior:** typeset from the Approved manuscript via `03_WORKING/Other_Working_Materials/production/typeset_book2.py`.  
+**Cover:** regenerate via `03_WORKING/Other_Working_Materials/production/cover_book2.py` after any page-count change. Spine text is 0.375" from the top and bottom cover edges and 0.0625" from the folds. Barcode box is empty, 0.25" from the spine and the bottom trim.  
 **Spine (white B&W):** `pages × 0.002252"` — for 116 pp ≈ **0.261232"**. Confirm with KDP Cover Calculator before final upload.
 
 **After KDP title creation:** paste assigned ISBN onto copyright page → re-export interior PDF → upload.

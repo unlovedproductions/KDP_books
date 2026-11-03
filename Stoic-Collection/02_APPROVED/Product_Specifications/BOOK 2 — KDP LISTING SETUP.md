@@ -53,7 +53,7 @@ Using the permanent practice spine **SEE → SORT → OWN → CHOOSE → REVIEW*
 - Drill signature practices you can reuse after the book ends  
 - Log what actually changed—not what you wish you believed  
 
-This is Book 2. Book 1 (*Foundations: Judgment, Control, and Assent*) installs the method in depth. You can start here; the Method Primer supplies what you need to work.
+This is Book 2. Book 1 (*Stoic Foundations*) installs the method in depth. You can start here; the Method Primer supplies what you need to work.
 
 **Author / Imprint:** UnlovedProductions
 
@@ -76,8 +76,8 @@ Re-check after KDP shows exact print cost for 116 pages. Do not price below prin
 
 ## Upload checklist (files)
 
-1. Interior: `stoic_series/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` (116 pp)  
-2. Cover: `stoic_series/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf`  
+1. Interior: `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` (116 pp until the export changes)  
+2. Cover: `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf`  
 3. After free ISBN assigned: update manuscript copyright → re-run `typeset_book2.py` → re-upload interior  
 
 ## Do not

@@ -10,7 +10,7 @@
 **TRANSLATION LOCK (direct quotes):** Epictetus *Enchiridion* — George Long (1890); *Enchiridion* 2 opening quote — Elizabeth Carter (1758); Marcus Aurelius *Meditations* — George Long (1862); Seneca *De Ira* — Aubrey Stewart (1889)  
 **NOT A PRINT PDF.** Page markers follow the MDS page map for typesetting.  
 **EDITORIAL STATUS:** Pass 1 complete against Series Bible v1.0 + Book 2 MDS v1.0 + Source Verification Report (see companion audit).  
-**PRODUCTION LOCKS (2026-08-12):** Author/imprint = UnlovedProductions · ISBN = free KDP ISBN (insert number when KDP assigns) · © 2026 · Series page lists Book 1 + Book 2 + Book 3 working title · Not low-content.
+**PRODUCTION LOCKS (2026-08-12; SSW-1 2026-11-02):** Author/imprint = UnlovedProductions · ISBN = free KDP ISBN (insert number when KDP assigns) · © 2026 · Series page lists Book 1 as *Stoic Foundations* and this book. No Book 3 title. Not low-content.
 
 ---
 
@@ -33,7 +33,7 @@ Books in this series share one method family: **SEE → SORT → OWN → CHOOSE 
 | --- | --- |
 | Book 1 | *Stoic Foundations* — install the method: judgment, control, and assent |
 | **Book 2 (this book)** | ***Stoic Shadow Work Journal*** — self-examination of hidden patterns and avoidance |
-| Book 3 | *Stoic Adversity* — aim the method at external blows and endurance |
+| Later | External blows and endurance. No title until a Project Brief. |
 
 You can begin here. The Method Primer on page vi installs the tools you need. Book 1 deepens the foundations if you want the full method install first. You do not need every title to finish this one.
 
@@ -1298,7 +1298,7 @@ Use the **Stoic Terminology & Concepts Guide** for definitions. Use **Sources & 
 
 If you began here without Book 1, keep practicing SSOCR until the tools are boringly familiar.
 
-If you already have foundations, take this standard into Book 3 — *Stoic Adversity* — when the blow is outside you: blocked plans, loss, delay, other people’s moves. Same engine. Different pressure: endurance, and dropping the fight with what you cannot command.
+If you already have foundations, use this standard when the blow is outside you: blocked plans, loss, delay, other people’s moves. Same engine. Different pressure: endurance, and dropping the fight with what you cannot command. That later title is not locked.
 
 The point is not to own every title. The point is to keep training judgment where it fails.
 
@@ -1535,10 +1535,10 @@ A guided workbook that installs one portable method. You practice on ordinary in
 **Book 2 — *Stoic Shadow Work Journal*** (this book)  
 The same method, aimed at what you usually will not look at: avoidance, self-deception, repeating patterns. Not mystical shadow work. Not a clinical trauma workbook.
 
-**Book 3 — *Stoic Adversity***  
-The same method when the blow is outside you: blocked plans, loss, delay, other people’s moves. Train endurance and drop the fight with what you cannot command.
+**Later — external blows**  
+The same method when the blow is outside you: blocked plans, loss, delay, other people’s moves. Train endurance and drop the fight with what you cannot command. No title is locked.
 
-Keep your Personal Standard Card. The next book should change the pressure source — not reset your tools to zero. No Book 4 listed until it exists. No fake ASINs.
+Keep your Personal Standard Card. The next book should change the pressure source — not reset your tools to zero. No fake ASINs.
 
 ---
 

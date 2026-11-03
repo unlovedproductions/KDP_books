@@ -33,7 +33,7 @@ Books in this series share one method family: **SEE → SORT → OWN → CHOOSE 
 | --- | --- |
 | **Book 1 (this book)** | ***Stoic Foundations*** — install the method: judgment, control, and assent |
 | Book 2 | *Stoic Shadow Work Journal* — self-examination of hidden patterns and avoidance |
-| Book 3 | *Stoic Adversity* — aim the method at external blows and endurance |
+| Later | External blows and endurance. No title until a Project Brief. |
 
 This is the official starting book. You do not need a prior Collection title. Later books assume this method or supply a short Primer. You do not need every title to finish this one.
 
@@ -156,19 +156,19 @@ Window: ___________________________________________________
 | | Page |
 | --- | ---: |
 | Introduction: The Work Begins Here | 1 |
-| 1. Start With the Method | 6 |
-| 2. What Hits the Mind | 16 |
-| 3. Facts and Additions | 26 |
-| 4. Up to You | 36 |
-| 5. Before You Assent | 46 |
-| 6. Ownership Without Abuse | 56 |
-| 7. Virtue Tests the Next Act | 66 |
-| 8. Review Until It Is Ordinary | 76 |
-| Integration: A Standard You Can Carry | 86 |
-| Stoic Terminology & Concepts Guide | 94 |
-| Sources & Citations | 101 |
-| Further Reading | 106 |
-| The Stoic Collection | 109 |
+| 1. Start With the Method | 7 |
+| 2. What Hits the Mind | 17 |
+| 3. Facts and Additions | 28 |
+| 4. Up to You | 38 |
+| 5. Before You Assent | 48 |
+| 6. Ownership Without Abuse | 59 |
+| 7. Virtue Tests the Next Act | 69 |
+| 8. Review Until It Is Ordinary | 79 |
+| Integration: A Standard You Can Carry | 90 |
+| Stoic Terminology & Concepts Guide | 99 |
+| Sources & Citations | 105 |
+| Further Reading | 110 |
+| The Stoic Collection | 113 |
 
 ---
 
@@ -1241,7 +1241,7 @@ Now that you can run the method, you can aim it at what you usually avoid seeing
 
 That is Book 2 — *Stoic Shadow Work Journal*. Same engine. Different pressure: hidden patterns, avoidance, self-deception.
 
-When the blow is outside you — blocked plans, delay, other people’s moves — Book 3 — *Stoic Adversity* — aims the same engine at endurance and what you can control.
+When the blow is outside you — blocked plans, delay, other people’s moves — a later book can aim the same engine at endurance and what you can control. That title is not locked.
 
 You are not required to buy either to have finished this one. No guilt for owning one book. No fake ASINs. Keep practicing on ordinary incidents until the loop is boring. Then take the loop where it fails.
 
@@ -1484,10 +1484,8 @@ A guided workbook that installs one portable method. You practice on ordinary in
 **Book 2 — *Stoic Shadow Work Journal***  
 The same method, aimed at what you usually will not look at: avoidance, self-deception, repeating patterns. Not mystical shadow work. Not a clinical trauma workbook.
 
-**Book 3 — *Stoic Adversity***  
-The same method when the blow is outside you: blocked plans, loss, delay, other people’s moves. Train endurance and drop the fight with what you cannot command.
-
-No Book 4 listed until it exists. No fake ASINs.
+**Later — external blows**  
+The same method when the blow is outside you: blocked plans, loss, delay, other people’s moves. Train endurance and drop the fight with what you cannot command. No title is locked. No fake ASINs.
 
 ---
 

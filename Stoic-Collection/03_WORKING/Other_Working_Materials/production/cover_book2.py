@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Build KDP full-wrap cover PDF for Book 2 (6x9, white B&W, 0.125\" bleed)."""
+"""Build KDP full-wrap cover PDF for Book 2 (6x9, white B&W, 0.125\" bleed).
+
+Spine text: 0.375\" from top and bottom cover edges, 0.0625\" from spine folds.
+Barcode box is empty. Book 1 cross-sell uses the locked title Stoic Foundations.
+"""
 
 from __future__ import annotations
 
@@ -19,7 +23,9 @@ TRIM_W = 6.0 * IN
 TRIM_H = 9.0 * IN
 BLEED = 0.125 * IN
 SAFE = 0.125 * IN  # text inset from trim
-SPINE_SAFE = 0.0625 * IN
+FOLD_SAFE = 0.0625 * IN
+SPINE_TB = 0.375 * IN
+BARCODE_INSET = 0.25 * IN
 WHITE_PPI = 0.002252  # KDP official white B&W
 
 
@@ -98,38 +104,33 @@ def build(n: int | None = None):
     c.setFont("LibSans", 8)
     c.drawString(bx, y, "Series: The Stoic Collection")
     y -= 12
-    c.drawString(bx, y, "Book 1: Foundations: Judgment, Control, and Assent")
+    c.drawString(bx, y, "Book 1: Stoic Foundations")
     y -= 12
     c.drawString(bx, y, "Author / Imprint: UnlovedProductions")
 
-    # Barcode clearance (KDP places barcode) — bottom-right of BACK = near spine on wrap
+    # Empty barcode box: 2" x 1.2", 0.25" from the spine and from the bottom trim.
     bar_w, bar_h = 2.0 * IN, 1.2 * IN
-    bar_x = back_x0 + TRIM_W - SAFE - bar_w
-    bar_y = trim_y0 + SAFE
+    bar_x = back_x0 + TRIM_W - BARCODE_INSET - bar_w
+    bar_y = trim_y0 + BARCODE_INSET
     c.setFillColorRGB(1, 1, 1)
     c.rect(bar_x, bar_y, bar_w, bar_h, stroke=0, fill=1)
-    c.setFillColorRGB(0.45, 0.45, 0.45)
-    c.setFont("LibSans", 7)
-    c.drawCentredString(bar_x + bar_w / 2, bar_y + bar_h / 2 - 3, "KDP BARCODE ZONE")
 
     # --- SPINE ---
+    # 116 pp spine is ~0.26". Keep the em box inside the fold inset. No baseline shove.
     cx = spine_x0 + spine / 2
     c.saveState()
     c.translate(cx, trim_y0 + TRIM_H / 2)
     c.rotate(90)
     c.setFillColorRGB(0.95, 0.95, 0.95)
-    # Available height along spine after safe margins ≈ TRIM_H - 2*SPINE_SAFE
-    max_spine_text = TRIM_H - 2 * SPINE_SAFE
-    c.setFont("LibSans-Bold", 9)
+    max_spine_text = TRIM_H - 2 * SPINE_TB
+    spine_pt = 7
+    c.setFont("LibSans-Bold", spine_pt)
     spine_label = "STOIC SHADOW WORK JOURNAL  ·  UnlovedProductions"
-    # Keep clear of fold: text drawn centered; width of rotated string must fit height
-    tw = c.stringWidth(spine_label, "LibSans-Bold", 9)
+    tw = c.stringWidth(spine_label, "LibSans-Bold", spine_pt)
     if tw > max_spine_text - 4:
         spine_label = "STOIC SHADOW WORK JOURNAL"
-        tw = c.stringWidth(spine_label, "LibSans-Bold", 9)
-    # Also keep 0.0625" from left/right of spine (visual thickness)
-    if spine > 2 * SPINE_SAFE + 6:
-        c.drawCentredString(0, -3, spine_label)
+    if spine > 2 * FOLD_SAFE + spine_pt:
+        c.drawCentredString(0, 0, spine_label)
     c.restoreState()
 
     # --- FRONT COVER ---
@@ -185,6 +186,10 @@ def build(n: int | None = None):
                 f"total_width_in={(total_w / IN):.6f}",
                 f"total_height_in={(total_h / IN):.6f}",
                 f"formula=spine=pages*0.002252 (KDP official white)",
+                "spine_top_bottom_in=0.375",
+                "spine_fold_in=0.0625",
+                "spine_text_pt=7",
+                "barcode_inset_in=0.25",
                 f"output={out.name}",
                 "",
             ]
