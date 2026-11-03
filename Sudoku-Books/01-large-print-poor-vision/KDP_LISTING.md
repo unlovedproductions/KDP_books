@@ -24,16 +24,23 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Adult content | No |
 | AI-generated content | No |
 | Low-content | No |
-| ISBN | Free KDP ISBN, assigned at upload. Do not type a made-up number. |
-| Imprint | Independently published (forced by the free KDP ISBN) |
+| ISBN | 9798167680128. Free KDP ISBN. Do not replace it. |
+| Imprint | Independently published |
 | Print options | Black and white interior, cream paper, 8.5" × 11", no bleed, matte cover |
 | Manuscript | `production/output/Large_Print_Sudoku_Poor_Vision_INTERIOR.pdf` (124 pages) |
 | Cover | `production/output/Large_Print_Sudoku_Poor_Vision_COVER.pdf` |
-| Price US | $9.99 (60% royalty band starts at $9.99) |
-| Price UK | £7.99 (60% band starts at £7.99) |
-| Price EU | €9.99 (60% band starts at €9.99) |
-| Other marketplaces | Use that marketplace's 60% band floor from the royalty page. Do not drop into the 50% band. |
-| Expanded Distribution | On |
+| Price US | $9.99. KDP showed 60% and a $2.89 royalty. Printing showed $3.11. |
+| Price UK | £7.99. KDP showed 60% and a £2.46 royalty. |
+| Price EU | €9.99 on Amazon.com.be, .de, .es, .fr, .ie, .it, and .nl. KDP showed 60% and a €3.26 royalty on each. |
+| Price CA | CAD $13.99. KDP showed 60% and a $4.53 royalty. |
+| Price AU | AUD $13.99. KDP showed 60% and a $2.63 royalty. |
+| Price JP | ¥1000. KDP showed 60% and a ¥22 royalty. That is the 60% floor. |
+| Price PL | 40.00 PLN. KDP showed 60% and an 11.19 zł royalty. |
+| Price SE | 110.00 SEK. KDP showed 60% and a 35.43 kr royalty. |
+| Territories | All territories (worldwide rights) |
+| Expanded Distribution | Off. KDP said this cream 8.5" × 11" book does not meet the current requirements. Do not change paper or trim to force it. |
+| KDP title id | RB22WEEEPAA |
+| Bookshelf status | Submitted 2026-11-03. Paperback is In review. No printed proof was ordered. No Kindle eBook. |
 
 ## KDP picker paths (US paperback)
 

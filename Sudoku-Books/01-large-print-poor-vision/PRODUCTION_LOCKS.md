@@ -19,11 +19,11 @@
 | Cover text inset | ≥ 0.25" inside trim | Official minimum is 0.125" |
 | Spine | 124 × 0.0025" = 0.310000". Text 7 pt | Cream factor ([Paperback Cover](https://kdp.amazon.com/help/topic/G201953020)). 124 pages is over the 79-page spine-text minimum |
 | Barcode | 2.0" × 1.2" lower-right back, 0.25" from the spine and from the trim, white box through the bleed | KDP places the barcode |
-| List price | $9.99 / £7.99 / €9.99 | 60% royalty band starts at those prices ([Paperback Royalty](https://kdp.amazon.com/en_US/help/topic/G201834330)) |
+| List price | $9.99 / £7.99 / €9.99 / CAD $13.99 / AUD $13.99 / ¥1000 / 40 PLN / 110 SEK | 60% royalty floors ([Paperback Royalty](https://kdp.amazon.com/en_US/help/topic/G201834330)). Entered on the pricing page before publish. |
 | US print | $1.00 + $0.017 × 124 = $3.108 | Large trim, black ink, 110–828 pages ([Printing Cost](https://kdp.amazon.com/en_US/help/topic/G201834340)). Cream and white share this chart |
 | UK print | £0.85 + £0.012 × 124 = £2.338 | Same chart, large trim |
 | EU print | €0.75 + €0.016 × 124 = €2.734 | Amazon.de/es/fr/it/nl/ie/com.be |
-| ISBN | Free KDP ISBN, assigned at upload | Do not invent one. Imprint becomes Independently published |
+| ISBN | 9798167680128 | Free KDP ISBN. Imprint is Independently published. Title id RB22WEEEPAA. Submitted 2026-11-03; bookshelf status In review. |
 | Author | Unloved Productions | Not the imprint field |
 | Low-content checkbox | Off | These are puzzles, not a blank log |
 | AI disclosure | Not AI-generated | Grids are code, not an image model |

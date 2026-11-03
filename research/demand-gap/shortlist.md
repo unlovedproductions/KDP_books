@@ -4,7 +4,7 @@ Fetched 2026-11-03. One phrase passed. One book was built.
 
 ## Decision
 
-`large print sudoku for seniors with poor vision` cleared the pass rule. The book is `Sudoku-Books/01-large-print-poor-vision/`.
+`large print sudoku for seniors with poor vision` cleared the pass rule. The book is `Sudoku-Books/01-large-print-poor-vision/`. The paperback was submitted on 2026-11-03 (KDP title RB22WEEEPAA, ISBN 9798167680128) and the bookshelf shows In review. No second title.
 
 The rule, fixed before scoring and not fit to a model:
 
