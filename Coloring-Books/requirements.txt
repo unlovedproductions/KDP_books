@@ -1,0 +1,5 @@
+# Python deps for the coloring-book generators (see README.md for system tools).
+# reportlab matches Stoic-Collection/.../production/requirements.txt.
+reportlab==5.0.1
+pillow==12.3.0
+numpy==2.5.3

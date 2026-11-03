@@ -12,6 +12,7 @@ Same print engineering as Book 1. New ISBN on upload.
 | Gutter | 0.50" | Above 0.375" min for ≤150 pp |
 | Outer/top/bottom | 0.50" | Above 0.25" no-bleed min |
 | Stroke | 8 pt outer / 5 pt inner | Toddler thick line; no gray fill, no shading |
+| Art fit | Each drawing scaled to fit **440 × 520 pt** max, centered; stroke stays **8 pt / 5 pt** (geometry scales, line weight does not) | `_shared/fit_art.py`; added 2026-10-25 so every page is "one big picture". Measured margins ≥ 1.0" (lock above is 0.50") |
 | DPI | Vector PDF | Stay vector |
 | Fonts | **DejaVu Sans / DejaVu Sans Bold, embedded** | Helvetica Type 1 does not embed |
 | Cover finish | Glossy | Children’s books |

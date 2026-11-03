@@ -5,11 +5,12 @@
 | Trim | 8.5" × 11" (large trim) | Toddler “jumbo” format; KDP [Print Options](https://kdp.amazon.com/en_US/help/topic/G201834180) |
 | Bleed | **No** | Art inset; avoids cropped outlines |
 | Interior ink | **Black ink, white paper** | Line art; [Print Options](https://kdp.amazon.com/en_US/help/topic/G201834180) |
-| File pages | **104** even | 4 front + 100 drawings; [page_counts.md](../../research/kids-coloring-book-themes-amazon/page_counts.md) |
+| File pages | **104** even | 4 front + 100 drawings; KDP page-count / print-cost rules ([Printing cost](https://kdp.amazon.com/en_US/help/topic/G201834340)); competitor 100-page cluster from local market research (not committed — see `.gitignore`) |
 | Coloring drawings | **100** unique closed-shape pictures | Competitor 100-page cluster; limbs are capsules, not stick lines |
 | Gutter | 0.50" | Above 0.375" min for ≤150 pp ([Trim, Bleed, Margins](https://kdp.amazon.com/help/topic/GVBQ3CMEQW3W2VL6)) |
 | Outer/top/bottom | 0.50" | Above 0.25" no-bleed min |
 | Stroke | 8 pt outer / 5 pt inner | Toddler thick line; no gray fill, no shading on interior |
+| Art fit | Each drawing scaled to fit **440 × 520 pt** max, centered; stroke stays **8 pt / 5 pt** (geometry scales, line weight does not) | `_shared/fit_art.py`; added 2026-10-25 so every page is "one big picture". Measured margins ≥ 1.0" (lock above is 0.50") |
 | DPI | Vector PDF | KDP wants ≥300 dpi for raster; we stay vector |
 | Fonts | **DejaVu Sans / DejaVu Sans Bold, embedded** | KDP: embed all fonts in interior and cover ([Paperback Fonts](https://kdp.amazon.com/help/topic/G202145450), [Submission Guidelines](https://kdp.amazon.com/en_US/help/topic/G201857950)). Helvetica Type 1 does not embed and trips Print Previewer. |
 | Cover finish | Glossy | KDP: typical for children’s books |
