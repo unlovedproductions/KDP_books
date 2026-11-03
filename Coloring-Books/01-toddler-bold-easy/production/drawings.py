@@ -8,12 +8,14 @@ from reportlab.pdfgen.canvas import Canvas
 
 OUTER = 8.0
 INNER = 5.0
+# Set by the page code to 1/scale so printed stroke widths stay at OUTER/INNER.
+STROKE_K = 1.0
 
 
 def _stroke(c: Canvas, w: float) -> None:
     c.setStrokeColorRGB(0, 0, 0)
     c.setFillColorRGB(1, 1, 1)
-    c.setLineWidth(w)
+    c.setLineWidth(w * STROKE_K)
     c.setLineCap(1)
     c.setLineJoin(1)
 
@@ -60,7 +62,7 @@ def capsule(c: Canvas, x1: float, y1: float, x2: float, y2: float, r: float, w: 
     c.saveState()
     c.setStrokeColorRGB(0, 0, 0)
     c.setFillColorRGB(1, 1, 1)
-    c.setLineWidth(w)
+    c.setLineWidth(w * STROKE_K)
     c.setLineCap(1)
     c.setLineJoin(1)
     c.translate(x1, y1)

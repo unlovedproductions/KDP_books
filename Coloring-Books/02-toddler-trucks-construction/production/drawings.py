@@ -8,12 +8,14 @@ from reportlab.pdfgen.canvas import Canvas
 
 OUTER = 8.0
 INNER = 5.0
+# Set by the page code to 1/scale so printed stroke widths stay at OUTER/INNER.
+STROKE_K = 1.0
 
 
 def _stroke(c: Canvas, w: float) -> None:
     c.setStrokeColorRGB(0, 0, 0)
     c.setFillColorRGB(1, 1, 1)
-    c.setLineWidth(w)
+    c.setLineWidth(w * STROKE_K)
     c.setLineCap(1)
     c.setLineJoin(1)
 
@@ -80,7 +82,10 @@ def _tracks(c, x, y, w=160, h=28) -> None:
 
 def dump_truck(c, x, y):
     _cab(c, x - 130, y + 8)
-    rrect(c, x - 40, y - 8, 160, 72, 12)
+    # Dump body: tall front wall sloping down to the rear, with a rear hinge.
+    poly(c, [(x - 36, y - 8), (x + 122, y - 8), (x + 122, y + 38), (x + 100, y + 62), (x - 36, y + 86)])
+    poly(c, [(x - 14, y + 58), (x + 88, y + 42), (x + 88, y + 8), (x - 14, y + 8)], INNER)
+    circle(c, x + 108, y + 16, 7, INNER)
     _wheel(c, x - 85, y - 28, 24)
     _wheel(c, x + 20, y - 28, 24)
     _wheel(c, x + 95, y - 28, 24)
@@ -96,7 +101,8 @@ def dump_up(c, x, y):
 
 def mini_dump(c, x, y):
     _cab(c, x - 90, y, 70, 65)
-    rrect(c, x - 20, y - 8, 100, 50, 10)
+    poly(c, [(x - 16, y - 8), (x + 82, y - 8), (x + 82, y + 30), (x + 62, y + 46), (x - 16, y + 60)])
+    circle(c, x + 70, y + 12, 5, INNER)
     _wheel(c, x - 50, y - 28, 22)
     _wheel(c, x + 55, y - 28, 22)
 
