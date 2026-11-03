@@ -1,0 +1,11 @@
+page_count=124
+paper=cream_bw
+spine_in=0.310000
+trim=8.5x11
+bleed=0.125
+total_width_in=17.560000
+total_height_in=11.250000
+formula=spine=pages*0.0025 (KDP official cream)
+spine_text_pt=7
+barcode=KDP auto 2.0x1.2 lower-right back, 0.25in clear
+output=Large_Print_Sudoku_Poor_Vision_COVER.pdf

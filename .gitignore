@@ -2,6 +2,9 @@
 research/kids-coloring-book-themes-amazon/
 .research/
 
+# Signed-in browser snapshots. Do not commit.
+.playwright-mcp/
+
 # Python bytecode / caches
 __pycache__/
 *.py[cod]
