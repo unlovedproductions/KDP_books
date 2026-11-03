@@ -1,0 +1,58 @@
+{
+  "name": "kdp_demand_listings",
+  "version": "1.0",
+  "columns": [
+    {
+      "name": "phrase",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "format",
+      "type": "string",
+      "nullable": false,
+      "allowed_values": [
+        "paperback"
+      ]
+    },
+    {
+      "name": "price_usd",
+      "type": "float",
+      "nullable": false,
+      "min_value": 0.01
+    },
+    {
+      "name": "bsr_books",
+      "type": "integer",
+      "nullable": false,
+      "min_value": 1
+    },
+    {
+      "name": "review_count",
+      "type": "integer",
+      "nullable": true,
+      "min_value": 0
+    },
+    {
+      "name": "named_defect",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "name": "source_url",
+      "type": "string",
+      "nullable": false,
+      "unique": true
+    },
+    {
+      "name": "fetched_date",
+      "type": "string",
+      "nullable": false
+    }
+  ]
+}
