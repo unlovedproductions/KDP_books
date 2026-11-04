@@ -13,7 +13,7 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Title | Large Print Sudoku for Seniors with Poor Vision |
 | Subtitle | 40 Easy Puzzles, One Giant Grid Per Page, Blank Back Behind Every Puzzle |
 | Author | Unloved Productions |
-| Series | Leave empty. Do not start a series until this listing is live. |
+| Series | Leave empty. The listing is live. Do not open a series until a new phrase passes the same rule. |
 | Description | see below |
 | Publishing rights | I own the copyright |
 | Primary audience | Adult |
@@ -40,7 +40,9 @@ https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM
 | Territories | All territories (worldwide rights) |
 | Expanded Distribution | Off. KDP said this cream 8.5" × 11" book does not meet the current requirements. Do not change paper or trim to force it. |
 | KDP title id | RB22WEEEPAA |
-| Bookshelf status | Submitted 2026-11-03. Paperback is In review. No printed proof was ordered. No Kindle eBook. |
+| ASIN | B0HQ9ZBP9J |
+| Bookshelf status | Live on 2026-11-04. Submitted 2026-11-03. Paperback $9.99. No printed proof was ordered. No Kindle eBook. |
+| Search check | First organic result on the US Books search for the exact title phrase, 2026-11-04. Product page shows 0 customer reviews and does not show a Books rank. |
 
 ## KDP picker paths (US paperback)
 

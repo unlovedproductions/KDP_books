@@ -23,12 +23,12 @@
 | US print | $1.00 + $0.017 × 124 = $3.108 | Large trim, black ink, 110–828 pages ([Printing Cost](https://kdp.amazon.com/en_US/help/topic/G201834340)). Cream and white share this chart |
 | UK print | £0.85 + £0.012 × 124 = £2.338 | Same chart, large trim |
 | EU print | €0.75 + €0.016 × 124 = €2.734 | Amazon.de/es/fr/it/nl/ie/com.be |
-| ISBN | 9798167680128 | Free KDP ISBN. Imprint is Independently published. Title id RB22WEEEPAA. Submitted 2026-11-03; bookshelf status In review. |
+| ISBN | 9798167680128 | Free KDP ISBN. Imprint is Independently published. Title id RB22WEEEPAA. ASIN B0HQ9ZBP9J. Bookshelf Live on 2026-11-04. |
 | Author | Unloved Productions | Not the imprint field |
 | Low-content checkbox | Off | These are puzzles, not a blank log |
 | AI disclosure | Not AI-generated | Grids are code, not an image model |
 | eBook | Do not publish | Paperback only |
-| Series | None | Do not open a series until this listing is live |
+| Series | None | Listing is live. Do not open a series until a new phrase passes the same rule |
 
 Cover size: bleed 0.125 + 8.5 + 0.31 + 8.5 + 0.125 = 17.56" wide, 11.25" tall.
 

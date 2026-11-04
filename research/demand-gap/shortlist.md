@@ -4,7 +4,7 @@ Fetched 2026-11-03. One phrase passed. One book was built.
 
 ## Decision
 
-`large print sudoku for seniors with poor vision` cleared the pass rule. The book is `Sudoku-Books/01-large-print-poor-vision/`. The paperback was submitted on 2026-11-03 (KDP title RB22WEEEPAA, ISBN 9798167680128) and the bookshelf shows In review. No second title.
+`large print sudoku for seniors with poor vision` cleared the pass rule. The book is `Sudoku-Books/01-large-print-poor-vision/`. The paperback was submitted on 2026-11-03 (KDP title RB22WEEEPAA, ISBN 9798167680128). On 2026-11-04 the bookshelf says Live, ASIN B0HQ9ZBP9J, $9.99. No second title.
 
 The rule, fixed before scoring and not fit to a model:
 
@@ -56,6 +56,16 @@ Dead shelves, from product pages that were opened:
 `listings.csv` is the 19 product pages that were opened. Every `source_url` is one of those pages. No Best Sellers Rank is stored as zero. Blank `review_count` means the search page did not show a count for that ASIN.
 
 The data-quality validator from `senior-data-engineer` was run on that CSV against `listings.schema.json`. It exited 0. It records failures only, and it recorded none. Source URLs are unique. Completeness is 97.08 because some review counts are blank, which the schema allows. The report's accuracy figure is a pattern-detection score inside that script, not a check on these ranks.
+
+## Live check, 2026-11-04
+
+The KDP bookshelf shows the paperback Live. Nothing on the listing was edited. No proof was ordered. No Kindle was created. No ads were turned on.
+
+The US Books search `large print sudoku for seniors with poor vision` was read twice the same morning, once through Jina and once in the signed-in browser. Both put ASIN B0HQ9ZBP9J first under Results (`sr=1-1`), paperback, $9.99, dated Nov 3, 2026. That card did not show a review count.
+
+The product page `https://www.amazon.com/dp/B0HQ9ZBP9J` shows paperback $9.99, ISBN-13 979-8167680128, 124 pages, and the line "There are 0 customer reviews." The product-details list has no Best Sellers Rank, and the page HTML does not contain one. That rank is missing. It is not stored as zero, and it is not treated as a rank under 150,000 or as a rank past a million.
+
+Price stays at the 60% floor. No second title, because no new phrase has passed the same four clauses.
 
 ## What was not fetched
 
