@@ -1,10 +1,10 @@
 # Demand gap shortlist
 
-Fetched 2026-11-03. No phrase passed. No book was built.
+Fetched 2026-11-03. One phrase passed. One book was built.
 
 ## Decision
 
-Zero of the eleven seed phrases cleared the pass rule. Production does not start.
+`large print sudoku for seniors with poor vision` cleared the pass rule. The book is `Sudoku-Books/01-large-print-poor-vision/`. The paperback was submitted on 2026-11-03 (KDP title RB22WEEEPAA, ISBN 9798167680128). On 2026-11-04 the bookshelf says Live, ASIN B0HQ9ZBP9J, $9.99. No second title.
 
 The rule, fixed before scoring and not fit to a model:
 
@@ -17,7 +17,15 @@ Demand and review-moat stay separate. An empty shelf does not pass for being emp
 
 ## What passed which clause
 
-`large print sudoku for seniors with poor vision` is the only phrase with three product-page ranks under 150,000, and it does not have a three-book review wall. It still fails. Critical-review pages came back as a sign-in wall, so no review names a defect. Seller pages that say "one puzzle per page" are not a customer complaint.
+`large print sudoku for seniors with poor vision` is the only phrase with three product-page ranks under 150,000, and it does not have a three-book review wall.
+
+The named defect is a verified paperback review on [Easy Extra Large Print Sudoku for Seniors](https://www.amazon.com/dp/B0FK4HJBD6), read while signed in on 2026-11-03. 1.0 stars, title "Semitransparent pages", reviewed in the United States on January 20, 2026:
+
+> You can see through the pages, if you go to do a sudoku, you see all the print from the page behind it!
+
+The 2-star filter on that review page returned 0 matching customer reviews. A 3-star review in the critical set said the book should not be marketed only to seniors. That is not a 1-star or 2-star review, and it is not the defect the book fixes.
+
+The interior puts one puzzle on the odd page and leaves the verso blank. Solutions start after the puzzle block. Title contains the exact phrase. List price is the 60% royalty floor, $9.99. Low-content stays off.
 
 | Books BSR | Reviews on the search page | Price on the product page | Product |
 |---|---|---|---|
@@ -49,11 +57,21 @@ Dead shelves, from product pages that were opened:
 
 The data-quality validator from `senior-data-engineer` was run on that CSV against `listings.schema.json`. It exited 0. It records failures only, and it recorded none. Source URLs are unique. Completeness is 97.08 because some review counts are blank, which the schema allows. The report's accuracy figure is a pattern-detection score inside that script, not a check on these ranks.
 
+## Live check, 2026-11-04
+
+The KDP bookshelf shows the paperback Live. Nothing on the listing was edited. No proof was ordered. No Kindle was created. No ads were turned on.
+
+The US Books search `large print sudoku for seniors with poor vision` was read twice the same morning, once through Jina and once in the signed-in browser. Both put ASIN B0HQ9ZBP9J first under Results (`sr=1-1`), paperback, $9.99, dated Nov 3, 2026. That card did not show a review count.
+
+The product page `https://www.amazon.com/dp/B0HQ9ZBP9J` shows paperback $9.99, ISBN-13 979-8167680128, 124 pages, and the line "There are 0 customer reviews." The product-details list has no Best Sellers Rank, and the page HTML does not contain one. That rank is missing. It is not stored as zero, and it is not treated as a rank under 150,000 or as a rank past a million.
+
+Price stays at the 60% floor. No second title, because no new phrase has passed the same four clauses.
+
 ## What was not fetched
 
 - Reddit is `not_added` in `agent-reach doctor`. It was skipped. No posts were invented.
 - `agent-reach web search` is Exa. `agent-reach web read` is Jina. A few search pages came back as a spinner; those were reread through Jina with cache bypass.
-- Amazon `product-reviews` URLs for the sudoku books returned a sign-in page, not review text.
+- Amazon review text for B0FK4HJBD6 was read in the signed-in browser on 2026-11-03. The 1-star body is quoted above. The 2-star filter returned no reviews. Other sudoku product-review pages were not opened.
 - The last Exa search hit Exa's free rate limit. Nothing from that call is in the table.
 - Ranks, prices, and review counts below are only the ones on the fetched pages.
 
