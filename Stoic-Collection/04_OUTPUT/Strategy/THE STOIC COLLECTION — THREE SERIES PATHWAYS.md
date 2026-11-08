@@ -29,7 +29,7 @@ This matches Architecture’s Recommended Core (founding pair + one application 
 | Lock | Value | Source |
 | --- | --- | --- |
 | Book 1 | *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent* — **method install** | Bible §3.6; Book 1 Brief |
-| Book 2 | *Stoic Shadow Work Journal* — **inner examination** (avoidance, self-deception, unexamined patterns). Not Jungian, not clinical trauma | Bible §3.6; Book 2 Brief |
+| Book 2 | *Stoic Avoidance* — **inner examination** (avoidance, self-deception, unexamined patterns). Not Jungian, not clinical trauma | Bible §3.6; Book 2 Brief |
 | Format | Medium-content guided workbook. **Do not check KDP low-content.** Low-content titles cannot enroll in a KDP series. | Bible §3.1; KDP Low-Content help |
 | Method | SSOCR (SEE → SORT → OWN → CHOOSE → REVIEW) + Permanent signatures | Bible §11–15 |
 | Depth rule | Teach once at depth in the Primary Book. Later titles **apply** under new pressure. Do not re-lecture identical doctrine blocks. | Architecture anti-repetition |

@@ -154,7 +154,7 @@ class BookDoc(BaseDocTemplate):
         super().__init__(
             path,
             pagesize=(PAGE_W, PAGE_H),
-            title="Stoic Shadow Work Journal",
+            title="Stoic Avoidance",
             author="UnlovedProductions",
         )
         self.front_mode = True
@@ -173,7 +173,7 @@ class BookDoc(BaseDocTemplate):
             canv.drawString(GUTTER, y, "The Stoic Collection")
         else:
             canv.drawString(OUTER, y, page_label)
-            canv.drawRightString(PAGE_W - GUTTER, y, "Stoic Shadow Work Journal")
+            canv.drawRightString(PAGE_W - GUTTER, y, "Stoic Avoidance")
         canv.restoreState()
 
     def _on_odd(self, canv, doc):
@@ -426,14 +426,14 @@ def build():
 
         if "Half-Title" in title:
             story.append(Spacer(1, 2.2 * IN))
-            story.append(Paragraph("STOIC SHADOW WORK JOURNAL", sty["HalfTitle"]))
+            story.append(Paragraph("STOIC AVOIDANCE", sty["HalfTitle"]))
             continue
         if "Title Page" in title:
             story.append(Spacer(1, 1.5 * IN))
-            story.append(Paragraph("STOIC SHADOW WORK JOURNAL", sty["TitleMain"]))
+            story.append(Paragraph("STOIC AVOIDANCE", sty["TitleMain"]))
             story.append(
                 Paragraph(
-                    "A Guided Journey Through Self-Reflection, Virtue &amp; Personal Growth",
+                    "A Guided Workbook on Hidden Patterns and Self-Deception",
                     sty["SubTitle"],
                 )
             )
@@ -462,42 +462,6 @@ def build():
     reader = PdfReader(str(out))
     n = len(reader.pages)
     print(f"Initial page count: {n}")
-
-    TARGET_MIN = 116
-    while n < TARGET_MIN:
-        blank = OUT_DIR / "_extra.pdf"
-        c = canvas.Canvas(str(blank), pagesize=(PAGE_W, PAGE_H))
-        odd = (n + 1) % 2 == 1
-        left = GUTTER if odd else OUTER
-        right = PAGE_W - (OUTER if odd else GUTTER)
-        c.setFont("LibSerif-Bold", 11)
-        c.drawString(left, PAGE_H - TOP - 10, "PRACTICE LOG")
-        c.setFont("LibSerif", 9)
-        c.drawString(
-            left,
-            PAGE_H - TOP - 28,
-            "Date: ____________________   Pattern / cue: _______________________________",
-        )
-        y = PAGE_H - TOP - 50
-        c.setStrokeColorRGB(0.35, 0.35, 0.35)
-        c.setLineWidth(0.4)
-        while y > BOTTOM + 20:
-            c.line(left, y, right, y)
-            y -= 18
-        c.setFont("LibSans", 8)
-        label = str(n + 1 - 8) if n + 1 > 8 else ""
-        c.drawCentredString(PAGE_W / 2, 0.38 * IN, label)
-        c.showPage()
-        c.save()
-        writer = PdfWriter()
-        for p in reader.pages:
-            writer.add_page(p)
-        writer.add_page(PdfReader(str(blank)).pages[0])
-        with open(out, "wb") as f:
-            writer.write(f)
-        blank.unlink(missing_ok=True)
-        reader = PdfReader(str(out))
-        n = len(reader.pages)
 
     if n % 2 == 1:
         blank = OUT_DIR / "_blank.pdf"

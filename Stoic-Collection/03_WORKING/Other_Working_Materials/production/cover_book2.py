@@ -82,7 +82,7 @@ def build(n: int | None = None):
 
     c.setFont("LibSerif-Bold", 16)
     y = by_top - 28
-    c.drawString(bx, y, "Stoic Shadow Work Journal")
+    c.drawString(bx, y, "Stoic Avoidance")
 
     c.setFont("LibSerif", 10)
     y -= 22
@@ -115,8 +115,7 @@ def build(n: int | None = None):
     c.setFillColorRGB(1, 1, 1)
     c.rect(bar_x, bar_y, bar_w, bar_h, stroke=0, fill=1)
 
-    # --- SPINE ---
-    # 116 pp spine is ~0.26". Keep the em box inside the fold inset. No baseline shove.
+    # Center the font em-box on the spine so ascenders and descenders share the fold inset.
     cx = spine_x0 + spine / 2
     c.saveState()
     c.translate(cx, trim_y0 + TRIM_H / 2)
@@ -124,13 +123,26 @@ def build(n: int | None = None):
     c.setFillColorRGB(0.95, 0.95, 0.95)
     max_spine_text = TRIM_H - 2 * SPINE_TB
     spine_pt = 7
+    face = pdfmetrics.getFont("LibSans-Bold").face
+    ascent = face.ascent * spine_pt / 1000.0
+    descent = abs(face.descent) * spine_pt / 1000.0
+    shift = -(ascent - descent) / 2.0
+    half = spine / 2.0
+    clear = min(half - (shift + ascent), half + shift - descent)
+    if clear < FOLD_SAFE or spine <= 2 * FOLD_SAFE + spine_pt:
+        raise SystemExit(
+            f"Spine ink clearance {clear / IN:.4f}in is under {FOLD_SAFE / IN:.4f}in"
+        )
     c.setFont("LibSans-Bold", spine_pt)
-    spine_label = "STOIC SHADOW WORK JOURNAL  ·  UnlovedProductions"
-    tw = c.stringWidth(spine_label, "LibSans-Bold", spine_pt)
-    if tw > max_spine_text - 4:
-        spine_label = "STOIC SHADOW WORK JOURNAL"
-    if spine > 2 * FOLD_SAFE + spine_pt:
-        c.drawCentredString(0, 0, spine_label)
+    spine_label = "STOIC AVOIDANCE"
+    for label in (
+        "STOIC AVOIDANCE  ·  UnlovedProductions",
+        "STOIC AVOIDANCE",
+    ):
+        if c.stringWidth(label, "LibSans-Bold", spine_pt) <= max_spine_text - 4:
+            spine_label = label
+            break
+    c.drawCentredString(0, shift, spine_label)
     c.restoreState()
 
     # --- FRONT COVER ---
@@ -142,15 +154,15 @@ def build(n: int | None = None):
 
     c.setFont("LibSerif-Bold", 26)
     fy -= 42
-    c.drawString(fx, fy, "STOIC SHADOW")
+    c.drawString(fx, fy, "STOIC")
     fy -= 30
-    c.drawString(fx, fy, "WORK JOURNAL")
+    c.drawString(fx, fy, "AVOIDANCE")
 
     c.setFont("LibSerif-Italic", 11)
     fy -= 28
     for line in [
-        "A Guided Journey Through Self-Reflection,",
-        "Virtue & Personal Growth",
+        "A Guided Workbook on Hidden Patterns",
+        "and Self-Deception",
     ]:
         c.drawString(fx, fy, line)
         fy -= 15
@@ -169,7 +181,7 @@ def build(n: int | None = None):
     c.drawString(fx, trim_y0 + SAFE + 0.45 * IN, "UnlovedProductions")
 
     # Non-printing guides note in meta file only
-    c.setTitle("Stoic Shadow Work Journal — Cover Wrap")
+    c.setTitle("Stoic Avoidance — Cover Wrap")
     c.setAuthor("UnlovedProductions")
     c.showPage()
     c.save()

@@ -37,7 +37,7 @@ A book-level **Master Publishing Design Specification (MDS)** is required before
 | `SERIES_BIBLE.md` (“The Stoic Practice Series”) | **SUPERSEDED** for series naming, catalog order, and permanent brand identity. Useful production/citation patterns may be reused only if restated here. |
 | `VOLUME_1_MPDS.md` | **RETIRED / NON-LIVE** (2026-08-17). Do not realign. Do not use as live Book 1 MDS. Book 1 of The Stoic Collection requires the Book 1 Project Brief and a fresh MDS. |
 | Book 1 published title / subtitle | **BOOK-LEVEL (not a series Permanent).** Locked by Book 1 Project Brief v1.0 (2026-08-18): *Stoic Foundations* / *A Guided Workbook on Judgment, Control, and Assent*. §3.6 still locks domain job only. |
-| Prior catalog Book 2 = *Adversity* | **SUPERSEDED**. Book 2 is defined by the Book 2 Project Brief as *Stoic Shadow Work Journal*. |
+| Prior catalog Book 2 = *Adversity* | **SUPERSEDED**. Book 2 is defined by the Book 2 Project Brief as *Stoic Avoidance*. |
 
 **Resolution principle:** The official series name is **The Stoic Collection**. No future MDS may use “The Stoic Practice Series” as the published series name.
 

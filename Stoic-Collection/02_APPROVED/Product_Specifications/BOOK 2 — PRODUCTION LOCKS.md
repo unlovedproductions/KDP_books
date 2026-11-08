@@ -1,8 +1,8 @@
 # BOOK 2 — PRODUCTION LOCKS
 
 **Locked:** 2026-08-12  
-**Title:** Stoic Shadow Work Journal  
-**Subtitle:** A Guided Journey Through Self-Reflection, Virtue & Personal Growth  
+**Title:** Stoic Avoidance  
+**Subtitle:** A Guided Workbook on Hidden Patterns and Self-Deception  
 **Series:** The Stoic Collection — Book 2  
 
 | Decision | Lock |
@@ -16,8 +16,8 @@
 | Interior | Black & white |
 | Paper | White |
 | Bleed | None (interior); cover wrap uses 0.125 in bleed |
-| Target pages | 120 (band 116–124; must be even) |
-| **Interior page count (this export)** | **116** |
+| Target pages | Manuscript natural length. Do not pad to the old 116–124 band. |
+| **Interior page count (this export)** | **102** |
 
 ## Production outputs
 
@@ -32,7 +32,7 @@
 
 **Interior:** typeset from the Approved manuscript via `03_WORKING/Other_Working_Materials/production/typeset_book2.py`.  
 **Cover:** regenerate via `03_WORKING/Other_Working_Materials/production/cover_book2.py` after any page-count change. Spine text is 0.375" from the top and bottom cover edges and 0.0625" from the folds. Barcode box is empty, 0.25" from the spine and the bottom trim.  
-**Spine (white B&W):** `pages × 0.002252"` — for 116 pp ≈ **0.261232"**. Confirm with KDP Cover Calculator before final upload.
+**Spine (white B&W):** `pages × 0.002252"` — for 102 pp = **0.229704"**. Spine baseline is shifted so the font em-box clears both folds. Confirm with KDP Cover Calculator before final upload.
 
 **After KDP title creation:** paste assigned ISBN onto copyright page → re-export interior PDF → upload.
 

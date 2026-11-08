@@ -1,8 +1,9 @@
 # BOOK 2 — KDP LISTING SETUP
 
-**Title:** Stoic Shadow Work Journal  
-**Subtitle:** A Guided Journey Through Self-Reflection, Virtue & Personal Growth  
-**Series:** The Stoic Collection (Book 2)  
+**Title:** Stoic Avoidance  
+**Subtitle:** A Guided Workbook on Hidden Patterns and Self-Deception  
+**Series name field:** The Stoic Collection  
+**Series number:** 2  
 **Author / imprint:** UnlovedProductions  
 **ISBN:** Free KDP ISBN (assign in KDP → paste onto copyright page → re-export interior)  
 **Language:** English  
@@ -17,7 +18,7 @@
 | Trim | 6 × 9 in |
 | Bleed | No bleed (interior) |
 | Cover finish | Matte or glossy (your choice; matte recommended for workbook) |
-| Page count (locked for this export) | **116** |
+| Page count (locked for this export) | **102** |
 | Low-content book | **Do not check** |
 | AI-generated content | Answer honestly per KDP form for this title |
 
@@ -25,8 +26,10 @@
 
 Primary / secondary picks (adjust if KDP UI names differ):
 
-1. Self-Help › Journaling  
-2. Philosophy › Stoicism (or Self-Help › Personal Growth › Success if Stoicism node unavailable)
+1. Philosophy › Stoicism (or Philosophy › Greek & Roman if Stoicism is absent)  
+2. Self-Help › Personal Transformation (or Self-Help › Personal Growth › Success)
+
+Do not lead with Self-Help › Journaling. The title already contains Journal.
 
 Alternate if nodes missing: Self-Help › Motivational; Religion & Spirituality › Spirituality › Personal Growth.
 
@@ -44,7 +47,7 @@ Do not stuff competitor titles or misleading clinical trauma terms.
 
 ## Description (HTML allowed in KDP; plain version below)
 
-**Stoic Shadow Work Journal** is a guided workbook in *The Stoic Collection* for people who avoid hard truths, repeat the same patterns, and want a method—not slogans.
+**Stoic Avoidance** is a guided workbook in *The Stoic Collection* for people who avoid hard truths, repeat the same patterns, and want a method—not slogans.
 
 Using the permanent practice spine **SEE → SORT → OWN → CHOOSE → REVIEW**, you will:
 
@@ -59,24 +62,24 @@ This is Book 2. Book 1 (*Stoic Foundations*) installs the method in depth. You c
 
 ## Pricing guidance (USD — verify KDP royalty calculator after upload)
 
-Print cost for ~116 pp 6×9 B&W white is typically in the low single digits USD (marketplace-dependent). Suggested launch band:
+Print cost for 102 pp 6×9 B&W white is typically in the low single digits USD (marketplace-dependent). Suggested launch band:
 
 | Marketplace | Suggested list (start) | Notes |
 | --- | --- | --- |
 | Amazon.com | **$12.99–$14.99** | Aim ≥35–40% royalty after print cost if possible |
 | Amazon.co.uk / EU | match local comps after KDP shows print cost | |
 
-Re-check after KDP shows exact print cost for 116 pages. Do not price below print cost + your minimum margin.
+Re-check after KDP shows exact print cost for 102 pages. Do not price below print cost + your minimum margin.
 
 ## Rights & distribution
 
 - Publishing rights: you hold (UnlovedProductions)  
 - Free KDP ISBN ⇒ Amazon-only for that ISBN (Expanded Distribution limited / typically unavailable with free ISBN — confirm current KDP help text)  
-- Series enrollment: enroll in **The Stoic Collection** when Book 1 exists as a linked series title; until then list series name in description/subtitle fields as allowed  
+- Series enrollment: name field is **The Stoic Collection** only. Series number is `2`. Do not put the series name, the number, or “Book 2” in the subtitle.  
 
 ## Upload checklist (files)
 
-1. Interior: `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` (116 pp until the export changes)  
+1. Interior: `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` (102 pp)  
 2. Cover: `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf`  
 3. After free ISBN assigned: update manuscript copyright → re-run `typeset_book2.py` → re-upload interior  
 

@@ -18,7 +18,7 @@ Agent cannot complete Amazon login, Online Previewer approval, or proof order. Y
 - [ ] Free KDP ISBN requested; number pasted on copyright page; interior re-exported  
 - [ ] Low-content = **unchecked**  
 - [ ] Print options: B&W, white, 6×9, no bleed  
-- [ ] Cover page count in KDP = **116** (must match interior)  
+- [ ] Cover page count in KDP = **102** (must match interior)  
 - [ ] Re-run KDP Cover Calculator; if spine differs from `cover_dimensions.txt`, regenerate cover  
 
 ## B. Online Previewer (must pass)

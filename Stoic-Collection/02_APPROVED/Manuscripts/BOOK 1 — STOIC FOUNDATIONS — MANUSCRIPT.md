@@ -10,7 +10,7 @@
 **TRANSLATION LOCK (direct quotes):** Epictetus *Enchiridion* and *Discourses* — George Long (1890); Marcus Aurelius *Meditations* — George Long (1890); Seneca *De Ira* — Aubrey Stewart (1889)  
 **NOT A PRINT PDF.** Page markers follow the MDS page map for typesetting.  
 **EDITORIAL STATUS:** Approved 2026-08-21. Editorial Pass 1 applied. Typesetting source.  
-**PRODUCTION:** Author/imprint = UnlovedProductions · ISBN = free KDP ISBN (insert number when KDP assigns) · © 2026 · Not low-content. Amazon title field = *Stoic Foundations* only.
+**PRODUCTION:** Author/imprint = UnlovedProductions · printed copyright page has no ISBN until KDP assigns one; paste `978-X-XXXX-XXXX-X` here and re-export · © 2026 · Not low-content. Amazon title field = *Stoic Foundations* only.
 
 ---
 
@@ -32,7 +32,7 @@ Books in this series share one method family: **SEE → SORT → OWN → CHOOSE 
 | Book | Title / focus |
 | --- | --- |
 | **Book 1 (this book)** | ***Stoic Foundations*** — install the method: judgment, control, and assent |
-| Book 2 | *Stoic Shadow Work Journal* — self-examination of hidden patterns and avoidance |
+| Book 2 | *Stoic Avoidance* — self-examination of hidden patterns and avoidance |
 | Later | External blows and endurance. No title until a Project Brief. |
 
 This is the official starting book. You do not need a prior Collection title. Later books assume this method or supply a short Primer. You do not need every title to finish this one.
@@ -59,8 +59,7 @@ The Stoic Collection — Book 1
 **Author / Imprint:** UnlovedProductions  
 © 2026 UnlovedProductions. All rights reserved.
 
-**ISBN:** Free KDP ISBN — *insert the number Amazon assigns when the paperback title is created, then re-export the interior before final upload.*  
-Publisher name on record: UnlovedProductions. This title is **not** low-content; do not check the KDP low-content box.
+Publisher: UnlovedProductions.
 
 **Translations used for direct quotations in this edition**  
 - Epictetus, *Enchiridion* and *Discourses*: George Long (1890), *The Discourses of Epictetus, with the Encheiridion and Fragments* (George Bell and Sons)  
@@ -1239,7 +1238,7 @@ This book did not give you more quotes. It gave you a method you can run on toda
 
 Now that you can run the method, you can aim it at what you usually avoid seeing.
 
-That is Book 2 — *Stoic Shadow Work Journal*. Same engine. Different pressure: hidden patterns, avoidance, self-deception.
+That is Book 2 — *Stoic Avoidance*. Same engine. Different pressure: hidden patterns, avoidance, self-deception.
 
 When the blow is outside you — blocked plans, delay, other people’s moves — a later book can aim the same engine at endurance and what you can control. That title is not locked.
 
@@ -1481,7 +1480,7 @@ Each title trains a different pressure. Same method family: **SEE → SORT → O
 **Book 1 — *Stoic Foundations*** (this book)  
 A guided workbook that installs one portable method. You practice on ordinary incidents until judgment, control, and assent are skills, not slogans.
 
-**Book 2 — *Stoic Shadow Work Journal***  
+**Book 2 — *Stoic Avoidance***  
 The same method, aimed at what you usually will not look at: avoidance, self-deception, repeating patterns. Not mystical shadow work. Not a clinical trauma workbook.
 
 **Later — external blows**  

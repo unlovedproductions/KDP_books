@@ -11,7 +11,7 @@
 
 Do not type Journal, Workbook, or Notebook into the **title** field. Workbook stays in the locked subtitle only. Do not use *Stoic Foundations Journal*. Do not use *Foundations: Judgment, Control, and Assent* (legacy Book 2 product-text string; SSW-1, not this listing).
 
-Title + subtitle character count: 17 + 51 = **68** (limit 200). [G201097560]
+Title + subtitle character count: 17 + 50 = **67** (limit 200). [G201097560]
 
 ## Print options (must match files)
 
@@ -69,7 +69,7 @@ The loop name **SEE → SORT → OWN → CHOOSE → REVIEW** is this Collection�
 
 This is Book 1, the official starting book. You do not need a prior Collection title. It is not a quote anthology, not a blank journal, and not Book 2’s shadow-work / avoidance title.
 
-When the five moves are available without this book in your hand, Book 2 — *Stoic Shadow Work Journal* — aims the same engine at hidden patterns. You are not required to buy it to have finished this one.
+When the five moves are available without this book in your hand, Book 2 — *Stoic Avoidance* — aims the same engine at hidden patterns. You are not required to buy it to have finished this one.
 
 **Author / Imprint:** UnlovedProductions
 

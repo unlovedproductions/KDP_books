@@ -361,7 +361,7 @@ Do not include all Adaptable systems by default. Selection must be intentional a
 
 **Independence:** Book 1 assumes no prior Collection book. Later books assume this method or supply a short Primer.
 
-**Cross-sell:** Best next book is *Stoic Shadow Work Journal* (Book 2). Invitation is value-first: now that you can run the method, use it on what you usually avoid. Do not guilt the reader for owning one book.
+**Cross-sell:** Best next book is *Stoic Avoidance* (Book 2). Invitation is value-first: now that you can run the method, use it on what you usually avoid. Do not guilt the reader for owning one book.
 
 ---
 

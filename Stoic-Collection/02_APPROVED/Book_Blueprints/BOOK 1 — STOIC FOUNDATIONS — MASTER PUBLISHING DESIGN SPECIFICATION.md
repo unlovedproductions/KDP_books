@@ -497,7 +497,7 @@ Slogan familiarity → notice impression → separate fact from judgment → sor
 
 | P   | Purpose                              | Action | Obj                                                                                                | Type | Dens | Int | Why                        |
 | --- | ------------------------------------ | ------ | -------------------------------------------------------------------------------------------------- | ---- | ---- | --- | -------------------------- |
-| 109 | The Stoic Collection page            | R      | Book 1 *Stoic Foundations* (current) · Book 2 *Stoic Shadow Work Journal* · no speculative catalog | X    | Low  | R   | Series                     |
+| 109 | The Stoic Collection page            | R      | Book 1 *Stoic Foundations* (current) · Book 2 *Stoic Avoidance* · no speculative catalog | X    | Low  | R   | Series                     |
 | 110 | Publisher note / restrained CTA      | R      | UnlovedProductions; continue practice                                                              | X    | Low  | R   | Brand                      |
 | 111 | Structured overflow (6 prompts max)  | W      | Tied to draft Standard Card — not blank filler                                                     | W    | Mid  | W   | Utility                    |
 | 112 | End leaf / blank if needed for print | N      | Production                                                                                         | X    | None | N   | Only if imposed by printer |
@@ -912,7 +912,7 @@ Inherits Series Bible §4–5.
 
 | Location        | Content                                                                                                                 |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| p.ii            | Collection list: Book 1 *Stoic Foundations* (method) · Book 2 *Stoic Shadow Work Journal* (examination). One-line jobs. |
+| p.ii            | Collection list: Book 1 *Stoic Foundations* (method) · Book 2 *Stoic Avoidance* (examination). One-line jobs. |
 | p.93            | Soft bridge to Book 2: use the method on what you usually avoid. Not a hard gate.                                       |
 | p.109–110       | Collection page + UnlovedProductions note                                                                               |
 | Further Reading | Study path, not product spam                                                                                            |

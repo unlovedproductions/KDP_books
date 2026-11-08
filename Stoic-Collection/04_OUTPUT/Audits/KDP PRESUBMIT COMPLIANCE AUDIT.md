@@ -170,57 +170,16 @@ Human-only in KDP. Agent cannot pass these.
 
 ---
 
-## 2. BOOK 2 RUN — Stoic Shadow Work Journal (rechecked 2026-11-02)
+## 2. LATEST TITLE RUNS
 
-Local files regenerated this date. Not an upload. Previewer, proof, ISBN, and the Journal-in-title decision remain human.
+Score each book in its own file. Do not treat the 2026-11-02 Book 2 block as current. That run marked spine-fold clearance PASS at 0.096". The 2026-11-04 measurement of the printed lowercase ascenders is 0.0602", under the 0.0625" rule.
 
-| Field | Value |
-| --- | --- |
-| Book / SKU | Book 2 — *Stoic Shadow Work Journal* |
-| Interior | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_INTERIOR.pdf` (116 pp, 6×9) |
-| Cover | `03_WORKING/Other_Working_Materials/production/output/Stoic_Shadow_Work_Journal_Book2_COVER.pdf` (spine 0.261232") |
-| Listing spec | `02_APPROVED/Product_Specifications/BOOK 2 — KDP LISTING SETUP.md` |
-| Cover source | `cover_book2.py` — spine text 7 pt, 0.375" top/bottom, 0.0625" folds; empty barcode box inset 0.25" |
-| **OVERALL** | **HOLD** — no FAIL. Do not upload. |
+| Book | File | Date | Overall |
+| --- | --- | --- | --- |
+| 1 *Stoic Foundations* | [BOOK 1 — KDP PRESUBMIT COMPLIANCE AUDIT.md](BOOK%201%20%E2%80%94%20KDP%20PRESUBMIT%20COMPLIANCE%20AUDIT.md) | 2026-11-04 | **HOLD** — no FAIL |
+| 2 *Stoic Avoidance* | [BOOK 2 — KDP PRESUBMIT COMPLIANCE AUDIT.md](BOOK%202%20%E2%80%94%20KDP%20PRESUBMIT%20COMPLIANCE%20AUDIT.md) | 2026-11-05 | **HOLD** — title is *Stoic Avoidance*; KDP Previewer, price, ISBN, and proof remain |
 
-### Word scan
-
-| Token | Title | Subtitle | Series | Repeat? |
-| --- | --- | --- | --- | --- |
-| journal | 1 (*Stoic Shadow Work Journal*) | 0 (*A Guided Journey Through Self-Reflection, Virtue & Personal Growth*) | 0 (*The Stoic Collection*) | No |
-| notebook | 0 | 0 | 0 | No |
-| workbook | 0 | 0 | 0 | No |
-| books / gifts / diary / planner / log / coloring | 0 | 0 | 0 | No |
-
-### Scores
-
-| ID | Result | Evidence |
-| --- | --- | --- |
-| A1–A7, A10 | **PASS** (on listing copy) | Title is a single phrase; subtitle is not a keyword dump; series name clean; imprint lock UnlovedProductions; no bestseller/free/competitor stuffing in listing spec. |
-| A8 | **PASS** | Journal is not repeated across title+subtitle+series. This is **not** the dead SKU pattern (*Stoic Journal for Men* + *A Daily Reflection Journal…*). |
-| A9 | **HOLD** | Title contains **Journal**. Case `#51158280` ordered that descriptor out of the Amazon title field. Human must retitle or accept residual Content Review risk **in writing** before upload. Keywords may keep “stoic journal”. |
-| B1 | **PASS** (spec) | Listing/Production Locks: do not check low-content. |
-| B2, B4, B10, B12 | **HOLD** | AI form, live category nodes, price after KDP shows the 116-page print cost, and series enrollment happen in KDP. |
-| B3, B5–B7, B9, B11 | **PASS** (spec) | English. Keywords stay in the keyword boxes. Description names Book 1 as *Stoic Foundations*. Print options match the 116-page 6×9 B&W white files. Rights stay with UnlovedProductions. |
-| B8 | **HOLD** | Free ISBN not assigned. Copyright page still says to insert the number. |
-| C1–C4, C7 | **PASS** (local) | 116 even pages. Media box 432×648 pt. Six fonts embedded. Content pages are the workbook; the typesetter then adds practice-log pages to reach 116. C4 gutter still needs Previewer. |
-| C5, C6 | **HOLD** | ISBN instruction is still on the copyright page. Not a valid ISBN. |
-| C8 | **HOLD** | Pen test is the physical proof. |
-| D4 | **PASS** (measured) | 7 pt Liberation Sans Bold on a 0.261232" spine. Baseline at the spine center. Ascent clearance to the fold is 0.096", above 0.0625". |
-| D5, D9 | **PASS** (measured) | Text length 2.69" centered on the 9" trim. Clearance to the cover edge is about 3.28", above 0.375". `SPINE_TB = 0.375"`. |
-| D1–D3, D6–D8 | **PASS** (local) pending Previewer | One wrap, 0.125" bleed, 12.511232" × 9.250000". 116 ≥ 79. Barcode box is empty white, 2" × 1.2", inset 0.25" from the spine and the bottom trim. Cover says *Stoic Foundations* for Book 1 and *Stoic Shadow Work Journal* for this book. No `KDP BARCODE ZONE` string. |
-| E1–E5 | **PASS** | Workbook identity. Series page has *Stoic Foundations* and no *Stoic Adversity*. Not the ignored blank SKU. |
-| F1–F5 | **HOLD** | Not run in KDP. |
-
-### Required before Book 2 upload
-
-1. Human lock on A9: keep *Stoic Shadow Work Journal* (accept Content Review risk) **or** retitle so the Amazon title field has no generic format descriptor. Do not add Journal or Workbook to the subtitle either way.  
-2. Assign ISBN → copyright page → `typeset_book2.py` → re-export interior.  
-3. KDP Cover Calculator at 116 pp, then Print Previewer and an author proof.  
-4. Set price from the live 116-page print cost. Answer the AI form. Leave low-content unchecked.  
-5. Watch Content Review mail for 5 days after submit.
-
-Book 1 Option 1 (*Stoic Foundations Journal*) inherits the same A9 HOLD if used as the Amazon title.
+Book 1 Option 1 (*Stoic Foundations Journal*) inherits the A9 HOLD if anyone uses it as the Amazon title.
 
 ---
 

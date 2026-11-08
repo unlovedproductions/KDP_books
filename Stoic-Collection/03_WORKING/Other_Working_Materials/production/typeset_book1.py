@@ -575,48 +575,6 @@ def body_to_flowables(body: str, sty, compact: bool) -> list:
     return flow
 
 
-def _append_write_in_page(writer: PdfWriter, n: int, kind: str) -> int:
-    blank = OUT_DIR / "_extra_book1.pdf"
-    c = canvas.Canvas(str(blank), pagesize=(PAGE_W, PAGE_H))
-    odd = (n + 1) % 2 == 1
-    left = GUTTER if odd else OUTER
-    right = PAGE_W - (OUTER if odd else GUTTER)
-    register_fonts()
-    if kind == "sort":
-        title = "CONTROL SORT (continued)"
-        note = "Ordinary incident. My share is a teaching aid, not a third classical category."
-        headers = "Up to me                 Not up to me                 My share"
-    else:
-        title = "EVENING EXAMINATION (continued)"
-        note = "Series form. Inspired by the examination tradition — not an ancient worksheet."
-        headers = "1. Impression / what I added     2. Up to me / my share     3. Tomorrow's one act"
-    c.setFont("LibSans-Bold", 10)
-    c.drawString(left, PAGE_H - TOP - 10, title)
-    c.setFont("LibSerif", 9)
-    c.drawString(left, PAGE_H - TOP - 26, note)
-    c.setFont("LibSans", 8)
-    c.drawString(left, PAGE_H - TOP - 42, headers)
-    y = PAGE_H - TOP - 60
-    c.setStrokeColorRGB(0.35, 0.35, 0.35)
-    c.setLineWidth(0.4)
-    while y > BOTTOM + 20:
-        c.line(left, y, right, y)
-        y -= 18
-    c.setFont("LibSans", 8)
-    label = str(n + 1 - 8) if n + 1 > 8 else ""
-    if (n + 1) % 2 == 1:
-        c.drawRightString(PAGE_W - OUTER, 0.38 * IN, label)
-        c.drawString(GUTTER, 0.38 * IN, "The Stoic Collection")
-    else:
-        c.drawString(OUTER, 0.38 * IN, label)
-        c.drawRightString(PAGE_W - GUTTER, 0.38 * IN, "Stoic Foundations")
-    c.showPage()
-    c.save()
-    writer.add_page(PdfReader(str(blank)).pages[0])
-    blank.unlink(missing_ok=True)
-    return n + 1
-
-
 def _append_blank(writer: PdfWriter, n: int) -> int:
     blank = OUT_DIR / "_blank_book1.pdf"
     c = canvas.Canvas(str(blank), pagesize=(PAGE_W, PAGE_H))
@@ -700,13 +658,6 @@ def build(ms_text: str | None = None):
     writer = PdfWriter()
     for p in reader.pages:
         writer.add_page(p)
-
-    pad_kind = "sort"
-    while n < BAND_MIN:
-        n = _append_write_in_page(writer, n, pad_kind)
-        pad_kind = "exam" if pad_kind == "sort" else "sort"
-    while n < TARGET and n % 2 == 1:
-        n = _append_write_in_page(writer, n, pad_kind)
 
     if n % 2 == 1:
         n = _append_blank(writer, n)

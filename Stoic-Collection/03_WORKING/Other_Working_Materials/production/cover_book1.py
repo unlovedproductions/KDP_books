@@ -100,7 +100,7 @@ def build(n: int | None = None):
     c.setFont("LibSans", 8)
     c.drawString(bx, y, "Series: The Stoic Collection")
     y -= 12
-    c.drawString(bx, y, "Book 2: Stoic Shadow Work Journal")
+    c.drawString(bx, y, "Book 2: Stoic Avoidance")
     y -= 12
     c.drawString(bx, y, "Author / Imprint: UnlovedProductions")
 

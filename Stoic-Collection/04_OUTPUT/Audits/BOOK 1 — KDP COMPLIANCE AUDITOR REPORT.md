@@ -1,5 +1,7 @@
 # BOOK 1 — KDP COMPLIANCE AUDITOR REPORT
 
+**Superseded for upload decisions by** `BOOK 1 — KDP PRESUBMIT COMPLIANCE AUDIT.md` (2026-11-04). The ISBN placeholder cited below was removed from the interior in that re-export.
+
 **Title:** Stoic Foundations  
 **Format audited:** Paperback (no ebook file supplied)  
 **Auditor:** kdp-compliance-auditor skill  

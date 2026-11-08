@@ -1,11 +1,11 @@
-# BOOK 2 — STOIC SHADOW WORK JOURNAL  
+# BOOK 2 — STOIC AVOIDANCE  
 # MASTER PUBLISHING DESIGN SPECIFICATION
 
 **Publisher:** UnlovedProductions  
 **Series:** The Stoic Collection  
 **Book Number:** 2  
-**Working Title:** Stoic Shadow Work Journal  
-**Subtitle:** A Guided Journey Through Self-Reflection, Virtue & Personal Growth  
+**Working Title:** Stoic Avoidance  
+**Subtitle:** A Guided Workbook on Hidden Patterns and Self-Deception  
 **Document type:** Book MDS — authoritative for manuscript production  
 **Version:** 1.0  
 **Status:** Architecture complete — ready for manuscript after source-verification pass  
@@ -29,7 +29,7 @@
 
 | Conflict | Resolution |
 | --- | --- |
-| Legacy provisional catalog listed Book 2 as *Adversity* | **Project Brief wins for Book 2 identity.** Book 2 is *Stoic Shadow Work Journal*. Adversity (if produced) becomes a later number. Documented in Series Bible §0.2. |
+| Legacy provisional catalog listed Book 2 as *Adversity* | **Project Brief wins for Book 2 identity.** Book 2 is *Stoic Avoidance*. Adversity (if produced) becomes a later number. Documented in Series Bible §0.2. |
 | Legacy series name “The Stoic Practice Series” | **Superseded.** Published series name is **The Stoic Collection**. |
 | Brief requires Further Reading; Series Bible makes Further Reading adaptable | **Include Further Reading** for Book 2 (Brief + educational success criteria). |
 | Brief primary audience “men interested in…” vs Series Bible “adults, often men but not exclusively” | **No silent override.** Copy and marketing may emphasize the primary buyer; interior voice remains adult and non-stereotyped per Series Bible brand boundaries. |

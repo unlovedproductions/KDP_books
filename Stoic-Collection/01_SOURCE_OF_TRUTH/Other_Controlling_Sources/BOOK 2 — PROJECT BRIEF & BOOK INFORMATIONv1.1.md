@@ -14,10 +14,12 @@ The Stoic Collection
 2
 
 **Working Title:**\
-Stoic Shadow Work Journal
+Stoic Avoidance
+
+Retitled 2026-11-05. The previous title, *Stoic Shadow Work Journal*, put Journal in the Amazon title field. That is the descriptor KDP ordered out of *Stoic Journal for Men* (case `#51158280`). The domain job is unchanged: hidden patterns, avoidance, and self-deception. Not Jungian shadow work.
 
 **Subtitle:**\
-A Guided Journey Through Self-Reflection, Virtue & Personal Growth
+A Guided Workbook on Hidden Patterns and Self-Deception
 
 ---
 

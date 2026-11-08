@@ -1,5 +1,5 @@
-# STOIC SHADOW WORK JOURNAL
-## A Guided Journey Through Self-Reflection, Virtue & Personal Growth
+# STOIC AVOIDANCE
+## A Guided Workbook on Hidden Patterns and Self-Deception
 
 **The Stoic Collection — Book 2**  
 **UnlovedProductions**
@@ -10,7 +10,7 @@
 **TRANSLATION LOCK (direct quotes):** Epictetus *Enchiridion* — George Long (1890); *Enchiridion* 2 opening quote — Elizabeth Carter (1758); Marcus Aurelius *Meditations* — George Long (1862); Seneca *De Ira* — Aubrey Stewart (1889)  
 **NOT A PRINT PDF.** Page markers follow the MDS page map for typesetting.  
 **EDITORIAL STATUS:** Pass 1 complete against Series Bible v1.0 + Book 2 MDS v1.0 + Source Verification Report (see companion audit).  
-**PRODUCTION LOCKS (2026-08-12; SSW-1 2026-11-02):** Author/imprint = UnlovedProductions · ISBN = free KDP ISBN (insert number when KDP assigns) · © 2026 · Series page lists Book 1 as *Stoic Foundations* and this book. No Book 3 title. Not low-content.
+**PRODUCTION LOCKS (2026-08-12; SSW-1 2026-11-02):** Author/imprint = UnlovedProductions · printed copyright page has no ISBN until KDP assigns one; paste `978-X-XXXX-XXXX-X` here and re-export · © 2026 · Series page lists Book 1 as *Stoic Foundations* and this book. No Book 3 title. Not low-content.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## Page i — Half-Title
 
-# STOIC SHADOW WORK JOURNAL
+# STOIC AVOIDANCE
 
 
 ---
@@ -32,7 +32,7 @@ Books in this series share one method family: **SEE → SORT → OWN → CHOOSE 
 | Book | Title / focus |
 | --- | --- |
 | Book 1 | *Stoic Foundations* — install the method: judgment, control, and assent |
-| **Book 2 (this book)** | ***Stoic Shadow Work Journal*** — self-examination of hidden patterns and avoidance |
+| **Book 2 (this book)** | ***Stoic Avoidance*** — self-examination of hidden patterns and avoidance |
 | Later | External blows and endurance. No title until a Project Brief. |
 
 You can begin here. The Method Primer on page vi installs the tools you need. Book 1 deepens the foundations if you want the full method install first. You do not need every title to finish this one.
@@ -41,9 +41,9 @@ You can begin here. The Method Primer on page vi installs the tools you need. Bo
 
 ## Page iii — Title Page
 
-# STOIC SHADOW WORK JOURNAL
+# STOIC AVOIDANCE
 
-### A Guided Journey Through Self-Reflection, Virtue & Personal Growth
+### A Guided Workbook on Hidden Patterns and Self-Deception
 
 **The Stoic Collection — Book 2**
 
@@ -54,13 +54,12 @@ UnlovedProductions
 
 ## Page iv — Copyright & Disclaimers
 
-**Stoic Shadow Work Journal**  
+**Stoic Avoidance**  
 The Stoic Collection — Book 2  
 **Author / Imprint:** UnlovedProductions  
 © 2026 UnlovedProductions. All rights reserved.
 
-**ISBN:** Free KDP ISBN — *insert the number Amazon assigns when the paperback title is created, then re-export the interior before final upload.*  
-Publisher name on record: UnlovedProductions. This title is **not** low-content; do not check the KDP low-content box.
+Publisher: UnlovedProductions.
 
 **Translations used for direct quotations in this edition**  
 - Epictetus, *Enchiridion*: George Long (1890), except Chapter 7 opening quotation from Elizabeth Carter (1758)  
@@ -1532,7 +1531,7 @@ Each title trains a different pressure. Same method family: **SEE → SORT → O
 **Book 1 — *Stoic Foundations***  
 A guided workbook that installs one portable method. You practice on ordinary incidents until judgment, control, and assent are skills, not slogans.
 
-**Book 2 — *Stoic Shadow Work Journal*** (this book)  
+**Book 2 — *Stoic Avoidance*** (this book)  
 The same method, aimed at what you usually will not look at: avoidance, self-deception, repeating patterns. Not mystical shadow work. Not a clinical trauma workbook.
 
 **Later — external blows**  

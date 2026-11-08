@@ -184,7 +184,7 @@ Superseded by APPROVED `Stoic-Collection/PROJECT_FILE_ORGANIZATION_MANIFEST.md` 
 | ROLE-002   | ROLE-SRC   | v1.1       | Series thinking    | Distinguish Permanent / Adaptable / Book-Specific; scalable systems over one-offs                                                                                                                     | MANDATORY             | P0       | None                            | Governance states                           |
 | ROLE-003   | ROLE-SRC   | v1.1       | Design principles  | No filler; every page/exercise justifies existence; progression over volume                                                                                                                           | MANDATORY             | P0       | None                            | Book count, formats                         |
 | BIBLE-001  | BIBLE-SRC  | v1.0       | §0.2               | Official series name = **The Stoic Collection**; Practice Series superseded                                                                                                                           | MANDATORY             | P0       | None                            | Series identity                             |
-| BIBLE-002  | BIBLE-SRC  | v1.0       | §0.2               | Book 2 = *Stoic Shadow Work Journal* per Brief; prior Adversity Book 2 superseded                                                                                                                     | MANDATORY             | P0       | None                            | Book 2 position                             |
+| BIBLE-002  | BIBLE-SRC  | v1.0       | §0.2               | Book 2 = *Stoic Avoidance* per Brief; prior Adversity Book 2 superseded                                                                                                                     | MANDATORY             | P0       | None                            | Book 2 position                             |
 | BIBLE-003  | BIBLE-SRC  | v1.0       | §1–2               | Medium-content guided workbooks; completable programs; not blank journals / quote anthologies / mystical shadow products                                                                              | MANDATORY             | P0       | None                            | Format strategy; future Journal for Men fit |
 | BIBLE-004  | BIBLE-SRC  | v1.0       | §3.6               | Book 1 domain = install method; Book 2 = self-examination of hidden patterns; Book 3+ distinct domains; titles after Book 2 adaptable until Brief-locked; order after Book 2 may shift                | MANDATORY / STRATEGIC | P0       | Titles after B2 adaptable       | Catalog map                                 |
 | BIBLE-005  | BIBLE-SRC  | v1.0       | §15                | Shared engine SSOCR: SEE→SORT→OWN→CHOOSE→REVIEW                                                                                                                                                       | MANDATORY             | P0       | Domain application only         | Progression                                 |
@@ -193,7 +193,7 @@ Superseded by APPROVED `Stoic-Collection/PROJECT_FILE_ORGANIZATION_MANIFEST.md` 
 | BIBLE-008  | BIBLE-SRC  | v1.0       | §20                | Numbered Book 1, 2…; independence via Method Primer after Book 1; recommend Book 1 before examination-heavy titles (adaptable recommendation, not hard gate)                                          | MANDATORY / STRATEGIC | P0       | Order recommendation adaptable  | Navigation, cross-sell                      |
 | BIBLE-009  | BIBLE-SRC  | v1.0       | §13.2              | Prohibited: chapters that are only lined paper; undated infinite prompt grids as spine                                                                                                                | MANDATORY             | P0       | None                            | Future daily-journal fit                    |
 | BIBLE-010  | BIBLE-SRC  | v1.0       | §4.2               | Brand must never become artificially masculine / stereotype-driven                                                                                                                                    | MANDATORY             | P0       | None                            | Audience framing; future “for Men” titles   |
-| BRIEF2-001 | BRIEF2-SRC | v1.1       | ID                 | Book 2 title *Stoic Shadow Work Journal*; subtitle as Brief; Book Number 2                                                                                                                            | MANDATORY             | P0       | None                            | Book 2 identity                             |
+| BRIEF2-001 | BRIEF2-SRC | v1.1       | ID                 | Book 2 title *Stoic Avoidance*; subtitle as Brief; Book Number 2                                                                                                                            | MANDATORY             | P0       | None                            | Book 2 identity                             |
 | BRIEF2-002 | BRIEF2-SRC | v1.1       | Concept            | Shadow work via Stoic framework; not mystical/Jungian/trauma/clinical                                                                                                                                 | MANDATORY             | P0       | None                            | Book 2 boundaries                           |
 | BRIEF2-003 | BRIEF2-SRC | v1.1       | Specs              | 6×9, B&W, white, no bleed, ~120 pp, premium guided workbook, KDP                                                                                                                                      | DESIGN GUIDANCE       | P1       | Page count architectural        | Book 2 format                               |
 | MDS2-001   | MDS2-SRC   | v1.0       | §1                 | Book 2 domain = unexamined patterns / avoidance / self-deception; must not steal Book 1 method-install job or future adversity external-blow job                                                      | MANDATORY             | P0       | None                            | Differentiation Book 1/2/3                  |
@@ -237,8 +237,8 @@ Superseded by APPROVED `Stoic-Collection/PROJECT_FILE_ORGANIZATION_MANIFEST.md` 
 
 | #   | Title                                                                        | Subtitle                                                           | Format                                       | Governance State                                                                               | Primary Job                                        | Core Capability                                                     | Builds From                      | Prepares For                                                                    |
 | --- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------- |
-| 1   | *Stoic Foundations*                                                          | A Guided Workbook on Judgment, Control, and Assent                 | Foundations guided workbook                  | Domain job **LOCKED**; title **LOCKED** 2026-08-18 (BRIEF1-SRC)                                | Install core Stoic method                          | Run SSOCR + Permanent tools from zero                               | Entry (no prior Collection book) | Shadow Work examination under method literacy                                   |
-| 2   | *Stoic Shadow Work Journal*                                                  | A Guided Journey Through Self-Reflection, Virtue & Personal Growth | Guided shadow-examination journal / workbook | Product identity **LOCKED**; developmental position **CONFIRMED #2** after impact re-eval (B1) | Examine hidden patterns, avoidance, self-deception | Apply SSOCR to inner avoidance; Personal Standard for named pattern | Book 1 method (or Method Primer) | Later application domains (adversity, emotion, virtue-in-action, relationships) |
+| 1   | *Stoic Foundations*                                                          | A Guided Workbook on Judgment, Control, and Assent                 | Foundations guided workbook                  | Domain job **LOCKED**; title **LOCKED** 2026-08-18 (BRIEF1-SRC)                                | Install core Stoic method                          | Run SSOCR + Permanent tools from zero                               | Entry (no prior Collection book) | Avoidance examination under method literacy                                     |
+| 2   | *Stoic Avoidance*                                                  | A Guided Workbook on Hidden Patterns and Self-Deception | Guided examination workbook                      | Product identity **LOCKED**; developmental position **CONFIRMED #2** after impact re-eval (B1) | Examine hidden patterns, avoidance, self-deception | Apply SSOCR to inner avoidance; Personal Standard for named pattern | Book 1 method (or Method Primer) | Later application domains (adversity, emotion, virtue-in-action, relationships) |
 
 
 **Not on this map:** Any legacy low-content daily journal SKU (ignored per human instruction). Future *Stoic Journal for Men* — see Potential Future Books only.
@@ -340,13 +340,13 @@ A **new** Collection-aligned *Stoic Journal for Men* is a **Potential Future Exp
 
 
 
-# E. STOIC SHADOW WORK JOURNAL
+# E. STOIC AVOIDANCE
 
 
 | Field                            | Determination                                                                                                                                                               |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Book number / position           | **Developmental Book 2** (immediately after Foundations) — **CONFIRMED** after max-impact re-eval (human B1)                                                                |
-| Manuscript / product identity    | **LOCKED** for now (*Stoic Shadow Work Journal* content/architecture as approved)                                                                                           |
+| Manuscript / product identity    | **LOCKED** for now (*Stoic Avoidance* content/architecture as approved)                                                                                           |
 | Purpose                          | Stoic self-examination of hidden patterns, avoidance, self-deception, character weakness                                                                                    |
 | Starting reader state            | Unaware of recurring avoidances; may know quotes; may enter via Method Primer without Book 1                                                                                |
 | Ending reader state              | Can name patterns in concrete incidents; Control Sort + Assent Pause on uncomfortable truths; ownership without self-abuse; finalized Personal Standard + continuation plan |
@@ -376,7 +376,7 @@ A **new** Collection-aligned *Stoic Journal for Men* is a **Potential Future Exp
 
 ### Decision Record — Shadow Work series position (B1 re-eval)
 
-**Decision:** Keep *Stoic Shadow Work Journal* as developmental **Book 2** immediately after Foundations. Manuscript identity remains locked.
+**Decision:** Keep *Stoic Avoidance* as developmental **Book 2** immediately after Foundations. Manuscript identity remains locked.
 
 **Alternatives tested:**  
 
@@ -486,15 +486,15 @@ See Decision Record — Book 1 placement.
 
 
 
-## Book 2 — Stoic Shadow Work Journal
+## Book 2 — Stoic Avoidance
 
 
 
 ### Identity
 
-- Title: *Stoic Shadow Work Journal*  
-- Subtitle: A Guided Journey Through Self-Reflection, Virtue & Personal Growth  
-- Format: Guided journal / workbook (medium-content)  
+- Title: *Stoic Avoidance*  
+- Subtitle: A Guided Workbook on Hidden Patterns and Self-Deception  
+- Format: Guided examination workbook (medium-content)  
 - Audience: Men-emphasized marketing OK; inclusive interior voice (MDS §0.1)  
 - Governance State: Product identity LOCKED; position CONFIRMED #2 (B1 re-eval)
 
@@ -680,7 +680,7 @@ Do not auto-promote an entire speculative catalog. Until Book 3 is Brief-locked,
 ## CORE COLLECTION (essential)
 
 1. Book 1 — Foundations (method)
-2. Book 2 — Stoic Shadow Work Journal
+2. Book 2 — Stoic Avoidance
 
 
 
@@ -1004,7 +1004,7 @@ No other material architecture decisions require human confirmation. Book 3 comm
 | #   | Title                                                                  | Format                              | Primary Job                                          | Builds From             | Prepares For               |
 | --- | ---------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------- | ----------------------- | -------------------------- |
 | 1   | *Stoic Foundations*                                                        | Foundations workbook                | Install core Stoic method                            | Entry                   | Book 2                     |
-| 2   | *Stoic Shadow Work Journal*                                            | Guided examination journal/workbook | Examine hidden patterns / avoidance / self-deception | Book 1 or Method Primer | Future application domains |
+| 2   | *Stoic Avoidance*                                            | Guided examination journal/workbook | Examine hidden patterns / avoidance / self-deception | Book 1 or Method Primer | Future application domains |
 
 
 
@@ -1039,7 +1039,7 @@ No other material architecture decisions require human confirmation. Book 3 comm
 
 The reader enters The Stoic Collection needing a usable method, not another quote stack. **Book 1 (Foundations)** installs impression, judgment, control, assent, and review as SSOCR and teaches the Permanent tools until they are boringly familiar. That capability is what later books assume.
 
-**Book 2 (Stoic Shadow Work Journal)** keeps the same engine and aims it at what the reader usually avoids seeing—patterns, avoidance, self-deception—without mysticism or clinical promises. The Method Primer lets a late entrant start here, but the developmental ideal remains Book 1 first.
+**Book 2 (Stoic Avoidance)** keeps the same engine and aims it at what the reader usually avoids seeing—patterns, avoidance, self-deception—without mysticism or clinical promises. The Method Primer lets a late entrant start here, but the developmental ideal remains Book 1 first.
 
 After Book 2, the reader holds a Personal Standard and can examine inner falsehoods. The Collection then expands—when Briefs lock titles—into distinct pressure domains (adversity, emotion under fire, virtue in action, relationships), each applying the same method to a new failure mode. A future *Stoic Journal for Men* may join only as a guided daily-transfer companion that strengthens practice between domain books—not as a blank journal and not as a substitute Foundations title.
 
